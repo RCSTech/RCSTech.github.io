@@ -1,0 +1,3 @@
+#!/bin/bash
+workspace=`pwd`;
+exec sh $GIT_DIR/hooks/jekyll.sh $workspace > $GIT_DIR/jekyll.log

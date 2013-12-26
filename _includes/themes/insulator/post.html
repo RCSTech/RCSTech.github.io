@@ -1,0 +1,41 @@
+<div class="row">
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+  <div class="date">
+    <span>{{ page.date | date: "%Y-%m-%d" }}</span>
+  </div>
+</div>
+
+    <div class="postbody">
+      {{ content }}
+    </div>
+</div>
+ <hr class="inpost">
+  {% unless page.tags == empty %}
+  <div class="tabsbody">
+    <ul class="nav nav-pills inline">
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+  </div>
+  {% endunless %}  
+  <hr class="inpost">
+      
+
+      <div class="pull-right">
+      <ul class="pager">
+      {% if page.previous %}
+        <li ><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ page.previous.title }}</a></li>
+      {% else %}
+      {% endif %}
+      {% if page.next %}
+        <li ><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &rarr;</a></li>
+      {% else %}
+      {% endif %}
+      </ul>
+      </div>
+      <br/>
+      {% include JB/sharing %}
+    <div class="postbody">
+    {% include JB/comments %}
+  </div>
