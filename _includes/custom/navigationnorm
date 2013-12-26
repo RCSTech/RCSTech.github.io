@@ -11,7 +11,7 @@
             <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
               <ul class="nav navbar-nav">
               {% assign categories_list = site.categories %}
-                <li id="nav_archive"><a href="/archive.html">归档</a></li>
+                <li id="nav_archive"><a href="/archive.html">所有文章</a></li>
                 <li id="nav_getstart"><a href="/getstart.html">入门教程</a></li>
                 <li id="nav_technology"><a href="/technology.html">技术分享</a></li>
                 <li id="nav_experience"><a href="/experience.html">学习心得</a></li>
