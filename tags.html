@@ -1,0 +1,30 @@
+---
+layout: page
+title: Tags RCS
+header: Posts By Tag
+group: navigation
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-12-12T12:49:30-05:00
+---
+{% include JB/setup %}
+<div class="row">
+<ul class="nav nav-pills inline">
+  {% assign tags_list = site.tags %}  
+  {% include JB/tags_list %}
+</ul>
+</div>
+<hr class="aftertags">
+
+{% for tag in site.tags %} 
+  <div class="tabsbody">
+    <h3 class="taghead" id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
+    <hr class="betweentags">
+  <ul>
+    {% assign pages_list = tag[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+</div>
+
+{% endfor %}

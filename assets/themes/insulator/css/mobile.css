@@ -1,0 +1,5 @@
+.nav-tabs>li>a {
+	margin-right: 1px;
+	border-radius: 3px 3px 0 0;
+	padding: 8px 8px;
+}

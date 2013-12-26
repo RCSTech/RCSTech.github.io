@@ -1,0 +1,32 @@
+---
+layout: page
+title: Categories RCS
+header: Posts By Category
+group: navigation
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-12-12T12:49:30-05:00
+---
+{% include JB/setup %}
+              <div class="categorybody">
+              <ul class="nav nav-tabs" id="categoriestab">
+                  {% assign categories_list = site.categories %}
+                  {% include JB/categories_tablist %}
+              </ul>
+              <div class="tab-content">
+              {% for category in site.categories %} 
+                    <div class="tab-pane fade in" id="{{ category[0] }}">
+                    <br/>
+                    <ul>
+                      {% assign pages_list = category[1] %}  
+                      {% include JB/pages_list %}
+                    </ul>
+                    </div>
+              {% endfor %}
+              </div>
+            </div>
+
+
+
+

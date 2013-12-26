@@ -1,0 +1,257 @@
+
+.container {
+	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	min-height: 600px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.headcontainer {
+	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+}
+.bs-docs-nav {
+/*	text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+	background-color: #563d7c;
+	border-color: #463265;
+	box-shadow: 0 1px 0 rgba(255,255,255,.1); */
+}
+.bs-docs-nav .navbar-collapse {
+/*border-color: #463265;*/
+}
+.navbar-collapse {
+margin-right: auto;
+margin-left: auto;
+}
+a {
+	color:#600030;
+	text-decoration: none;
+}
+
+
+.navbar {
+	border-radius: 0px;
+/*	font-size: 14px;
+	font-weight: 300;*/
+
+}
+.pull-right
+{
+	margin-right: 0px;
+	width: 980px;
+	height: 50px;
+	text-align: right;
+	font-size: 14px;
+}
+.pull-right-narrow
+{
+	margin-right: 0px;
+	width: 400px;
+	height: 50px;
+	text-align: right;
+	font-size: 14px;
+}
+.pager {
+	padding-left: 0;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	text-align: right;
+	list-style: none;
+}
+
+.sup{vertical-align:super; font-size:9px; font-family:Arial, Helvetica, sans-serif;}
+
+.icon-tag {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../bootstrap/img/glyphicons-halflings.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+	margin-top: 1px;
+	background-position: 0 -48px;
+	background-position-x: 0px;
+	background-position-y: -48px;
+}
+
+blockquote p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.25;
+}
+body {
+
+	font-size: 16px;
+	line-height: 1.428571429;
+	color: #111111;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+pre code {
+	font-size: 15px;
+}
+
+.nav-pills > li > a {
+
+	padding: 4px 4px;
+	font-size: 14px;
+}
+
+.date{
+	color: #666;
+}
+
+.nav-tabs>li>a {
+	margin-right: 1px;
+	border-radius: 3px 3px 0 0;
+	padding: 10px 10px;
+}
+html {
+	overflow-y:visible;
+}
+.pagination-bs {
+	float: right;
+}
+
+.posthead{
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-size: 22px;
+}
+.postbody{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+h3 {
+	font-size: 22px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+h2, .h2 {
+	font-size: 26px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+ul {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.inrow{
+	margin-top: 3px;
+	margin-bottom: 10px;
+	border: 1px;
+	border-top: 1px solid #EEE;
+}
+.outrow{
+	margin-top: 5px;
+	margin-bottom: 65px;
+	border: 1px;
+	border-top: 1px solid #DDD;
+}
+
+.inpost{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 1px;
+	border-top: 1px solid #DDD;
+}
+
+.aftertags{
+	margin-top: 8px;
+	margin-bottom: 25px;
+	border: 1px;
+	border-top: 1px solid #DDD;
+}
+
+
+.betweentags{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 1px;
+	border-top: 1px solid #DDD;
+}
+
+.tabsbody{
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom:5px;
+	padding-right: 15px;
+}
+
+.taghead{
+	color:#000000;
+}
+
+.categorybody{
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom:5px;
+	padding-right: 15px;
+}
+.colorblack{
+	color: #000000;
+}
+.archivebody{
+	padding-left: 15px;
+	padding-top: 0px;
+	padding-bottom:5px;
+	padding-right: 15px;
+}
+
+.betweenmonths{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: 1px;
+	border-top: 1px solid #DDD;
+}
+.archivemonth
+{
+	padding-left: 20px;
+}
+
+.page-header {
+	margin-top: 10px;
+}
+
+.has-jax {
+	text-align: center;
+	float: auto;
+}
+img { max-width: 100%;
+	width: 100%;
+}
+
+@media screen and (max-device-width: 750px) {
+.nav-tabs>li>a {
+	margin-right: 1px;
+	border-radius: 3px 3px 0 0;
+	padding: 5px 5px;
+}
+　　}

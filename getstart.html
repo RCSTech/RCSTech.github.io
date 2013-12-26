@@ -1,0 +1,28 @@
+---
+layout: page
+title: 入门教程 RCS
+header: Posts By Category
+group: navigation
+sitemap:
+    priority: 0.7
+    changefreq: monthly
+    lastmod: 2013-12-12T12:49:30-05:00
+---
+{% include JB/setup %}
+              <div class="categorybody">
+
+              {% for category in site.categories %} 
+                    {% if category[0] == "入门教程" %}
+                    <br/>
+                    <ul>
+                      {% assign pages_list = category[1] %}  
+                      {% include JB/pages_list %}
+                    </ul>
+                    {% endif %}
+              {% endfor %}
+
+            </div>
+
+
+
+
