@@ -2,17 +2,18 @@
 layout: post
 title: "红外测障传感器"
 author: Orange
+layout: post
 description: "分析一款红外测障传感器的原理"
 category: 技术分享
 tags: 
   - 传感器
 ---
-{% include JB/setup %}
 
 #低成本红外测障传感器的设计与实现
 
 　　在机器人的系统中，红外传感器主要用来检测障碍物，作为中断信号，控制机器人的运动。本文旨在讲解基于STM8S003F的低成本红外避障传感器的实现。
 
+<!--more-->
 
 ##基本原理
 
