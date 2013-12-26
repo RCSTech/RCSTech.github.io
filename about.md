@@ -10,6 +10,6 @@ sitemap:
     lastmod: 2013-12-12T12:49:30-05:00
 ---
 {% include JB/setup %}
-* [Mail Me][mail]
+* Contact us: [xmurcs@rcstech.org][mail]
 
-[mail]: mailto:admin@rcstech.org
+[mail]: mailto:xmurcs@rcstech.org

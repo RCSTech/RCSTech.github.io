@@ -12,11 +12,11 @@ description_length: 200
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : RCS
+title : 玉不琢
 tagline: "RCS"
 author :
   name : RCS
-  email : admin@rcstech.org
+  email : xmurcs@rcstech.org
   github : RCS
   twitter : RCS
   feedburner : RCS
