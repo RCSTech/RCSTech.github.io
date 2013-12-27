@@ -136,9 +136,5 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
 
-<<<<<<< HEAD
-img_path: /images
-=======
 
-img_path: /assets/themes/insulator/images
->>>>>>> a0e391862cc2b456adcca485c3ec71fe908a86ae
+img_path: /images
