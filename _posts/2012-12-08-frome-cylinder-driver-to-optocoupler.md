@@ -29,7 +29,11 @@ tags:
 
 　　到此，回过头来想想，当初选用达林顿结构是为了减少元件数量，但是经过两次改动之后，元件数量并没有比原来的设计少很多，仅仅是少了MOSFET这一级。考虑到光耦漏电流的存在，以及元件数量，决定还是采用如下结构：
 
-![集电极负载型驱动]({{site.img_path}}/2012-12-08 cylinder_3.png)
+
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_3.png" style="width:451px" alt="集电极负载型驱动"/>
+</div>
+
+<!--![集电极负载型驱动]({{site.img_path}}/2012-12-08 cylinder_3.png)-->
 
 参数计算：
 
@@ -39,7 +43,10 @@ tags:
 
 　　以上计算基于“最坏情况”，即饱和电流传输比和三极管电流放大倍数均取最小值，继电器工作电流取最大值。关于光耦LED的压降，参考TLP521手册中的表格：
 
-![TLP521_LED压降]({{site.img_path}}/2012-12-08 cylinder_4.png)
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_4.png" style="width:398px" alt="TLP521_LED压降"/>
+</div>
+
+<!--![TLP521_LED压降]({{site.img_path}}/2012-12-08 cylinder_4.png)-->
 
 　　注意到，在12V继电器工作情况下，光耦源边限流电阻的计算值是120欧，比较小；又注意到今年和去年，光耦经常损坏，经测试多为LED损坏，考虑如何为输入级加保护电路。于是查找各种资料，得到以下一些用法，罗列并逐一尝试分析。以下分析为网友观点结合个人见解，难免有误，欢迎指正。
 
