@@ -17,8 +17,8 @@ tags:
 
 　　经测试，嗯...发现是不能用的...= =！于是又有了这么一个版本：
 
-<img src="{{site.img_path}}/2012-12-08 cylinder_2.png" style="width:236px;text-align:center" alt="达林顿结构"/>
-
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_2.png" style="width:236px" alt="达林顿结构"/>
+</div>
 <!--![达林顿结构]({{site.img_path}}/2012-12-08 cylinder_2.png)-->
 
 　　测试后发现光耦漏电流会影响工作，现象是：①上电之后，某些路指示灯会亮。②用手指接触光耦副边的两个管脚，导致指示灯亮。
