@@ -17,7 +17,7 @@ tags:
 
 　　经测试，嗯...发现是不能用的...= =！于是又有了这么一个版本：
 
-<img src="{{site.img_path}}/2012-12-08 cylinder_2.png" align="middle" style="width:236" alt="达林顿结构"/>
+<img src="{{site.img_path}}/2012-12-08 cylinder_2.png" align="middle" style="width:236px" alt="达林顿结构"/>
 
 <!--![达林顿结构]({{site.img_path}}/2012-12-08 cylinder_2.png)-->
 
