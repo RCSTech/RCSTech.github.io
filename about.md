@@ -84,7 +84,7 @@ sitemap:
 </tr>
 <tr>
     <td>2012.12</td>
-    <td>RCS团队第一个专利《通话可视频数码相框》获批</td>
+    <td>RCS团队第一个专利<a href="http://www2.soopat.com/Patent/201220153162">《通话可视频数码相框》</a>获批</td>
 </tr>
 <tr>
     <td>2013.03</td>
