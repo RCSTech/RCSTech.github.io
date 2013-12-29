@@ -54,4 +54,4 @@ title: "“玉不琢”上线通告"
 
 ###Reference
 
-<span id="【1】"></span>【1】 [http://www.uus8..org/4/非四库类古籍/笔记类/天工开物/index.html](http://www.uus8.org/4/%E9%9D%9E%E5%9B%9B%E5%BA%93%E7%B1%BB%E5%8F%A4%E7%B1%8D/%E7%AC%94%E8%AE%B0%E7%B1%BB/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/index.html)
+<span id="【1】"></span>【1】 [www.uus8..org/4/非四库类古籍/笔记类/天工开物/index.html](http://www.uus8.org/4/%E9%9D%9E%E5%9B%9B%E5%BA%93%E7%B1%BB%E5%8F%A4%E7%B1%8D/%E7%AC%94%E8%AE%B0%E7%B1%BB/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/index.html)
