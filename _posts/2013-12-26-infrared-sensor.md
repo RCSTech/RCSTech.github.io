@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "低成本红外测障传感器的设计与实现"
-author: Orange
+author: Technology By Miley & Post By Orange
 layout: post
 description: "分析一款红外测障传感器的原理"
 category: 技术分享
