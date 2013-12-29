@@ -128,7 +128,7 @@ sitemap:
 </tr>
 <tr>
     <td>2014.01</td>
-    <td>RCS团队技术博客<a href="http://rcstech.org">“玉不琢”</a>正式上线</td>
+    <td><a href="http://rcstech.org/announcement.html">RCS团队技术博客“玉不琢”正式上线</a></td>
 </tr>
 </table>
 
