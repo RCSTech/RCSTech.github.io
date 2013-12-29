@@ -28,7 +28,7 @@ sitemap:
 </tr>
 <tr>
     <td>2009.06</td>
-    <td>首次代表厦门大学参加亚太大学生机器人大赛(robocon)国内选拔活动<a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=3519">点此详细</a></td>
+    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=3519">首次代表厦门大学参加亚太大学生机器人大赛(robocon)国内选拔活动</a></td>
 </tr>
 <tr>
     <td>2010.03</td>
@@ -40,15 +40,15 @@ sitemap:
 </tr>
 <tr>
     <td>2010.06</td>
-    <td>参加第九届robocon国内选拔活动<a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4154">点此详细</a></td>
-</tr>
-<tr>
-    <td>2010.07</td>
     <td>RCS预备力量“机器人爱好者联盟”成立</td>
 </tr>
 <tr>
+    <td>2010.06</td>
+    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4154">参加第九届robocon国内选拔活动</a></td>
+</tr>
+<tr>
     <td>2010.08</td>
-    <td>首次面向全校各院系纳新、开展首期暑期培训<a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4205">点此详细</a></td>
+    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4205">首次面向全校各院系纳新、开展首期暑期培训</a></td>
 </tr>
 <tr>
     <td>2010.09</td>
@@ -60,11 +60,11 @@ sitemap:
 </tr>
 <tr>
     <td>2010.12</td>
-    <td>厦门大学邬副校长参观指导团队举办的首届创新实践作品展<a href="http://news.xmu.edu.cn/s/13/t/542/69/36/info26934.htm">校新闻稿</a> <a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4428">院新闻稿</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/69/36/info26934.htm">厦门大学邬副校长参观指导团队举办的首届创新实践作品展</a></td>
 </tr>
 <tr>
     <td>2011.04</td>
-    <td>厦门大学朱崇实校长、赖虹凯副校长等领导莅临工作室参观指导，观看备赛情况<a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/549">点此详细</a></td>
+    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/549">厦门大学朱崇实校长、赖虹凯副校长等领导莅临工作室参观指导，观看备赛情况</a></td>
 </tr>
 <tr>
     <td>2011.05</td>
@@ -72,7 +72,7 @@ sitemap:
 </tr>
 <tr>
     <td>2011.06</td>
-    <td>参加第十届robocon国内选拔赛，首次突破十六强，获得优秀奖并获大赛最佳风格奖<a href="http://news.xmu.edu.cn/s/13/t/542/38/87/info80007.htm">点此详细</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/38/87/info80007.htm">参加第十届robocon国内选拔赛，首次突破十六强，获得优秀奖并获大赛最佳风格奖</a></td>
 </tr>
 <tr>
     <td>2011.08</td>
@@ -84,11 +84,11 @@ sitemap:
 </tr>
 <tr>
     <td>2012.06</td>
-    <td>参加在哈尔滨工程大学举办的2012robocon国内赛，获全国三等奖<a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1262">点此详细</a></td>
+    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1262">参加在哈尔滨工程大学举办的2012robocon国内赛，获全国三等奖</a></td>
 </tr>
 <tr>
     <td>2012.09</td>
-    <td>台湾元智大学访问RCS机器人工作室<a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1282">点此详细</a></td>
+    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1282">台湾元智大学访问RCS机器人工作室</a></td>
 </tr>
 <tr>
     <td>2012.12</td>
@@ -96,7 +96,7 @@ sitemap:
 </tr>
 <tr>
     <td>2013.03</td>
-    <td>入驻芙蓉隧道4号洞，厦门大学创新实践基地正式挂牌成立<a href="http://news.xmu.edu.cn/s/13/t/542/05/73/info132467.htm">点此详细</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/05/73/info132467.htm">入驻芙蓉隧道4号洞，厦门大学创新实践基地正式挂牌成立</a></td>
 </tr>
 <tr>
     <td>2013.03</td>
@@ -104,11 +104,11 @@ sitemap:
 </tr>
 <tr>
     <td>2013.04</td>
-    <td>获2012年度本科生学业竞赛优秀项目暨德贞社会课堂基金本科学业竞赛奖表彰<a href="http://news.xmu.edu.cn/s/13/t/542/03/98/info131992.htm">新闻稿</a> <a href="http://xsc.xmu.edu.cn/s/122/t/377/02/cc/info131788.htm">参赛通知</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/03/98/info131992.htm">获2012年度本科生学业竞赛优秀项目暨德贞社会课堂基金本科学业竞赛奖表彰</a></td>
 </tr>
 <tr>
     <td>2013.06</td>
-    <td>参加在国防科技大学举办的2013robocon国内赛，获全国二等奖并斩获大赛最佳组织奖<a href="http://news.xmu.edu.cn/s/13/t/542/13/f3/info136179.htm">点此详细</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/13/f3/info136179.htm">参加在国防科技大学举办的2013robocon国内赛，获全国二等奖并斩获大赛最佳组织奖</a></td>
 </tr>
 <tr>
     <td>2013.07</td>
@@ -116,11 +116,11 @@ sitemap:
 </tr>
 <tr>
     <td>2013.10</td>
-    <td>RCS-robocup参加2013中国机器人大赛暨RoboCup公开赛，获自主传球、自主投篮机器人双项冠军<a href="http://news.xmu.edu.cn/s/13/t/542/25/31/info140593.htm">点此详细</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/25/31/info140593.htm">RCS-robocup参加2013中国机器人大赛暨RoboCup公开赛，获自主传球、自主投篮机器人双项冠军</a></td>
 </tr>
 <tr>
     <td>2013.12</td>
-    <td>RCS-robocup篮球机器人获得2013国际机器人实作竞赛(IRHOCS)季军<a href="http://news.xmu.edu.cn/s/13/t/542/31/76/info143734.htm">点此详细</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/31/76/info143734.htm">RCS-robocup篮球机器人获得2013国际机器人实作竞赛(IRHOCS)季军</a></td>
 </tr>
 <tr>
     <td>2013.12</td>
@@ -172,7 +172,6 @@ sitemap:
 
 　　[《他山之石》](http://rcstech.org/reference.html)　重点关注于不同地域、不同群体，分享相关技术的精华文章等。
 
-<br>
 <br>
 
 　　[“玉不琢”](http://rcstech.org)致力于打造一个完全开放的机器人技术分享交流平台，网站所有源码与细节都可以在[这里](https://github.com/RCSTech/RCSTech.github.io)获取。
