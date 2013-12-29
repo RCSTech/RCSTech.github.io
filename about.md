@@ -104,11 +104,11 @@ sitemap:
 </tr>
 <tr>
     <td>2013.10</td>
-    <td>RCS-robocup分队参加2013中国机器人大赛暨RoboCup公开赛中，获自主传球机器人、自主投篮机器人双项冠军</td>
+    <td>RCS-robocup参加2013中国机器人大赛暨RoboCup公开赛，获自主传球、自主投篮机器人双项冠军</td>
 </tr>
 <tr>
     <td>2013.12</td>
-    <td>RCS-robocup分队篮球机器人获得2013国际机器人实作竞赛(IRHOCS)季军</td>
+    <td>RCS-robocup篮球机器人获得2013国际机器人实作竞赛(IRHOCS)季军</td>
 </tr>
 <tr>
     <td>2014.01</td>

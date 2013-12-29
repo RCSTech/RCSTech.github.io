@@ -17,7 +17,7 @@ tags:
 
 　　经测试，嗯...发现是不能用的...= =！于是又有了这么一个版本：
 
-<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_2.png" style="width:236px" alt="达林顿结构"/>
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_2.png" style="width:236px" alt="达林顿结构">
 </div>
 <!--![达林顿结构]({{site.img_path}}/2012-12-08 cylinder_2.png)-->
 
@@ -30,7 +30,7 @@ tags:
 　　到此，回过头来想想，当初选用达林顿结构是为了减少元件数量，但是经过两次改动之后，元件数量并没有比原来的设计少很多，仅仅是少了MOSFET这一级。考虑到光耦漏电流的存在，以及元件数量，决定还是采用如下结构：
 
 
-<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_3.png" style="width:451px" alt="集电极负载型驱动"/>
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_3.png" style="width:451px" alt="集电极负载型驱动">
 </div>
 
 <!--![集电极负载型驱动]({{site.img_path}}/2012-12-08 cylinder_3.png)-->
@@ -43,7 +43,7 @@ tags:
 
 　　以上计算基于“最坏情况”，即饱和电流传输比和三极管电流放大倍数均取最小值，继电器工作电流取最大值。关于光耦LED的压降，参考TLP521手册中的表格：
 
-<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_4.png" style="width:398px" alt="TLP521_LED压降"/>
+<div style="text-align:center"><img src="{{site.img_path}}/2012-12-08 cylinder_4.png" style="width:398px" alt="TLP521_LED压降">
 </div>
 
 <!--![TLP521_LED压降]({{site.img_path}}/2012-12-08 cylinder_4.png)-->
