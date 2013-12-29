@@ -17,7 +17,7 @@ sitemap:
 
 ##团队大事记
 
-<table border="2">
+<table class="table table-bordered table-striped table-condensed table-hover">
 <tr>
     <th>时间</th>
     <th>事件</th>
