@@ -43,9 +43,9 @@ tags:
 
 　　接收部分是这样工作的:传感器信号先经过CR高通网络去掉直流和低频成分,并加入一个直流offset,也就是一个稳定的直流分量叠加一个交流分量,再与一个设定的直流分量进行比较,如果交流分量的峰值超过offset与设定值之差,比较器就会输出一个方波脉冲,否则输出0;然后通过RC低通网络,使方波脉冲的交流分量尽可能的减小,变成某个直流电压V(>0),再与另一个设定值(<V)比较,输出低电平.如果没有交流输入,第一级比较器输出0,第二级比较器输出高电平,如下表所示:（仿真结果）
 
-<img src="{{ site.img_path }}/2013-12-29 simulation1.png" width="300" height="250" alt="仿真结果1" /> <img src="{{ site.img_path }}/2013-12-29 simulation2.png" width="300" height="250" alt="仿真结果2" />
+<img src="{{ site.img_path }}/2013-12-29 simulation1.png" style="width:300px" alt="仿真结果1" /> <img src="{{ site.img_path }}/2013-12-29 simulation2.png" style="width:300px" alt="仿真结果2" />
 
-<img src="{{ site.img_path }}/2013-12-29 simulation3.png" width="300" height="250" alt="仿真结果3" /> <img src="{{ site.img_path }}/2013-12-29 simulation4.png" width="300" height="250" alt="仿真结果4" />
+<img src="{{ site.img_path }}/2013-12-29 simulation3.png" style="width:300px" alt="仿真结果3" /> <img src="{{ site.img_path }}/2013-12-29 simulation4.png" style="width:300px" alt="仿真结果4" />
 
 　　这种电路可以在未饱和的情况下抵御外界非交流光以及瞬间光（如闪光灯）的干扰，但收到高频光的干扰时会产生误动作。
 
