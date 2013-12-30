@@ -48,3 +48,10 @@ tags:
 ###参考
 
 <span id="【1】"></span>【1】 [http://www.st.com/web/cn/catalog/mmc/FM141/SC1244/SS1010/LN2/PF251792](http://www.st.com/web/cn/catalog/mmc/FM141/SC1244/SS1010/LN2/PF251792)
+
+<div>
+<script type="math/tex">
+\begin{bmatrix}
+ a & b \\ c & d
+\end{bmatrix}= \sum \frac{a}{b}
+</script></div>
