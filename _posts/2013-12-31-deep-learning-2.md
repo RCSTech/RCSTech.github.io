@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Deep Learning(深度学习)学习笔记整理系列(二)【转】"
+title: "Deep Learning学习笔记整理(二)"
 author: Zouxy
-description: "Deep Learning（深度学习）学习笔记整理系列"
+description: "Deep Learning学习笔记整理系列"
 category: 他山之石
 tags: 
   - 深度学习
