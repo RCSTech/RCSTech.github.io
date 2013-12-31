@@ -29,11 +29,11 @@ tags:
 
 ##目录：
 <br>
-[一、概述](http://rcstech.org/deep-learning/#)
+[一、概述](http://rcstech.org/deep-learning/#一、概述)
 
-[二、背景](http://rcstech.org/deep-learning/#)
+[二、背景](http://rcstech.org/deep-learning/#二、背景)
 
-[三、人脑视觉机理](http://rcstech.org/deep-learning/#)
+[三、人脑视觉机理](http://rcstech.org/deep-learning/#三、人脑视觉机理)
 
 [四、关于特征](#四、关于特征)
 
@@ -85,7 +85,6 @@ tags:
 
 ###4.1、特征表示的粒度
 <br>
-
 　　学习算法在一个什么粒度上的特征表示，才有能发挥作用？就一个图片来说，像素级的特征根本没有价值。例如下面的摩托车，从像素级别，根本得不到任何信息，其无法进行摩托车和非摩托车的区分。而如果特征是一个具有结构性（或者说有含义）的时候，比如是否具有车把手（handle），是否具有车轮（wheel），就很容易把摩托车和非摩托车区分，学习算法才能发挥作用。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2013-12-31 motor1.png" style="width:600px" alt="摩托1">
@@ -140,7 +139,6 @@ tags:
 
 ###4.3、结构性特征表示
 <br>
-
 　　小块的图形可以由基本edge构成，更结构化，更复杂的，具有概念性的图形如何表示呢？这就需要更高层次的特征表示，比如V2，V4。因此V1看像素级是像素级。V2看V1是像素级，这个是层次递进的，高层表达由底层表达的组合而成。专业点说就是基basis。V1取提出的basis是边缘，然后V2层是V1层这些basis的组合，这时候V2区得到的又是高一层的basis。即上一层的basis组合的结果，上上层又是上一层的组合basis……（所以有大牛说Deep learning就是“搞基”，因为难听，所以美其名曰Deep learning或者Unsupervised Feature Learning）
 
 <div style="text-align:center"><img src="{{site.img_path}}/2013-12-31 deep learning.png" style="width:700px" alt="深度学习">
@@ -163,7 +161,6 @@ tags:
 
 ###4.4、需要有多少个特征？
 <br>
-
 　　我们知道需要层次的特征构建，由浅入深，但每一层该有多少个特征呢？
 
 　　任何一种方法，特征越多，给出的参考信息就越多，准确性会得到提升。但特征多意味着计算复杂，探索的空间大，可以用来训练的数据在每个特征上就会稀疏，都会带来各种问题，并不一定特征越多越好。
