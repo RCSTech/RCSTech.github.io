@@ -35,15 +35,15 @@ tags:
 
 [三、人脑视觉机理](#三、人脑视觉机理)
 
-四、关于特征
+[四、关于特征](http://rcstech.org/deep-learning-2/#四、关于特征)
 
-　　4.1、特征表示的粒度
+　　[4.1、特征表示的粒度](http://rcstech.org/deep-learning-2/#4.1)
 
-　　4.2、初级（浅层）特征表示
+　　[4.2、初级（浅层）特征表示](http://rcstech.org/deep-learning-2/#4.2)
 
-　　4.3、结构性特征表示
+　　[4.3、结构性特征表示](http://rcstech.org/deep-learning-2/#4.3)
 
-　　4.4、需要有多少个特征？
+　　[4.4、需要有多少个特征？](http://rcstech.org/deep-learning-2/#4.4)
 
 五、Deep Learning的基本思想
 
@@ -172,7 +172,7 @@ tags:
 
 　　因为我们要学习的是特征的表达，那么关于特征，或者说关于这个层级特征，我们需要了解地更深入点。所以在说Deep Learning之前，我们有必要再啰嗦下特征（呵呵，实际上是看到那么好的对特征的解释，不放在这里有点可惜，所以就塞到这了）。
 
-　　**下续**[四、关于特征]()
+　　**下续**[四、关于特征](http://rcstech.org/deep-learning-2/)
 
 ###参考
 
