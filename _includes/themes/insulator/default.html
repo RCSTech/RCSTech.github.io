@@ -81,11 +81,18 @@
     <!-- mathjax config similar to math.stackexchange -->
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
-          TeX:{equationNumbers:{autoNumber:"AMS"}},
           tex2jax: {
             inlineMath: [ ['$','$'] ],
             processEscapes: true
           }
+        });
+      </script>
+
+      <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            TeX: {equationNumbers: {autoNumber: ["AMS"], useLabelIds: true}},
+            "HTML-CSS": {linebreaks: {automatic: true}},
+            SVG: {linebreaks: {automatic: true}}
         });
       </script>
 

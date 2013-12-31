@@ -5,27 +5,21 @@ title: "“玉不琢”上线通告"
 {% include JB/setup %}
 
 <center>
-<font size = 5>
-<p><b>上线通告</b></p>
-</font>
+        <p><b>上线通告</b></p>
 </center>
 <br>
 
-<font size = 4>
 　　各位，这是一份上线通告。RCS技术博客“玉不琢”正式上线，我们的网址是：[rcstech.org](http://rcstech.org) 。这是一个纯粹的技术性网站，致力于汇总RCS队员的技术总结和学习心得。网站的初期运营形式是：收集队员的技术总结和学习心得，由编辑进行排版后，以博文的形式发布在“玉不琢”上。首任编辑是郑文楷，欢迎大家投稿（邮箱：[wk.zheng@rcstech.org](mailto:wk.zheng@rcstech.org)）。
-</font>
-
-<!--more-->
 
 -----------------------------------------------------------------------
 
 <br>
 <br>
+
 #####附：
+
 <center>
-<font size = 5>
 <p><b>如切如磋　如琢如磨</b></p>
-</font>
 </center>
 <center>
 <p>　　　　　　　　　　　　　　　　　——致RCS全体队员</p>
@@ -47,11 +41,13 @@ title: "“玉不琢”上线通告"
 　　结语：玉不琢，不成器；成为牛人的第一步是敢于公开自己的技术，供他人学习或是批评；人不学，不知道；我们真切地希望大家在RCS的这一年能主动地多学习，我们可以毫不谦虚地说，如果真想学到点本事，RCS是厦大最好的平台，没有之一。　最后，期待着在“玉不琢”上，能看到大家分享更多优秀的技术总结和学习心得。
 
 <br>
-<p align="right">——“玉不琢”运营组</p>
+<div>
+    <p align="right">——“玉不琢”运营组</p>
+</div>
 <br>
 <br>
 <br>
 
 ###Reference
 
-<span id="【1】"></span>【1】 [www.uus8..org/4/非四库类古籍/笔记类/天工开物/index.html](http://www.uus8.org/4/%E9%9D%9E%E5%9B%9B%E5%BA%93%E7%B1%BB%E5%8F%A4%E7%B1%8D/%E7%AC%94%E8%AE%B0%E7%B1%BB/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/index.html)
+<span id="【1】"></span>【1】 [www.uus8.org/4/非四库类古籍/笔记类/天工开物/index.html](http://www.uus8.org/4/%E9%9D%9E%E5%9B%9B%E5%BA%93%E7%B1%BB%E5%8F%A4%E7%B1%8D/%E7%AC%94%E8%AE%B0%E7%B1%BB/%E5%A4%A9%E5%B7%A5%E5%BC%80%E7%89%A9/index.html)
