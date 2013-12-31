@@ -40,21 +40,20 @@
     </header>
 
       <div class="container">
-        {{ content }}
-        
+        <div class="content">
+          {{ content }}
+        </div>
 
-      </div>
+        <a style="position:fixed;bottom:5px;right:5px;" href="#" title="Back to Top">
+              <img src="{{ site.img_path }}/back_to_top.png" />
+        </a>
 
-      <a style="position:fixed;bottom:5px;right:5px;" href="#" title="Back to Top">
-            <img src="{{ site.img_path }}/back_to_top.png" />
-      </a>
-
-      <hr class="inrow">
+        <!--hr class="inrow"-->
         <footer>
-          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-            with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           </p>
         </footer>
+      </div>
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
      <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <!--<script src="https://code.jquery.com/jquery.js"></script-->
@@ -114,7 +113,7 @@
       </script>
 
    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% include JB/analytics %}
+    
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
