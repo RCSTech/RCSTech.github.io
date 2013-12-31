@@ -1,8 +1,8 @@
 {% if site.JB.analytics.provider and page.JB.analytics != false %}
 
 {% case site.JB.analytics.provider %}
-{% when "liangzihengdao" %}
-  {% include JB/analytics-providers/liangzihengdao %}
+{% when "linezing" %}
+  {% include JB/analytics-providers/linezing %}
 {% when "google" %}
   {% include JB/analytics-providers/google %}
 {% when "getclicky" %}
