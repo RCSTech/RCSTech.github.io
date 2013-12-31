@@ -4,16 +4,20 @@ title: "“玉不琢”上线通告"
 ---
 {% include JB/setup %}
 
+<div>
 <center>
 <font size = 5>
 <p><b>上线通告</b></p>
 </font>
 </center>
+</div>
 <br>
 
+<div>
 <font size = 4>
 　　各位，这是一份上线通告。RCS技术博客“玉不琢”正式上线，我们的网址是：[rcstech.org](http://rcstech.org) 。这是一个纯粹的技术性网站，致力于汇总RCS队员的技术总结和学习心得。网站的初期运营形式是：收集队员的技术总结和学习心得，由编辑进行排版后，以博文的形式发布在“玉不琢”上。首任编辑是郑文楷，欢迎大家投稿（邮箱：[wk.zheng@rcstech.org](mailto:wk.zheng@rcstech.org)）。
 </font>
+</div>
 
 <!--more-->
 
