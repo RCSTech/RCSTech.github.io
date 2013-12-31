@@ -1,6 +1,8 @@
 {% if site.safe and site.JB.analytics.provider and page.JB.analytics != false %}
 
 {% case site.JB.analytics.provider %}
+{% when "liangzihengdao" %}
+  {% include JB/analytics-providers/liangzihengdao %}
 {% when "google" %}
   {% include JB/analytics-providers/google %}
 {% when "getclicky" %}
