@@ -22,10 +22,10 @@ sitemap:
     <h3 class="taghead" id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
     <hr class="betweentags">
     <div class="categorybody">
-  <table class="table table-bordered table-striped table-condensed table-hover">
+  <ul>
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
-    </table>
+    </ul>
   </div>
 </div>
 

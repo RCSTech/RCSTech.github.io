@@ -14,10 +14,10 @@ sitemap:
               {% for category in site.categories %} 
                     {% if category[0] == "他山之石" %}
                     <br/>
-                    <table class="table table-bordered table-striped table-condensed table-hover">
+                    <ul>
                       {% assign pages_list = category[1] %}  
                       {% include JB/pages_list %}
-                    </table>
+                    </ul>
                     {% endif %}
               {% endfor %}
 
