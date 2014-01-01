@@ -12,9 +12,9 @@
         <ul class="nav navbar-nav">
         {% assign categories_list = site.categories %}
           
-          <li id="nav_getstart"><a href="/getstart.html">入门教程</a></li>
-          <li id="nav_technology"><a href="/technology.html">技术分享</a></li>
-          <li id="nav_experience"><a href="/experience.html">学习心得</a></li>
+          <li id="nav_getstart"><a href="/getstart.html">基础入门</a></li>
+          <li id="nav_technology"><a href="/technology.html">核心技术</a></li>
+          <li id="nav_experience"><a href="/experience.html">经验总结</a></li>
           <li id="nav_reference"><a href="/reference.html">他山之石</a></li>
           <li id="nav_archive"><a href="/archive.html">所有文章</a></li>
           <li id="nav_tags"><a href="/tags.html">标签</a></li>
