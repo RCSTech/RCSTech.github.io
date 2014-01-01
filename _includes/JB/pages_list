@@ -28,10 +28,10 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
             <tr style="height: 25px;">
-            <th style="float:left">
+            <th style="width:70%">
             <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
             </th>
-            <th style="float:right">
+            <th style="width:30%">
             {% if node.mail != null %}  
             <a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>
             {% else %}
