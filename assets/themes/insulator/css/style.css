@@ -1,7 +1,13 @@
 .mainbody
 {
-	background-color: #FFFFFF;
 	max-width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -10px;
+	min-height: 850px;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #FFFFFF;
 }
 .container {
 	max-width: 980px;
