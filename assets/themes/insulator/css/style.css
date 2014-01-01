@@ -4,7 +4,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 80px;
-	min-height: 900px;
+	min-height: 850px;
 	padding-right: 0px;
 	padding-left: 0px;
 }
@@ -260,4 +260,7 @@ img {
 	border-radius: 3px 3px 0 0;
 	padding: 5px 5px;
 }
+.container {
+	min-height: 500px;
+
 　　}
