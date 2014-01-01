@@ -32,13 +32,16 @@ Usage:
             <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
             </th>
             <th style="width:30%">
+            
             {% if node.mail != null %}  
             <a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>
             {% else %}
             {{node.author}}
             {% endif %}
+            <div class="categorylistOp">
             |
             <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
+            </div>
             </th>
             </tr>
 
