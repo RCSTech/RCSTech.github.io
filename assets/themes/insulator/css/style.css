@@ -1,14 +1,4 @@
-.mainbody
-{
-	max-width: 980px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: -30px;
-	min-height: 850px;
-	padding-right: 0px;
-	padding-left: 0px;
-	background-color: #FFFFFF;
-}
+
 .container {
 	max-width: 980px;
 	margin-right: auto;
@@ -17,7 +7,6 @@
 	min-height: 850px;
 	padding-right: 0px;
 	padding-left: 0px;
-	background-color: #FFFFFF;
 }
 .headcontainer {
 	max-width: 980px;
