@@ -5,6 +5,7 @@ body
 .mainbody
 {
 	background-color: #FFFFFF;
+	max-width: 980px;
 }
 .container {
 	max-width: 980px;
