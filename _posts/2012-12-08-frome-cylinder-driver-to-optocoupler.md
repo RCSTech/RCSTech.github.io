@@ -4,7 +4,7 @@ title: "从气缸驱动到光耦输入电路的设计"
 author: 科长
 mail: kezhang@rcstech.org
 description: "简要分析了气缸驱动和光耦输入级电路"
-category: 学习心得
+category: 经验总结
 tags: 
     - 电路
 ---

@@ -5,7 +5,7 @@ author: Orange
 mail: jp.song@rcstech.org
 layout: post
 description: "分析一款红外测障传感器的原理"
-category: 技术分享
+category: 经验总结
 tags: 
   - 传感器
   - 电路
