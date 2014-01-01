@@ -45,10 +45,13 @@ margin-right: auto;
 margin-left: auto;
 }
 a {
-	color:#600030;
+	color:#0059b3;
 	text-decoration: none;
 }
-
+a:hover, a:focus {
+color: #0059b3;
+text-decoration: underline;
+}
 
 .navbar {
 	border-radius: 0px;
