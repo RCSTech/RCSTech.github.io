@@ -26,21 +26,12 @@ Usage:
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-      	{% if page.url == node.url %}
-      	<li class="active"><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}  {{node.url}}" class="active">{{node.title}}</a> <cite>
-        {% if node.mail != null %}  
-        (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
-        {% else %}
-        ({{node.author}})
-        {% endif %}
-        </cite></li>
-      	{% else %}
-      	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite>  {% if node.mail != null %}  
-        (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
-        {% else %}
-        ({{node.author}})
-        {% endif %}</cite></li>
-      	{% endif %}
+        	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite> 
+            {% if node.mail != null %}  
+            (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
+            {% else %}
+            ({{node.author}})
+            {% endif %}</cite></li>
       {% endif %}
     {% endif %}
   {% endfor %}
