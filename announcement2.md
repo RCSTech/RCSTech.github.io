@@ -35,6 +35,7 @@ title: "“玉不琢”上线通告"
 
 　　站长作为一名IT从业人员，一直受到开源精神的熏陶，因此也希望借此将开源文化引入robocon赛事中。本站是基于[jekyll bootstrap](http://jekyllbootstrap.com/)和[github pages](http://pages.github.com/)搭建的，在此借用github首页上的一句话：“Build software better, together.”，站长希望robocon高校联盟可以"build robot better, together."。
 
+<br>
 <div>
     <p align="right">——RCS·科长</p>
 </div>
