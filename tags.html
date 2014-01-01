@@ -21,10 +21,10 @@ sitemap:
   <div class="tabsbody">
     <h3 class="taghead" id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
     <hr class="betweentags">
-  <ul>
+  <table class="table table-striped table-condensed table-hover">
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
-  </ul>
+  </table>
 </div>
 
 {% endfor %}

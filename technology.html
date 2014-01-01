@@ -14,10 +14,10 @@ sitemap:
               {% for category in site.categories %} 
                     {% if category[0] == "技术分享" %}
                     <br/>
-                    <ul>
+                    <table class="table table-striped table-condensed table-hover">
                       {% assign pages_list = category[1] %}  
                       {% include JB/pages_list %}
-                    </ul>
+                    </table>
                     {% endif %}
               {% endfor %}
 
