@@ -30,16 +30,16 @@ Usage:
       	<li class="active"><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}  {{node.url}}" class="active">{{node.title}}</a> <cite>
         {% if node.mail != null %}  
         (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
-        <% else %>
+        {% else %}
         ({{node.author}})
-        <% endif %>
+        {% endif %}
         </cite></li>
       	{% else %}
       	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite>  {% if node.mail != null %}  
         (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
-        <% else %>
+        {% else %}
         ({{node.author}})
-        <% endif %></cite></li>
+        {% endif %}</cite></li>
       	{% endif %}
       {% endif %}
     {% endif %}
