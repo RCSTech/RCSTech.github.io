@@ -2,7 +2,7 @@
 layout: post
 title: "OLED显示异常调试记录"
 author: 魏闻
-mail: w.wen@rcstech.org
+mail: w.wei@rcstech.org
 description: "记录了一次关于阻抗匹配的调试过程"
 category: "学习心得"
 tags: 
