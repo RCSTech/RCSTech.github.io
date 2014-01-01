@@ -29,13 +29,13 @@ Usage:
       {% if group == null or group == node.group %}
             <li style="height: 25px;">
             <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
-            
+            <div class="categorylistOp">
             {% if node.mail != null %}  
             <a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>
             {% else %}
             {{node.author}}
             {% endif %}
-            <div class="categorylistOp">
+            
             |
             <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
             </div>
