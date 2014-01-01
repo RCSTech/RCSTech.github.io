@@ -27,9 +27,9 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
       	{% if page.url == node.url %}
-      	<li class="active"><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}  {{node.url}}" class="active">{{node.title}}</a> <cite>  ({{node.author}})</cite></li>
+      	<li class="active"><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}  {{node.url}}" class="active">{{node.title}}</a> <cite>  (<a href ="mailto:{{node.authormail}}">{{node.author}}</a>)</cite></li>
       	{% else %}
-      	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite>  ({{node.author}})</cite></li>
+      	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite>  (<a href ="mailto:{{node.authormail}}">{{node.author}}</a>)</cite></li>
       	{% endif %}
       {% endif %}
     {% endif %}
