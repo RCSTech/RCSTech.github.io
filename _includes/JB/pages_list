@@ -27,7 +27,7 @@ Usage:
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-            <li style="list-style: none;height: 20px;">
+            <li style="list-style: none;height: 25px;">
             <div class="categorylistTit">
             <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite> 
             </div>
