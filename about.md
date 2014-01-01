@@ -164,11 +164,11 @@ sitemap:
 
 　　RCS技术博客[“玉不琢”](http://rcstech.org)于2014年01月01日正式上线。主要内容是对RCS队员赛内赛外的技术总结和学习心得的汇总与整理，其中：
 
-　　[《入门教程》](http://rcstech.org/getstart.html)　收录软件编程、电路设计、机械制图等方面的基础以及相关软件应用；
+　　[《基础入门》](http://rcstech.org/getstart.html)　收录软件编程、电路设计、机械制图等方面的基础以及相关软件应用；
 
-　　[《技术分享》](http://rcstech.org/technology.html)　收录RCS队员在备赛过程中的技术创新与技术特色；
+　　[《核心技术》](http://rcstech.org/technology.html)　收录RCS队员在备赛过程中的技术创新与技术特色；
 
-　　[《学习心得》](http://rcstech.org/experience.html)　收录RCS队员在备赛过程中的调试记录及个人学习心得等；
+　　[《经验总结》](http://rcstech.org/experience.html)　收录RCS队员在备赛过程中的调试记录及个人学习心得等；
 
 　　[《他山之石》](http://rcstech.org/reference.html)　重点关注于不同地域、不同群体，分享相关技术的精华文章等。
 
