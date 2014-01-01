@@ -29,14 +29,14 @@ Usage:
       {% if group == null or group == node.group %}
             <tr style="height: 25px;">
             <th style="float:left">
-            <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite> 
+            <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
             </th>
             <th style="float:right">
             {% if node.mail != null %}  
-            (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
+            <a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>
             {% else %}
-            ({{node.author}})
-            {% endif %}</cite>
+            {{node.author}}
+            {% endif %}
             |
             <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
             </th>
