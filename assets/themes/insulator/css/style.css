@@ -213,10 +213,22 @@ ul {
 }
 
 .categorybody{
+	max-width: 700px;
 	padding-left: 15px;
 	padding-top: 0px;
 	padding-bottom:5px;
 	padding-right: 15px;
+}
+.categorylistTit
+{
+	float: left;
+	max-width: 450px;
+
+}
+.categorylistOp
+{
+	float: right;
+	max-width: 200px;
 }
 .colorblack{
 	color: #000000;

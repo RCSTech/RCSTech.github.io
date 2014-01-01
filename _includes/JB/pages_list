@@ -26,12 +26,22 @@ Usage:
   {% for node in pages_list %}
     {% if node.title != null %}
       {% if group == null or group == node.group %}
-        	<li><cite>{{ node.date | date: "%Y-%m-%d" }}: </cite><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite> 
+            <li>
+            <div class="categorylistTit">
+            <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a><cite> 
+            </div>
+            <div class="categorylistOp">
             {% if node.mail != null %}  
             (<a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>)
             {% else %}
             ({{node.author}})
-            {% endif %}</cite></li>
+            {% endif %}</cite>
+            |
+            <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
+            </div>
+            </li>
+
+
       {% endif %}
     {% endif %}
   {% endfor %}
