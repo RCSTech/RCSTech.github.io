@@ -171,7 +171,7 @@ tags:
 
 　　好了，到了这一步，终于可以聊到Deep learning了。上面我们聊到为什么会有Deep learning（让机器自动学习良好的特征，而免去人工选取过程。还有参考人的分层视觉处理系统），我们得到一个结论就是Deep learning需要多层来获得更抽象的特征表达。那么多少层才合适呢？用什么架构来建模呢？怎么进行非监督训练呢？
 
-　　**下续**[四、关于特征](http://rcstech.org/deep-learning-3/)
+　　**下续**[五、Deep Learning的基本思想](http://rcstech.org/deep-learning-3/)
 
 ###参考
 
