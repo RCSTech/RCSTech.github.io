@@ -45,17 +45,17 @@ tags:
 
 　　[4.4、需要有多少个特征？](http://rcstech.org/deep-learning-2/#4.4)
 
-五、Deep Learning的基本思想
+[五、Deep Learning的基本思想](http://rcstech.org/deep-learning-3/#五)
 
-六、浅层学习（Shallow Learning）和深度学习（Deep Learning）
+[六、浅层学习（Shallow Learning）和深度学习（Deep Learning）](http://rcstech.org/deep-learning-3/#六)
 
-七、Deep learning与Neural Network
+[七、Deep learning与Neural Network](http://rcstech.org/deep-learning-3/#七)
 
-八、Deep learning训练过程
+[八、Deep learning训练过程](http://rcstech.org/deep-learning-3/#八)
 
-　　8.1、传统神经网络的训练方法
+　　[8.1、传统神经网络的训练方法](http://rcstech.org/deep-learning-3/#8.1)
 
-　　8.2、deep learning训练过程
+　　[8.2、deep learning训练过程](http://rcstech.org/deep-learning-3/#8.2)
 
 九、Deep Learning的常用模型或者方法
 

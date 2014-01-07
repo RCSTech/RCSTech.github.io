@@ -45,17 +45,17 @@ tags:
 
 　　[4.4、需要有多少个特征？](#4.4)
 
-五、Deep Learning的基本思想
+[五、Deep Learning的基本思想](http://rcstech.org/deep-learning-3/#五)
 
-六、浅层学习（Shallow Learning）和深度学习（Deep Learning）
+[六、浅层学习（Shallow Learning）和深度学习（Deep Learning）](http://rcstech.org/deep-learning-3/#六)
 
-七、Deep learning与Neural Network
+[七、Deep learning与Neural Network](http://rcstech.org/deep-learning-3/#七)
 
-八、Deep learning训练过程
+[八、Deep learning训练过程](http://rcstech.org/deep-learning-3/#八)
 
-　　8.1、传统神经网络的训练方法
+　　[8.1、传统神经网络的训练方法](http://rcstech.org/deep-learning-3/#8.1)
 
-　　8.2、deep learning训练过程
+　　[8.2、deep learning训练过程](http://rcstech.org/deep-learning-3/#8.2)
 
 九、Deep Learning的常用模型或者方法
 
@@ -171,7 +171,7 @@ tags:
 
 　　好了，到了这一步，终于可以聊到Deep learning了。上面我们聊到为什么会有Deep learning（让机器自动学习良好的特征，而免去人工选取过程。还有参考人的分层视觉处理系统），我们得到一个结论就是Deep learning需要多层来获得更抽象的特征表达。那么多少层才合适呢？用什么架构来建模呢？怎么进行非监督训练呢？
 
-　　*未完待续*
+　　**下续**[四、关于特征](http://rcstech.org/deep-learning-3/)
 
 ###参考
 
