@@ -57,9 +57,9 @@ tags:
 
 　　[8.2、deep learning训练过程](http://rcstech.org/deep-learning-3/#8.2)
 
-九、Deep Learning的常用模型或者方法
+[九、Deep Learning的常用模型或者方法](http://rcstech.org/deep-learning-4/#九)
 
-　　9.1、AutoEncoder自动编码器
+　　[9.1、AutoEncoder自动编码器](http://rcstech.org/deep-learning-4/#九)
 
 　　9.2、Sparse Coding稀疏编码
 

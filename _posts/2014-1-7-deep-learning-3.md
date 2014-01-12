@@ -57,9 +57,9 @@ tags:
 
 　　[8.2、deep learning训练过程](#8.2)
 
-九、Deep Learning的常用模型或者方法
+[九、Deep Learning的常用模型或者方法](http://rcstech.org/deep-learning-4/#九)
 
-　　9.1、AutoEncoder自动编码器
+　　[9.1、AutoEncoder自动编码器](http://rcstech.org/deep-learning-4/#九)
 
 　　9.2、Sparse Coding稀疏编码
 
@@ -184,7 +184,7 @@ tags:
 
 　　基于第一步得到的各层参数进一步fine-tune整个多层模型的参数，这一步是一个有监督训练过程；第一步类似神经网络的随机初始化初值过程，由于DL的第一步不是随机初始化，而是通过学习输入数据的结构得到的，因而这个初值更接近全局最优，从而能够取得更好的效果；所以deep learning效果好很大程度上归功于第一步的feature learning过程。
 
-　　*未完待续*
+　　**下续**[九、Deep Learning的常用模型或者方法](http://rcstech.org/deep-learning-4/)
 
 ###参考
 
