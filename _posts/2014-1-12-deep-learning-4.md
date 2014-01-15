@@ -61,7 +61,7 @@ tags:
 
 　　[9.1、AutoEncoder自动编码器](#九)
 
-　　9.2、Sparse Coding稀疏编码
+　　[9.2、Sparse Coding稀疏编码](http://rcstech.org/deep-learning-5/#9.2)
 
 　　9.3、Restricted Boltzmann Machine(RBM)限制波尔兹曼机
 
@@ -154,7 +154,7 @@ tags:
 </div>
 <br>
 
-　　*未完待续*
+　　**下续**[9.2、Sparse Coding稀疏编码](http://rcstech.org/deep-learning-5/#9.2)
 
 ###参考
 
