@@ -75,11 +75,11 @@ static inline unsigned int kfifo_unused(struct __kfifo *fifo)
 
 　　上文提到，in和out是“逻辑偏移量”。怎么理解“逻辑偏移量”的概念呢？假设有一个size为8的kfifo，创建之后，入队4个元素，随后出队2个元素，于是in和out如下图所示：
 
-![第一次操作]({{site.img_path}}/linux_kfifo1.png)
+![第一次操作]({{site.img_path}}/2012-01-22 linux_kfifo1.png)
 
 　　接下来，再入队5个元素，那么in不会回到out前一个位置，而是直接加5，如下图：
 
-![第二次操作]({{site.img_path}}/linux_kfifo2.png)
+![第二次操作]({{site.img_path}}/2012-01-22 linux_kfifo2.png)
 
 　　图中示意队列可以无限重复追加，而实际上队列在内存中只占用8个元素的空间。通过in和out访问元素之前，要先将in和out对mask做按位与操作，这样就能得到在内存中的实际偏移量，这么做可以简化计算，提升性能。
 
