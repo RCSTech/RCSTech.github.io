@@ -3,7 +3,7 @@ layout: post
 title: "摄像头补光方案设计"
 author: 魏闻
 mail: w.wei@rcstech.org
-description: "对"具有较为成功的物理屏蔽性能的视觉方案"的说明"
+description: 对"具有较为成功的物理屏蔽性能的视觉方案"的说明
 category: 核心技术
 tags: 
     - 摄像头
@@ -60,22 +60,22 @@ tags:
 　　绿色分量的C处，爪子和场地的颜色几乎已经分不清楚了。
 
 　　蓝色分量的B处，日光灯的反光直接让绿色场地变成了白色。
- 
+
 　　这也只是在我们自己的场地上的情况，而如果是其他的地方的场地、情况会有更多的变化，**不同的拍摄位置、不同的光线情况，不同的干扰背景**，都可能影响我们视觉的处理。
 
 　　所以，我们做视觉，需要仔细控制视觉中的环境，尽量使除了我们需要的信息以外的情况，全部一致。自己选择拍摄位置、自己设置灯光环境、自己选择图像范围，这样才能比较方便的得到我们所需要的信息。
- 
+
 　　综合来说，为了增强视觉的稳定性，我们需要尽可能减少可能出现的任何干扰，固定拍摄位置、固定且稳定均匀的光线情况、固定背景，这样才可能最大程度的减少开发难度。
- 
+
 　　而场地上的道具长得奇形怪状的，最佳的检测对象只能是场地的地面的颜色（其实场地上的道具颜色位置形状都是不定的，很难做）。
 
 　　所以可以做一个摄像头的完整模块，包括：处理器、信号输出、固定装置、与外界的隔离装置、以及对于车身震动漏光等情况的保护装置等等。
- 
+
 　　这就是"就是隔绝外界自然光然后自己做补光".
- 
+
 　　以下我再对一个较为简单的方案进行一些说明，下图为一个我设计的简单模块的示意图
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-1-31 fig_9.png" style="width:400px" alt="图9">
+<div style="text-align:left"><img src="{{site.img_path}}/2014-1-31 fig_9.png" style="width:400px" alt="图9">
 </div>
 <br>
 
@@ -87,34 +87,34 @@ tags:
 
 　　3、防止LED灯聚光造成视觉干扰而是使用的[散光板](http://item.taobao.com/item.htm?spm=a230r.1.14.4.sJ6aiD&id=21157931397)
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-1-31 fig_10.png" style="width:400px" alt="图10">
+<div style="text-align:left"><img src="{{site.img_path}}/2014-1-31 fig_10.png" style="width:400px" alt="图10">
 </div>
 <br>
 
 　　下图为模块组装后的下视图，LED发光头在散光板和机械外壳之间，用散光板保证光线稳定均匀（具体待测）
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-1-31 fig_11.png" style="width:400px" alt="图11">
+<div style="text-align:left"><img src="{{site.img_path}}/2014-1-31 fig_11.png" style="width:400px" alt="图11">
 </div>
 <br>
- 
+
 　　下图为隐藏散光板后的情况（散光板在图中是插入壳体的洞中再固定的）
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-1-31 fig_12.png" style="width:400px" alt="图12">
+<div style="text-align:left"><img src="{{site.img_path}}/2014-1-31 fig_12.png" style="width:400px" alt="图12">
 </div>
 <br>
- 
+
 　　侧面的黑色板用来防止光线干扰。
- 
-　　摄像头尽可能不要阻挡到光线
- 
+
+　　摄像头尽可能不要阻挡到光线。
+
 　　这样使旁边的挡光板尽可能低（贴紧地面）可以采集到如下图
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-1-31 fig_13.png" style="width:400px" alt="图13">
+<div style="text-align:left"><img src="{{site.img_path}}/2014-1-31 fig_13.png" style="width:400px" alt="图13">
 </div>
 <br>
 
 　　（渲染比较渣凑合看）
- 
+
 　　这样就是一个简单的方案了。
 
 　　具体要做的时候
@@ -134,3 +134,4 @@ tags:
 　　6、由于即使使用散光板，光线也有可能不均匀，具体可以做一定的整定。
 
 　　7、希望大家仔细考虑，并且做出真正合适使用的东西出来。
+
