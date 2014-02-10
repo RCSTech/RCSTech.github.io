@@ -278,12 +278,12 @@ img {
 	background: url(../images/star-matrix.gif) no-repeat 0 0;
 }
 /* add these classes to the ul to effect the change to the correct number of stars */
-.nostar {background-position:0 0}
-.onestar {background-position:0 -16px}
-.twostar {background-position:0 -32px}
-.threestar {background-position:0 -48px}
-.fourstar {background-position:0 -64px}
-.fivestar {background-position:0 -80px}
+.star0 {background-position:0 0}
+.star1 {background-position:0 -16px}
+.star2 {background-position:0 -32px}
+.star3 {background-position:0 -48px}
+.star4 {background-position:0 -64px}
+.star5 {background-position:0 -80px}
 
 @media screen and (max-device-width: 750px) {
 .nav-tabs>li>a {
