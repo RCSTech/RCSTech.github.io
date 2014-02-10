@@ -28,8 +28,8 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
             <li style="height: 25px;">
-            <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}<div class="rating star{{node.star}}"></div></a>
-            
+            <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
+            <div class="rating star{{node.star}}"></div>
             <div class="categorylistOp">
             {% if node.mail != null %}  
             <a href ="mailto:{{node.mail}}" target="_blank">{{node.author}}</a>

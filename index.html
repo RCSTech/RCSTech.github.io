@@ -26,8 +26,9 @@ sitemap:
                  </div>
                 <br/>
                     <div>
+                        <ul class="rating star{{post.star}}"></ul>
                        <cite>{{ post.date | date: "%Y-%m-%d" }}</cite> <i class="icon-tag"></i>  {% for tag in post.tags %}<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
-                       <ul class="rating star{{post.star}}"></ul>
+                       
                   </div> 
                 </div>
             </div>
