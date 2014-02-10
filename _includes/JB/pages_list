@@ -28,7 +28,7 @@ Usage:
     {% if node.title != null %}
       {% if group == null or group == node.group %}
             <li style="height: 25px;">
-            <!--div class="rating star{{node.star}}"></div-->
+            <div class="rating star{{node.star}}"></div>
             <a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a>
 
             <div class="categorylistOp">
@@ -41,7 +41,6 @@ Usage:
             |
 
             <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
-            <div class="rating star{{node.star}}"></div>
             </div>
             </li>
 
