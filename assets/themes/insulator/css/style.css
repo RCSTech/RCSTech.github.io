@@ -272,8 +272,6 @@ img {
 	height:16px;
 	margin:0 0 0 0;
 	padding:0;
-	list-style:none;
-	clear:both;
 	position:relative;
 	background: url(../images/star-matrix.gif) no-repeat 0 0;
 }
