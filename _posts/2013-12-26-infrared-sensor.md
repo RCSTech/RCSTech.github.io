@@ -3,6 +3,7 @@ layout: post
 title: "低成本红外测障传感器的设计与实现"
 author: Orange
 mail: jp.song@rcstech.org
+star: 3
 layout: post
 description: "分析一款红外测障传感器的原理"
 category: 核心技术

@@ -37,6 +37,7 @@ Usage:
             {% endif %}
             
             |
+            <ul class="rating star{{node.star}}"></ul>
             <cite>{{ node.date | date: "%Y-%m-%d" }}</cite>
             </div>
             </li>

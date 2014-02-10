@@ -2,6 +2,7 @@
 layout: post
 title: "Deep Learning学习笔记整理(二)"
 author: Zouxy
+star: 3
 description: "Deep Learning学习笔记整理系列"
 category: 他山之石
 tags: 

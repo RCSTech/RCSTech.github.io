@@ -3,6 +3,7 @@ layout: post
 title: "摄像头补光方案设计"
 author: 魏闻
 mail: w.wei@rcstech.org
+star: 3
 description: 对"具有较为成功的物理屏蔽性能的视觉方案"的说明
 category: 核心技术
 tags: 

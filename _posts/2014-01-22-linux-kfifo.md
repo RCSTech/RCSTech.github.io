@@ -2,6 +2,7 @@
 layout: post
 title: "Linux内核中的循环队列"
 author: 科长
+star: 3
 category: "基础入门"
 mail: kezhang@rcstech.org
 tags: [linux, C, 编程技巧]
