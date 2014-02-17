@@ -86,11 +86,10 @@ tags:
  </tr>
 </table>
 
-<br>
-
 　　一般电机的最高温度都不能高于75度到80度，但判断电机是否正常运转主要通过温升，即电机与室温的温度差，当温升超过35度到40度时，说明电机不正常运行。
 
 　　下面介绍一种通过温度开关设计的简单的电机过热报警装置。
+<br>
 
 ##初级版1.0
 <br>
@@ -114,7 +113,8 @@ tags:
 
 　　3、温度开关贴在电机表面，XH2.54处接温度开关，当电机温度超过70℃时，温度开关导通。三极管导通，基极电流条件为I<sub>B</sub>>I<sub>B</sub>(饱和)
 
-![图3]({{site.img_path}}/2014-2-17 fig_3.png)
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-17 fig_3.png" style="width:350px" alt="图3">
+</div>
 <br>
 
 　　I<sub>B</sub>(饱和)=5/(150*150) =0.2mA 而此时，忽略开关和二极管导通压降，I<sub>B</sub>=5/1100=4.5mA
@@ -128,6 +128,7 @@ tags:
 　　1、开关由正常状态贴在装有70~80摄氏度热水杯杯壁，经过约1min闭合，蜂鸣器响（考虑到不像实际电机有升温过程，所以时间花费较多）。
 
 　　2、温度开关由闭合到正常温度状态下回复断开状态花费时间月30s。
+<br>
 
 ##升级版2.0
 <br>
@@ -140,8 +141,7 @@ tags:
 
 <div style="text-align:center">表1 Pt100热电阻分度表
 </div>
-
-
+<br>
     
 <table class="table table-bordered table-striped table-condensed table-hover">
  <tr>
