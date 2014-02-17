@@ -141,11 +141,11 @@ tags:
 <table class="table table-bordered table-striped table-condensed table-hover">
  <tr>
   <td>
-  <div align=center>
+  
   <table class="table table-bordered table-striped table-condensed table-hover">
    <tr>
     <td>
-    <div align=center>
+    
     <table class="table table-bordered table-striped table-condensed table-hover">
      <tr>
       <td>
@@ -346,12 +346,12 @@ tags:
       </td>
      </tr>
     </table>
-    </div>
+    
     
     </td>
    </tr>
   </table>
-  </div>
+  
   
   </td>
  </tr>
