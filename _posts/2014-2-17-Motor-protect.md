@@ -135,273 +135,228 @@ tags:
 
 　　温度传感器采用铂电阻pt100来测量温度。铂电阻是利用其电阻与温度成一定函数关系而制成的。由于铂电阻特性曲线是非线性的，所以电阻与温度关系由分度表形式给出
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-family:宋体'>表</span><span lang=EN-US>1&nbsp; Pt100</span><span
-style='font-family:宋体'>热电阻分度表</span></p>
-
-<div align=center>
+<div style="text-align:center">表1 Pt100热电阻分度表
+</div>
 
 <table class="table table-bordered table-striped table-condensed table-hover">
  <tr>
-  <td width=598 style='width:448.5pt;padding:0cm 0cm 0cm 0cm'>
+  <td>
   <div align=center>
-  <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
-   style='width:100.0%'>
+  <table class="table table-bordered table-striped table-condensed table-hover">
    <tr>
-    <td width="100%" style='width:100.0%;padding:0cm 0cm 0cm 0cm'>
+    <td>
     <div align=center>
-    <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="98%"
-     style='width:98.0%'>
+    <table class="table table-bordered table-striped table-condensed table-hover">
      <tr>
-      <td width=42 rowspan=2 valign=top style='width:31.35pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=left style='text-align:left'><span lang=EN-US
-      style='font-size:9.0pt;font-family:宋体'><br>
-      </span><span style='font-size:9.0pt;font-family:宋体'>温度<span lang=EN-US> <br>
-      </span>℃</span></p>
+      <td>
+      温度/℃
       </td>
-      <td width=60 valign=top style='width:45.25pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>0</span></p>
+      <td>
+      0
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>1</span></p>
+      <td>
+      1
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>2</span></p>
+      <td>
+      2
       </td>
-      <td width=58 valign=top style='width:43.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>3</span></p>
+      <td>
+      3
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>4</span></p>
+      <td>
+      4
       </td>
-      <td width=49 valign=top style='width:36.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>5</span></p>
+      <td>
+      5
       </td>
-      <td width=56 valign=top style='width:41.8pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>6</span></p>
+      <td>
+      6
       </td>
-      <td width=50 valign=top style='width:37.45pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>7</span></p>
+      <td>
+      7
       </td>
-      <td width=48 valign=top style='width:35.7pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>8</span></p>
+      <td>
+      8
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>9</span></p>
+      <td>
+      9
       </td>
      </tr>
      <tr>
-      <td width=543 colspan=10 valign=top style='width:407.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      style='font-size:9.0pt;font-family:宋体'>电阻值</span><b><span
-      style='font-size:9.0pt;font-family:宋体'>（</span></b><span
-      style='font-size:9.0pt;font-family:宋体'>Ω</span><b><span style='font-size:
-      9.0pt;font-family:宋体'>）</span></b></p>
+      <td>
+      电阻值/Ω
       </td>
      </tr>
      <tr>
-      <td width=42 valign=top style='width:31.35pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>0<br>
+      <td>
+      0<br>
       10<br>
       20<br>
       30<br>
-      40</span></p>
+      40
       </td>
-      <td width=60 valign=top style='width:45.25pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>100.00<br>
+      <td>
+      100.00<br>
       103.90<br>
       107.79<br>
       111.67<br>
-      115.54</span></p>
+      115.54
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>100.39<br>
+      <td>
+      100.39<br>
       104.29<br>
       108.18<br>
       112.06<br>
-      115.93</span></p>
+      115.93
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>100.78<br>
+      <td>
+      100.78<br>
       104.68<br>
       108.57<br>
       112.45<br>
-      116.31</span></p>
+      116.31
       </td>
-      <td width=58 valign=top style='width:43.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>101.17<br>
+      <td>
+      101.17<br>
       105.07<br>
       108.96<br>
       112.83<br>
-      116.70</span></p>
+      116.70
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>101.56<br>
+      <td>
+      101.56<br>
       105.46<br>
       109.35<br>
       113.22<br>
-      117.08</span></p>
+      117.08
       </td>
-      <td width=49 valign=top style='width:36.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>101.95<br>
+      <td>
+      101.95<br>
       105.85<br>
       109.73<br>
       113.61<br>
-      117.47</span></p>
+      117.47
       </td>
-      <td width=56 valign=top style='width:41.8pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>102.34<br>
+      <td>
+      102.34<br>
       106.24<br>
       110.12<br>
       11+4.00<br>
-      117.86</span></p>
+      117.86
       </td>
-      <td width=50 valign=top style='width:37.45pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>102.73<br>
+      <td>
+      102.73<br>
       106.63<br>
       110.51<br>
       114.38<br>
-      118.24</span></p>
+      118.24
       </td>
-      <td width=48 valign=top style='width:35.7pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>103.12<br>
+      <td>
+      103.12<br>
       107.02<br>
       110.90<br>
       114.77<br>
-      118.63</span></p>
+      118.63
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>103.51<br>
+      <td>
+      103.51<br>
       107.40<br>
       111.29<br>
       115.15<br>
-      119.01</span></p>
+      119.01
       </td>
      </tr>
      <tr>
-      <td width=42 valign=top style='width:31.35pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>50<br>
+      <td>
+      50<br>
       60<br>
       70<br>
       80<br>
-      90</span></p>
+      90
       </td>
-      <td width=60 valign=top style='width:45.25pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>119.40<br>
+      <td>
+      119.40<br>
       123.24<br>
       127.08<br>
       130.90<br>
-      134.71</span></p>
+      134.71
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>119.78<br>
+      <td>
+      119.78<br>
       123.63<br>
       127.46<br>
       131.28<br>
-      135.09</span></p>
+      135.09
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>120.17<br>
+      <td>
+      120.17<br>
       124.01<br>
       127.84<br>
       131.66<br>
-      135.47</span></p>
+      135.47
       </td>
-      <td width=58 valign=top style='width:43.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>120.55<br>
+      <td>
+      120.55<br>
       124.39<br>
       128.22<br>
       132.04<br>
-      135.85</span></p>
+      135.85
       </td>
-      <td width=52 valign=top style='width:39.15pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>120.94<br>
+      <td>
+      120.94<br>
       124.78<br>
       128.61<br>
       132.42<br>
-      136.23</span></p>
+      136.23
       </td>
-      <td width=49 valign=top style='width:36.55pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>121.32<br>
+      <td>
+      121.32<br>
       125.16<br>
       128.99<br>
       132.80<br>
-      136.61</span></p>
+      136.61
       </td>
-      <td width=56 valign=top style='width:41.8pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>121.71<br>
+      <td>
+      121.71<br>
       125.54<br>
       129.37<br>
       133.18<br>
-      136.99</span></p>
+      136.99
       </td>
-      <td width=50 valign=top style='width:37.45pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>122.09<br>
+      <td>
+      122.09<br>
       125.93<br>
       129.75<br>
       133.57<br>
-      137.37</span></p>
+      137.37
       </td>
-      <td width=48 valign=top style='width:35.7pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>122.47<br>
+      <td>
+      122.47<br>
       126.31<br>
       130.13<br>
       133.95<br>
-      137.75</span></p>
+      137.75
       </td>
-      <td width=59 valign=top style='width:44.4pt;padding:0cm 0cm 0cm 0cm'>
-      <p class=MsoNormal align=center style='text-align:center'><span
-      lang=EN-US style='font-size:9.0pt;font-family:宋体'>122.86<br>
+      <td>
+      122.86<br>
       126.69<br>
       130.52<br>
       134.33<br>
-      138.13</span></p>
+      138.13
       </td>
      </tr>
     </table>
     </div>
-    <p class=MsoNormal align=center style='text-align:center'></p>
+    
     </td>
    </tr>
   </table>
   </div>
-  <p class=MsoNormal align=center style='text-align:center'></p>
+  
   </td>
  </tr>
 </table>
 
-</div>
 
 　　在以上温度范围内，电阻和温度的关系近似满足：
 
