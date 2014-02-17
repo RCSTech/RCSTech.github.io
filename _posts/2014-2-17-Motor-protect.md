@@ -19,106 +19,69 @@ tags:
 
 　　电机是机器人中造价最高的设备之一，由于绝缘技术的不断发展，在电机的设计上既要求增加出力，又要求减小体积，使新型电机的热容量越来越小，过负荷能力越来越弱；再由于机器人运行过程中，有时候要求电机经常运行在频繁的起动、制动、正反转以及变负荷等多种方式，对电机本身要求十分苛刻，造成了电机比较容易堵转、短路而损坏。这些故障，通常通过电机表面发烫而表现出来，通常可以通过手初步测量。
 
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='margin-left:27.0pt;border-collapse:collapse;border:none'>
+<table class="table table-bordered table-striped table-condensed table-hover">
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>没什么感觉</span></p>
+  <td>
+  没什么感觉
   </td>
-  <td width=178 valign=top style='width:133.3pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>30</span><span
-  style='font-size:9.0pt;font-family:宋体'>度</span></p>
+  <td>
+  30度
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>有暖意</span></p>
+  <td>
+  有暖意
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>40</span><span
-  style='font-size:9.0pt;font-family:宋体'>以下</span></p>
+  <td>
+  40度以下
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>明显知道发热</span></p>
+  <td>
+  明显知道发热
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>45</span><span
-  style='font-size:9.0pt;font-family:宋体'>度以下</span></p>
+  <td>
+  45度以下
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>能长久触摸并无困难</span></p>
+  <td>
+  能长久触摸并无困难
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>50</span><span
-  style='font-size:9.0pt;font-family:宋体'>度</span></p>
+  <td>
+  50度
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>能长久触摸极限或只能触摸</span><span
-  lang=EN-US style='font-size:9.0pt'>10</span><span style='font-size:9.0pt;
-  font-family:宋体'>秒</span><span lang=EN-US style='font-size:9.0pt'>&nbsp;</span></p>
+  <td>
+  能长久触摸极限或只能触摸10秒
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>55</span><span
-  style='font-size:9.0pt;font-family:宋体'>度</span></p>
+  <td>
+  55度
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>触摸</span><span
-  lang=EN-US style='font-size:9.0pt'>3</span><span style='font-size:9.0pt;
-  font-family:宋体'>秒</span></p>
+  <td>
+  触摸3秒
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>60</span><span
-  style='font-size:9.0pt;font-family:宋体'>度</span></p>
+  <td>
+  60度
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>触摸至感觉热后必须马上缩手</span></p>
+  <td>
+  触摸至感觉热后必须马上缩手
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>70</span><span
-  style='font-size:9.0pt;font-family:宋体'>度</span><span lang=EN-US
-  style='font-size:9.0pt'>&nbsp;</span></p>
+  <td>
+  70度
   </td>
  </tr>
  <tr>
-  <td width=178 valign=top style='width:133.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span style='font-size:9.0pt;font-family:宋体'>不敢再次触摸</span></p>
+  <td>
+  不敢再次触摸
   </td>
-  <td width=178 valign=top style='width:133.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal><span lang=EN-US style='font-size:9.0pt'>70</span><span
-  style='font-size:9.0pt;font-family:宋体'>以上</span></p>
+  <td>
+  70度以上
   </td>
  </tr>
 </table>
@@ -178,8 +141,7 @@ style='font-family:宋体'>热电阻分度表</span></p>
 
 <div align=center>
 
-<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=598
- style='width:448.5pt'>
+<table class="table table-bordered table-striped table-condensed table-hover">
  <tr>
   <td width=598 style='width:448.5pt;padding:0cm 0cm 0cm 0cm'>
   <div align=center>
