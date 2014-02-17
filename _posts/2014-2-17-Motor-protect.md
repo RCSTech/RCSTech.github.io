@@ -3,7 +3,7 @@ layout: post
 title: "一种简单的电机过热保护方法及改进版的初步设计"
 author: Shinei
 mail: xq.min@rcstech.org
-star: 5
+star: 4
 layout: post
 description: "一种简单的电机过热保护方法及改进版的初步设计"
 category: 核心技术
@@ -103,6 +103,7 @@ tags:
 <br>
 
 　　原理图及说明如下
+
 <div style="text-align:left"><img src="{{site.img_path}}/2014-2-17 fig_2.png" style="width:700px" alt="图2">
 </div>
 <br>
@@ -237,7 +238,7 @@ tags:
   102.34<br>
   106.24<br>
   110.12<br>
-  11+4.00<br>
+  114.00<br>
   117.86
   </td>
   <td>
