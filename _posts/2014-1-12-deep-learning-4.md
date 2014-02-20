@@ -64,9 +64,9 @@ tags:
 
 　　[9.2、Sparse Coding稀疏编码](http://rcstech.org/deep-learning-5/#9.2)
 
-　　9.3、Restricted Boltzmann Machine(RBM)限制波尔兹曼机
+　　[9.3、Restricted Boltzmann Machine(RBM)限制波尔兹曼机](http://rcstech.org/deep-learning-6/#9.3)
 
-　　9.4、Deep BeliefNetworks深信度网络
+　　[9.4、Deep BeliefNetworks深信度网络](http://rcstech.org/deep-learning-6/#9.4)
 
 <span id="九"></span>
 
