@@ -49,13 +49,24 @@ tags:
 
 　　我们定义一个S中的四元数向量<sup>S</sup><sub>W</sub>，用于表示角速度，如公式4-1所示。根据文献<sup>[11]</sup>，四元数![四元数]({{site.img_path}}/2014-2-22 fig3.png)的导数![四元数导数]({{site.img_path}}/2014-2-22 fig4.png)可由公式4-2计算得到，它表示姿态变化的速率。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig5.png" style="width:400px" alt="图5">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig5.png" style="width:250px" alt="图5">
 <span style="float:right;">(公式4-1)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig6.png" style="width:400px" alt="图6">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig6.png" style="width:250px" alt="图6">
 <span style="float:right;">(公式4-2)</span>
 </div>
 <br>
 
 　　我们用![姿态]({{site.img_path}}/2014-2-22 fig7.png)来表示在t时刻，传感器坐标系相对于与地球坐标系的姿态。如果初始状态已知的话，则![姿态]({{site.img_path}}/2014-2-22 fig7.png)可由四元数的导数![姿态导数]({{site.img_path}}/2014-2-22 fig8.png)积分得到，如公式4-3和公式4-4所示。其中![姿态估计值]({{site.img_path}}/2014-2-22 fig9.png)表示t-1时刻的姿态估计值，![陀螺仪测量值]({{site.img_path}}/2014-2-22 fig10.png)为t时刻的陀螺仪测量值，![采样时间间隔]({{site.img_path}}/2014-2-22 fig11.png)为采样时间间隔，下标w表示这个四元数是由角速度得到的。
+
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig12.png" style="width:300px" alt="图12">
+<span style="float:right;">(公式4-3)</span>
+</div>
+
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig13.png" style="width:300px" alt="图13">
+<span style="float:right;">(公式4-4)</span>
+</div>
+<br>
+
+　　于是，我们可根据公式4-4得到由陀螺仪获取的姿态。
