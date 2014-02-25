@@ -130,6 +130,10 @@ sitemap:
     <td>2014.01</td>
     <td><a href="announcement2.html">RCS团队技术博客“玉不琢”正式上线</a></td>
 </tr>
+<tr>
+    <td>2014.02</td>
+    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1969">校长朱崇实莅临我院大学生创新实践基地指导工作</a></td>
+</tr>
 </table>
 
 -------------------------------------------------------------
