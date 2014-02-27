@@ -72,6 +72,7 @@ tags:
 　　于是，我们可根据公式4-4得到由陀螺仪获取的姿态。
 
 ##由“场”获取姿态
+<br>
 
 　　一个三轴加速度计可以测量重力场的大小和方向，同时会因为传感器运动时产生的线性加速度而受到影响。相似的，三轴磁力计也可测量磁场的方向和大小，但也会被近场磁场干扰。在本文建立的模型中，为了理想建模，忽略这些干扰，即假定加速度计只测量重力，磁力计只测量地磁场。
 
@@ -91,11 +92,11 @@ tags:
 <span style="float:right;"><br>(公式4-7)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:400px" alt="图19">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:200px" alt="图19">
 <span style="float:right;"><br>(公式4-8)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:400px" alt="图20">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:200px" alt="图20">
 <span style="float:right;"><br>(公式4-9)</span>
 </div>
 <br>
@@ -180,6 +181,7 @@ tags:
 <br>
 
 ##传感器数据融合
+<br>
 
 　　上文中，已由公式4-4得到由陀螺仪求解姿态的算法，4-24得到由加速度计，磁力计求解姿态的算法。现在我们将这两个姿态解融合，如公式4-26所示，其中![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)由公式4-14定义，![姿态]({{site.img_path}}/2014-2-22 fig7.png)由公式4-4定义，![r]({{site.img_path}}/2014-2-22 fig40.png)和![1-r]({{site.img_path}}/2014-2-22 fig41.png)分别为他们对应的权重。
 
@@ -220,6 +222,7 @@ tags:
 　　至此我们得到姿态航向参考系统的模型，如公式4-30所示，我们只需确定两个参数，步长u<sub>t</sub>和陀螺仪测量误差![beita]({{site.img_path}}/2014-2-22 fig44.png)，即可实现这个模型。
 
 ##模型参数确定
+<br>
 
 　　在上文中，我们已经将姿态航向参考系统进行建模，还差两个待确定参数。在这里将确定这两个参数的具体数值，并对模型的性能进一步优化。
 
@@ -244,6 +247,7 @@ tags:
 　　至此，我们可以最终确定我们所需要的姿态航向参考系统模型了。
 
 ##磁场干扰补偿
+<br>
 
 　　在建立好模型后，还有一个比较重要的问题要考虑，就是磁场干扰的问题。
 
@@ -264,6 +268,7 @@ tags:
 　　这样，当外界的磁场干扰较为稳定时，获得的偏航角也较为稳定。
 
 ##性能优化
+<br>
 
 　　鉴于使用的处理器为嵌入式芯片，计算性能远没有桌面计算机强大，除了姿态航向参考系统，还有很多其他的任务要处理，所以系统应该要尽可能地降低计算负担。
 
