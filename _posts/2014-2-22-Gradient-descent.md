@@ -47,13 +47,13 @@ tags:
 
 　　我们首先考虑最简单的情况，只用三轴陀螺仪来获取姿态。
 
-　　我们定义一个S中的四元数向量<sup>S</sup><sub>W</sub>，用于表示角速度，如公式4-1所示。根据文献<sup>[11]</sup>，四元数![四元数]({{site.img_path}}/2014-2-22 fig3.png)的导数![四元数导数]({{site.img_path}}/2014-2-22 fig4.png)可由公式4-2计算得到，它表示姿态变化的速率。
+　　我们定义一个S中的四元数向量<sup>S</sup><sub>W</sub>，用于表示角速度，如公式$\ref{4-1}$4-1所示。根据文献<sup>[11]</sup>，四元数![四元数]({{site.img_path}}/2014-2-22 fig3.png)的导数![四元数导数]({{site.img_path}}/2014-2-22 fig4.png)可由公式4-2计算得到，它表示姿态变化的速率。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig5.png" style="width:250px" alt="图5">
+<!--div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig5.png" style="width:250px" alt="图5">
 <span style="float:right;"><br>(公式4-1)</span>
-</div>
+</div-->
 
-\begin{equation} \label{4-1} \eqno{(4-1)} ^S W=\begin{bmatrix} 0 & W_x & W_y & W_z \end{bmatrix} \end{equation}
+\begin{equation} \label{4-1} ^S W=\begin{bmatrix} 0 & W_x & W_y & W_z \end{bmatrix} \end{equation} \eqno{4-1}
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig6.png" style="width:250px" alt="图6">
 <span style="float:right;"><br>(公式4-2)</span>
