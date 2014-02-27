@@ -60,7 +60,7 @@ tags:
 
 　　我们用![姿态]({{site.img_path}}/2014-2-22 fig7.png)来表示在t时刻，传感器坐标系相对于与地球坐标系的姿态。如果初始状态已知的话，则![姿态]({{site.img_path}}/2014-2-22 fig7.png)可由四元数的导数![姿态导数]({{site.img_path}}/2014-2-22 fig8.png)积分得到，如公式4-3和公式4-4所示。其中![姿态估计值]({{site.img_path}}/2014-2-22 fig9.png)表示t-1时刻的姿态估计值，![陀螺仪测量值]({{site.img_path}}/2014-2-22 fig10.png)为t时刻的陀螺仪测量值，![采样时间间隔]({{site.img_path}}/2014-2-22 fig11.png)为采样时间间隔，下标w表示这个四元数是由角速度得到的。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig12.png" style="width:300px" alt="图12">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig12.png" style="width:280px" alt="图12">
 <span style="float:right;"><br>(公式4-3)</span>
 </div>
 
@@ -91,11 +91,11 @@ tags:
 <span style="float:right;"><br>(公式4-7)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:200px" alt="图19">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:400px" alt="图19">
 <span style="float:right;"><br>(公式4-8)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:200px" alt="图20">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:400px" alt="图20">
 <span style="float:right;"><br>(公式4-9)</span>
 </div>
 <br>
@@ -111,7 +111,7 @@ tags:
 </div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig25.png" style="width:450px" alt="图25">
-<span style="float:right;"><br><br><br><br>(公式4-12)</span>
+<span style="float:right;"><br><br><br><br><br>(公式4-12)</span>
 </div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig26.png" style="width:480px" alt="图26">
@@ -175,7 +175,7 @@ tags:
 </div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig38.png" style="width:350px" alt="图38">
-<span style="float:right;"><br>(公式4-25)</span>
+<span style="float:right;">(公式4-25)</span>
 </div>
 <br>
 
@@ -184,7 +184,7 @@ tags:
 　　上文中，已由公式4-4得到由陀螺仪求解姿态的算法，4-24得到由加速度计，磁力计求解姿态的算法。现在我们将这两个姿态解融合，如公式4-26所示，其中![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)由公式4-14定义，![姿态]({{site.img_path}}/2014-2-22 fig7.png)由公式4-4定义，![r]({{site.img_path}}/2014-2-22 fig40.png)和![1-r]({{site.img_path}}/2014-2-22 fig41.png)分别为他们对应的权重。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig42.png" style="width:350px" alt="图42">
-<span style="float:right;"><br>(公式4-26)</span>
+<span style="float:right;">(公式4-26)</span>
 </div>
 <br>
 
@@ -195,25 +195,25 @@ tags:
 </div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig46.png" style="width:170px" alt="图46">
-<span style="float:right;"><br>(公式4-28)</span>
+<span style="float:right;"><br><br>(公式4-28)</span>
 </div>
 <br>
 
 　　公式4-26可展开为：
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig47.png" style="width:500px" alt="图47">
-<span style="float:right;"><br>(公式4-29)</span>
+<span style="float:right;"><br><br><br>(公式4-29)</span>
 </div>
 <br>
 
 　　化简可得：
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig45.png" style="width:350px" alt="图48">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig45.png" style="width:200px" alt="图48">
 <span style="float:right;"><br>(公式4-30)</span>
 </div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig46.png" style="width:170px" alt="图49">
-<span style="float:right;"><br>(公式4-31)</span>
+<span style="float:right;"><br><br>(公式4-31)</span>
 </div>
 <br>
 
@@ -254,9 +254,10 @@ tags:
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig53.png" style="width:400px" alt="图53">
 <span style="float:right;"><br>(公式5-3)</span>
 </div>
+<br>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig54.png" style="width:200px" alt="图54">
-<span style="float:right;"><br>(公式5-4)</span>
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig54.png" style="width:230px" alt="图54">
+<span style="float:right;">(公式5-4)</span>
 </div>
 <br>
 
