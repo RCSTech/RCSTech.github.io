@@ -84,19 +84,19 @@ tags:
 <span style="float:right;"><br>(公式4-5)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig17.png" style="width:400px" alt="图17">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig17.png" style="width:410px" alt="图17">
 <span style="float:right;"><br>(公式4-6)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig18.png" style="width:200px" alt="图18">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig18.png" style="width:210px" alt="图18">
 <span style="float:right;"><br>(公式4-7)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:200px" alt="图19">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:210px" alt="图19">
 <span style="float:right;"><br>(公式4-8)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:200px" alt="图20">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:210px" alt="图20">
 <span style="float:right;"><br>(公式4-9)</span>
 </div>
 <br>
@@ -145,7 +145,7 @@ tags:
 <span style="float:right;"><br>(公式4-18)</span>
 </div>
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig32.png" style="width:230px" alt="图32">
+<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig32.png" style="width:220px" alt="图32">
 <span style="float:right;"><br>(公式4-19)</span>
 </div>
 
