@@ -2,7 +2,7 @@
 layout: post
 title: "基于梯度下降法的姿态航向参考系统"
 author: Insulator
-star: 5
+star: 4
 category: "核心技术"
 mail: admin@yumumu.me
 tags: 
@@ -52,6 +52,8 @@ tags:
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig5.png" style="width:250px" alt="图5">
 <span style="float:right;"><br>(公式4-1)</span>
 </div>
+
+\begin{equation} \label{4-1} ^S W=\begin{bmatrix} 0 w_x w_y w_z \end{bmatrix} \end{equation}
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig6.png" style="width:250px" alt="图6">
 <span style="float:right;"><br>(公式4-2)</span>
