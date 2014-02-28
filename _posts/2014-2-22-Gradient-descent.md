@@ -33,11 +33,11 @@ tags:
 <center>图4-1</center>
 <br>
 
-　　三轴陀螺仪获取的三个轴向的数据分别用$W\_X$，$W\_Y$，$W\_Z$，分别代表$X$轴，$Y$轴，$Z$轴的角速度，单位使用弧度/秒。
+　　三轴陀螺仪获取的三个轴向的数据分别用$W\_x$，$W\_y$，$W\_z$，分别代表$X$轴，$Y$轴，$Z$轴的角速度，单位使用弧度/秒。
 
-　　三轴加速度计获取的三个轴向的数据分别用$a\_X$，$a\_Y$，$a\_Z$，分别代表$X$轴，$Y$轴，$Z$轴的加速度。
+　　三轴加速度计获取的三个轴向的数据分别用$a\_x$，$a\_y$，$a\_z$，分别代表$X$轴，$Y$轴，$Z$轴的加速度。
 
-　　三轴磁力计获取的三个轴向的数据分别用$m\_X$，$m\_Y$，$m\_Z$，分别代表$X$轴，$Y$轴，$Z$轴的磁场。
+　　三轴磁力计获取的三个轴向的数据分别用$m\_x$，$m\_y$，$m\_z$，分别代表$X$轴，$Y$轴，$Z$轴的磁场。
 
 　　为便于描述，没特殊说明的话，下文均把$\{}_{E}^{S}q\$，默认简写成$Q$,表示传感器坐标系相对于地球坐标系的姿态对应的四元数。
 <br>
@@ -68,28 +68,19 @@ tags:
 
 　　如果场的方向在地球坐标系中已知，根据传感器坐标系中测量到的场的方向，则可以计算出传感器坐标系相对于地球坐标系的姿态。然而，对于任意的测量值，这个姿态解并不是唯一的，因为真实的姿态绕着场的方向旋转得到的姿态的测量值都是一样的。而四元数要求的姿态必须是一个完整的姿态，而通过场得到的姿态是不完全的。这就需要我们去找到一个最优的姿态解，使其与真实的姿态解误差最小。
 
-　　这就可以当成一个最优化问题来求解，我们定义最优解的误差函数，如公式4-6所示，当满足 $\ref{4-5}$ 时，理论上$\hat{Q}\$可找到一个最优解，使得姿态的误差最小。其中，$\{}^{E}\hat{d}\$表示场在地球坐标系中的方向向量，$\{}^{S}\hat{s}\$表示传感器坐标系中的场方向的测量值。
+　　这就可以当成一个最优化问题来求解，我们定义最优解的误差函数，如公式 $\ref{4-6}$ 所示，当满足公式 $\ref{4-5}$ 时，理论上$\hat{Q}\$可找到一个最优解，使得姿态的误差最小。其中，$\{}^{E}\hat{d}\$表示场在地球坐标系中的方向向量，$\{}^{S}\hat{s}\$表示传感器坐标系中的场方向的测量值。
 
 \begin{equation} \label{4-5} \underset{\hat{Q}\in {R}^{4}}{\mathop{\min }}\,f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig17.png" style="width:410px" alt="图17">
-<span style="float:right;"><br>(公式4-6)</span>
-</div>
+\begin{equation} \label{4-6} f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s})\ =\,{\hat{Q}^{*}}\ \otimes \,{}^{E}\hat{d}\,\otimes \,\hat{Q}\,\,-\,{}^{S}\hat{s} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig18.png" style="width:210px" alt="图18">
-<span style="float:right;"><br>(公式4-7)</span>
-</div>
+\begin{equation} \label{4-7} \hat{Q}=\left[ {q}_{1}\ {q}_{2}\ {q}_{3}\ {q}_{4} \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig19.png" style="width:210px" alt="图19">
-<span style="float:right;"><br>(公式4-8)</span>
-</div>
+\begin{equation} \label{4-8} {}^{E}\hat{d}=\left[ 0\ {d}_{x}\ {d}_{y}\ {d}_{z} \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig20.png" style="width:210px" alt="图20">
-<span style="float:right;"><br>(公式4-9)</span>
-</div>
-<br>
+\begin{equation} \label{4-9} {}^{S}\hat{s}=\left[ 0\ {s}_{x}\ {s}_{y}\ {s}_{z} \right] \end{equation}
 
-　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式4-10描述了梯度下降法如何用第k次迭代的结果来估计第k+1次的值<sup>[7]</sup>。其中，u为迭代的步长，初始状态![初始状态]({{site.img_path}}/2014-2-22 fig21.png)已知。![解曲面的梯度]({{site.img_path}}/2014-2-22 fig22.png)为4-5定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式4-11所示<sup>[16]</sup>。根据公式4-6，可得公式4-12，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式4-13计算得到。
+　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式4-10描述了梯度下降法如何用第k次迭代的结果来估计第k+1次的值<sup>[7]</sup>。其中，u为迭代的步长，初始状态![初始状态]({{site.img_path}}/2014-2-22 fig21.png)已知。![解曲面的梯度]({{site.img_path}}/2014-2-22 fig22.png)为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式4-11所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式4-12，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式4-13计算得到。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig23.png" style="width:450px" alt="图23">
 <span style="float:right;"><br>(公式4-10)</span>
