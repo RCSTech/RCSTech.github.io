@@ -22,9 +22,9 @@ tags:
 
 　　所有坐标系均使用右手坐标系<sup>[15]</sup>。
 
-　　使用地球为绝对坐标系，使用E表示，以“天”为z轴，“东”为x轴，“北”为y轴。
+　　使用地球为绝对坐标系，使用E表示，以“天”为$Z$轴，“东”为$X$轴，“北”为$Y$轴。
 
-　　传感器坐标系如图4-1所示，使用S表示。
+　　传感器坐标系如图4-1所示，使用$S$表示。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig1.png" style="width:300px" alt="图1">
 </div>
@@ -74,11 +74,11 @@ tags:
 
 \begin{equation} \label{4-6} f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s})\ =\,{\hat{Q}^{*}}\ \otimes \,{}^{E}\hat{d}\,\otimes \,\hat{Q}\,\,-\,{}^{S}\hat{s} \end{equation}
 
-\begin{equation} \label{4-7} \hat{Q}=\left[ {q}_{1}\ {q}_{2}\ {q}_{3}\ {q}_{4} \right] \end{equation}
+\begin{equation} \label{4-7} \hat{Q}=\left[ {q}\_{1}\ {q}\_{2}\ {q}\_{3}\ {q}\_{4} \right] \end{equation}
 
-\begin{equation} \label{4-8} {}^{E}\hat{d}=\left[ 0\ {d}_{x}\ {d}_{y}\ {d}_{z} \right] \end{equation}
+\begin{equation} \label{4-8} {}^{E}\hat{d}=\left[ 0\ {d}\_{x}\ {d}\_{y}\ {d}\_{z} \right] \end{equation}
 
-\begin{equation} \label{4-9} {}^{S}\hat{s}=\left[ 0\ {s}_{x}\ {s}_{y}\ {s}_{z} \right] \end{equation}
+\begin{equation} \label{4-9} {}^{S}\hat{s}=\left[ 0\ {s}\_{x}\ {s}\_{y}\ {s}\_{z} \right] \end{equation}
 
 　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式4-10描述了梯度下降法如何用第k次迭代的结果来估计第k+1次的值<sup>[7]</sup>。其中，u为迭代的步长，初始状态![初始状态]({{site.img_path}}/2014-2-22 fig21.png)已知。![解曲面的梯度]({{site.img_path}}/2014-2-22 fig22.png)为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式4-11所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式4-12，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式4-13计算得到。
 
