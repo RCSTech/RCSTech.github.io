@@ -80,24 +80,31 @@ tags:
 
 \begin{equation} \label{4-9} {}^{S}\hat{s}=\left[ 0\ {s}\_{x}\ {s}\_{y}\ {s}\_{z} \right] \end{equation}
 
-　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式4-10描述了梯度下降法如何用第k次迭代的结果来估计第k+1次的值<sup>[7]</sup>。其中，u为迭代的步长，初始状态![初始状态]({{site.img_path}}/2014-2-22 fig21.png)已知。![解曲面的梯度]({{site.img_path}}/2014-2-22 fig22.png)为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式4-11所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式4-12，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式4-13计算得到。
+　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式 $\ref{4-10}$ 描述了梯度下降法如何用第$k$次迭代的结果来估计第$k+1$次的值<sup>[7]</sup>。其中，$u$为迭代的步长，初始状态${\hat{Q}\_{0}}$已知。$\nabla f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s})$为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式 $\ref{4-11}$ 所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式 $\ref{4-12}$ ，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式 $\ref{4-13}$ 计算得到。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig23.png" style="width:450px" alt="图23">
-<span style="float:right;"><br>(公式4-10)</span>
-</div>
+\begin{equation} \label{4-10} {Q}\_{k+1}={\hat{Q}\_k}-u\frac{\nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})\ }{\left\| \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \right\|\ },k=0,1,2...n \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig24.png" style="width:400px" alt="图24">
-<span style="float:right;"><br>(公式4-11)</span>
-</div>
+\begin{equation} \label{4-11} \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})={J}^{T}({\hat{Q}\_k},{}^{E}\hat{d})f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig25.png" style="width:450px" alt="图25">
-<span style="float:right;"><br><br><br><br><br>(公式4-12)</span>
-</div>
+\begin{equation} \label{4-12} \begin{align}
+  & f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})= \\ 
+ & \left[ \begin{matrix}
+   2{d\_x}(\frac{1}{2}-q_{3}^{2}-q_{4}^{2})+2{d\_y}({q\_1}{q\_4}+{{q}\_{2}}{{q}\_{3}})+2{{d}\_{z}}({{q}\_{2}}{{q}\_{4}}-{{q}\_{1}}{{q}\_{3}})-{{s}\_{x}}  \\
+   2{{d}\_{x}}({{q}\_{2}}{{q}\_{3}}-{{q}\_{1}}{{q}\_{4}})+2{{d}\_{y}}(\frac{1}{2}-q\_{2}^{2}-q\_{4}^{2})+2{{d}\_{z}}({{q}\_{1}}{{q}\_{2}}+{{q}\_{3}}{{q}\_{4}})-{{s}\_{y}}  \\
+   2{{d}\_{x}}({{q}\_{1}}{{q}\_{3}}+{{q}\_{2}}{{q}\_{4}})+2{{d}\_{y}}({{q}\_{3}}{{q}\_{4}}-{{q}\_{1}}{{q}\_{2}})+2{{d}\_{z}}(\frac{1}{2}-q\_{2}^{2}-q\_{3}^{2})-{{s}\_{z}}  \\
+\end{matrix} \right] \\ 
+\end{align} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig26.png" style="width:480px" alt="图26">
-<span style="float:right;"><br><br><br>(公式4-13)</span>
-</div>
-<br>
+
+\begin{equation} \label{4-13} \begin{align}
+  & J({\hat{Q}\_{k}},{}^{E}\hat{d})= \\ 
+ & \left[ \begin{matrix}
+   2{{d}\_{y}}{{q}\_{4}}-2{{d}\_{z}}{{q}\_{3}} & 2{{d}\_{y}}{{q}\_{3}}+2{{d}\_{z}}{{q}\_{4}} & -4{{d}\_{x}}{{q}\_{3}}+2{{d}\_{y}}{{q}\_{2}}-2{{d}\_{z}}{{q}\_{1}} & -4{{d}\_{x}}{{q}\_{4}}+2{{d}\_{y}}{{q}\_{1}}+2{{d}\_{z}}{{q}\_{2}}  \\
+   -2{{d}\_{x}}{{q}\_{4}}+2{{d}\_{z}}{{q}\_{2}} & 2{{d}\_{x}}{{q}\_{3}}-4{{d}\_{y}}{{q}\_{1}}+2{{d}\_{z}}{{q}\_{1}} & 2{{d}\_{x}}{{q}\_{2}}+2{{d}\_{z}}{{q}\_{4}} & -2{{d}\_{x}}{{q}\_{1}}-4{{d}\_{y}}{{q}\_{4}}+2{{d}\_{z}}{{q}\_{3}}  \\
+   2{{d}\_{x}}{{q}\_{3}}-2{{d}\_{y}}{{q}\_{2}} & 2{{d}\_{x}}{{q}\_{4}}-2{{d}\_{y}}{{q}\_{1}}-4{{d}\_{z}}{{q}\_{2}} & 2{{d}\_{x}}{{q}\_{1}}+2{{d}\_{y}}{{q}\_{4}}-4{{d}\_{z}}{{q}\_{3}} & 2{{d}\_{x}}{{q}\_{2}}+2{{d}\_{y}}{{q}\_{3}}  \\
+\end{matrix} \right] \\ 
+\end{align} \end{equation}
+
 
 　　接着，我们可以把上述公式套入重力场中，如公式4-14，4-15，4-16，4-17所示。一般来说，我们可以假定重力场方向为地球坐标系的z轴方向。
 
