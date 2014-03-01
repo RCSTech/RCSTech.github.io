@@ -86,24 +86,18 @@ tags:
 
 \begin{equation} \label{4-11} \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})={J}^{T}({\hat{Q}\_k},{}^{E}\hat{d})f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
 
-\begin{equation} \label{4-12} \begin{align\*}
-  & f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})= \\ 
- & \left[ \begin{matrix}
+\begin{equation} \label{4-12} f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})= \left[ \begin{matrix}
    2{d_x}(\frac{1}{2}-{q_3}^{2}-{q_4}^{2})+2{d_y}({q_1}{q_4}+{q_2}{q_3})+2{d_z}({q_2}{q_4}-{q_1}{q_3})-{s_x}  \\
    2{d_x}({q_2}{q_3}-{q_1}{q_4})+2{d_y}(\frac{1}{2}-{q_2}^{2}-{q_4}^{2})+2{d_z}({q_1}{q_2}+{q_3}{q_4})-{s_y}  \\
    2{d_x}({q_1}{q_3}+{q_2}{q_4})+2{d_y}({q_3}{q_4}-{q_1}{q_2})+2{d_z}(\frac{1}{2}-{q_2}^{2}-{q_3}^{2})-{s_z}  \\
-\end{matrix} \right] \\ 
-\end{align\*} \end{equation}
+\end{matrix} \right] \end{equation}
 
 
-\begin{equation} \label{4-13} \begin{align\*}
-  & J({\hat{Q}\_k},{}^{E}\hat{d})= \\ 
- & \left[ \begin{matrix}
+\begin{equation} \label{4-13} J({\hat{Q}\_k},{}^{E}\hat{d})= \left[ \begin{matrix}
    2{d\_y}{q\_4}-2{d\_z}{q\_3} & 2{d\_y}{q\_3}+2{d\_z}{q\_4} & -4{d\_x}{q\_3}+2{d\_y}{q\_2}-2{d\_z}{q\_1} & -4{d\_x}{q\_4}+2{d\_y}{q\_1}+2{d\_z}{q\_2}  \\
    -2{d\_x}{q\_4}+2{d\_z}{q\_2} & 2{d\_x}{q\_3}-4{d\_y}{q\_1}+2{d\_z}{q\_1} & 2{d\_x}{q\_2}+2{d\_z}{q\_4} & -2{d\_x}{q\_1}-4{d\_y}{q\_4}+2{d\_z}{q\_3}  \\
    2{d\_x}{q\_3}-2{d\_y}{q\_2} & 2{d\_x}{q\_4}-2{d\_y}{q\_1}-4{d\_z}{q\_2} & 2{d\_x}{q\_1}+2{d\_y}{q\_4}-4{d\_z}{q\_3} & 2{d\_x}{q\_2}+2{d\_y}{q\_3}  \\
-\end{matrix} \right] \\ 
-\end{align\*} \end{equation}
+\end{matrix} \right] \end{equation}
 
 
 　　接着，我们可以把上述公式套入重力场中，如公式4-14，4-15，4-16，4-17所示。一般来说，我们可以假定重力场方向为地球坐标系的z轴方向。
