@@ -89,9 +89,7 @@ tags:
 \begin{equation} \label{4-12} f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})=  \begin{bmatrix}
 2d_x(\frac{1}{2}-q_3^2-q_4^2)+2d_y(q_1 q_4+q_2 q_3)+2d_z(q_2 q_4-q_1 q_3)-s_x\\\\2d_x(q_2 q_3-q_1 q_4)+2d_y(\frac{1}{2}-q_2^2-q_4^2)+2d_z(q_1 q_2+q_3 q_4)-s_y\\\\2d_x(q_1 q_3+q_2 q_4)+2d_y(q_3 q_4-q_1 q_2)+2d_z(\frac{1}{2}-q_2^2-q_3^2)-s_z\end{bmatrix} \end{equation}
 
-\begin{equation} \label{4-13} J({\hat{Q}_k},{}^{E}\hat{d})= \begin{bmatrix}
-2{d_y}{q_4}-2{d_z}{q_3} & 2{d_y}{q_3}+2{d_z}{q_4} & -4{d_x}{q_3}+2{d_y}{q_2}-2{d_z}{q_1} & -4{d_x}{q_4}+2{d_y}{q_1}+2{d_z}{q_2}\\\\-2{d_x}{q_4}+2{d_z}{q_2} & 2{d_x}{q_3}-4{d_y}{q_1}+2{d_z}{q_1} & 2{d_x}{q_2}+2{d_z}{q_4} & -2{d_x}{q_1}-4{d_y}{q_4}+2{d_z}{q_3}\\\\2{d_x}{q_3}-2{d_y}{q_2} & 2{d_x}{q_4}-2{d_y}{q_1}-4{d_z}{q_2} & 2{d_x}{q_1}+2{d_y}{q_4}-4{d_z}{q_3} & 2{d_x}{q_2}+2{d_y}{q_3}
-\end{bmatrix} \end{equation}
+\begin{equation} \label{4-13} J({\hat{Q}_k},{}^{E}\hat{d})= \begin{bmatrix}2{d_y}{q_4}-2{d_z}{q_3} & 2{d_y}{q_3}+2{d_z}{q_4} & -4{d_x}{q_3}+2{d_y}{q_2}-2{d_z}{q_1} & -4{d_x}{q_4}+2{d_y}{q_1}+2{d_z}{q_2}\\\\-2{d_x}{q_4}+2{d_z}{q_2} & 2{d_x}{q_3}-4{d_y}{q_1}+2{d_z}{q_1} & 2{d_x}{q_2}+2{d_z}{q_4} & -2{d_x}{q_1}-4{d_y}{q_4}+2{d_z}{q_3}\\\\2{d_x}{q_3}-2{d_y}{q_2} & 2{d_x}{q_4}-2{d_y}{q_1}-4{d_z}{q_2} & 2{d_x}{q_1}+2{d_y}{q_4}-4{d_z}{q_3} & 2{d_x}{q_2}+2{d_y}{q_3}\end{bmatrix} \end{equation}
 
 
 　　接着，我们可以把上述公式套入重力场中，如公式4-14，4-15，4-16，4-17所示。一般来说，我们可以假定重力场方向为地球坐标系的z轴方向。
