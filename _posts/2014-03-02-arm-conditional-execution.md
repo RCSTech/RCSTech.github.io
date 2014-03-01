@@ -5,7 +5,7 @@ author: 科长
 mail: kezhang@rcstech.org
 star: 2
 description: "　　记录一次调试经历，并借此简单介绍ARM下的条件执行指令的概念。"
-category: "Embedded"
+category: 经验总结
 tags: [ARM, asm]
 ---
 {% include JB/setup %}
