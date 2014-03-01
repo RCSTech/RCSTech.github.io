@@ -86,14 +86,14 @@ tags:
 
 \begin{equation} \label{4-11} \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})={J}^{T}({\hat{Q}\_k},{}^{E}\hat{d})f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
 
-\begin{equation} \label{4-12} \begin{align\*}
-  & f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})= \\ 
+\begin{equation} \label{4-12} \begin{align*}
+  & f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})= \\ 
  & \left[ \begin{matrix}
-   2{d\_x}(\frac{1}{2}-{q\_3}^{2}-{q\_4}^{2})+2{d\_y}({q\_1}{q\_4}+{q\_2}{q\_3})+2{d\_z}({q\_2}{q\_4}-{q\_1}{q\_3})-{s\_x}  \\
-   2{d\_x}({q\_2}{q\_3}-{q\_1}{q\_4})+2{d\_y}(\frac{1}{2}-{q\_2}^{2}-{q\_4}^{2})+2{d\_z}({q\_1}{q\_2}+{q\_3}{q\_4})-{s\_y}  \\
-   2{d\_x}({q\_1}{q\_3}+{q\_2}{q\_4})+2{d\_y}({q\_3}{q\_4}-{q\_1}{q\_2})+2{d\_z}(\frac{1}{2}-{q\_2}^{2}-{q\_3}^{2})-{s\_z}  \\
+   2{d_x}(\frac{1}{2}-{q_3}^{2}-{q_4}^{2})+2{d_y}({q_1}{q_4}+{q_2}{q_3})+2{d_z}({q_2}{q_4}-{q_1}{q_3})-{s_x}  \\
+   2{d_x}({q_2}{q_3}-{q_1}{q_4})+2{d_y}(\frac{1}{2}-{q_2}^{2}-{q_4}^{2})+2{d_z}({q_1}{q_2}+{q_3}{q_4})-{s_y}  \\
+   2{d_x}({q_1}{q_3}+{q_2}{q_4})+2{d_y}({q_3}{q_4}-{q_1}{q_2})+2{d_z}(\frac{1}{2}-{q_2}^{2}-{q_3}^{2})-{s_z}  \\
 \end{matrix} \right] \\ 
-\end{align\*} \end{equation}
+\end{align*} \end{equation}
 
 
 \begin{equation} \label{4-13} \begin{align\*}
