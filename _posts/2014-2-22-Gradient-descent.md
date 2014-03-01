@@ -92,24 +92,15 @@ tags:
 \begin{equation} \label{4-13} J({\hat{Q}_k},{}^{E}\hat{d})= \begin{bmatrix}2{d_y}{q_4}-2{d_z}{q_3} & 2{d_y}{q_3}+2{d_z}{q_4} & -4{d_x}{q_3}+2{d_y}{q_2}-2{d_z}{q_1} & -4{d_x}{q_4}+2{d_y}{q_1}+2{d_z}{q_2}\\\\-2{d_x}{q_4}+2{d_z}{q_2} & 2{d_x}{q_3}-4{d_y}{q_1}+2{d_z}{q_1} & 2{d_x}{q_2}+2{d_z}{q_4} & -2{d_x}{q_1}-4{d_y}{q_4}+2{d_z}{q_3}\\\\2{d_x}{q_3}-2{d_y}{q_2} & 2{d_x}{q_4}-2{d_y}{q_1}-4{d_z}{q_2} & 2{d_x}{q_1}+2{d_y}{q_4}-4{d_z}{q_3} & 2{d_x}{q_2}+2{d_y}{q_3}\end{bmatrix} \end{equation}
 
 
-　　接着，我们可以把上述公式套入重力场中，如公式4-14，4-15，4-16，4-17所示。一般来说，我们可以假定重力场方向为地球坐标系的z轴方向。
+　　接着，我们可以把上述公式套入重力场中，如公式 $\ref{4-14}$ ， $\ref{4-15}$ ， $\ref{4-16}$ ， $\ref{4-17}$ 所示。一般来说，我们可以假定重力场方向为地球坐标系的$Z$轴方向。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig27.png" style="width:200px" alt="图27">
-<span style="float:right;"><br>(公式4-14)</span>
-</div>
+\begin{equation} \label{4-14} {}^{E}\hat{g}=\left[ 0\ 0\ 0\ 1 \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig28.png" style="width:230px" alt="图28">
-<span style="float:right;"><br>(公式4-15)</span>
-</div>
+\begin{equation} \label{4-15} {}^{S}\hat{a}=\left[ 0\ {a_x}\ {a_y}\ {a_z} \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig29.png" style="width:400px" alt="图29">
-<span style="float:right;"><br><br><br>(公式4-16)</span>
-</div>
+\begin{equation} \label{4-16} {f_g}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a})= \begin{bmatrix}2({q_2}{q_4}-{q_1}{q_3})-{s_x}\\\\2({q_1}{q_2}+{q_3}{q_4})-{s_y}\\\\2(\frac{1}{2}-{q_2}^{2}-{q_3}^{2})-{s_z}\end{bmatrix} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig30.png" style="width:350px" alt="图30">
-<span style="float:right;"><br><br><br>(公式4-17)</span>
-</div>
-<br>
+\begin{equation} \label{4-17} {J_g}(\hat{Q},{}^{E}\hat{g})=\begin{bmatrix}-2{q_3} & 2{q_4} & -2{q_1} & 2{q_2}\\\\2{q_2} & 2{q_1} & 2{q_4} & 2{q_3}\\\\0 & -4{q_2} & -4{q_3} & 0 \end{bmatrix} \end{equation}
 
 　　相似的，我们可以把这些公式代入地磁场。如公式4-18，4-19，4-20，4-21所示。需要注意的是，磁场的方向并不像重力场那么确定，会随着地理位置而改变，如北京和伦敦的地磁场是不一样的<sup>[17]</sup>。所以我们将磁场方向分解为水平方向和垂直方向，如公式4-19所示。
 
