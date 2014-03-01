@@ -89,11 +89,8 @@ tags:
 \begin{equation} \label{4-12} f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})=  \begin{bmatrix}
 2d_x(\frac{1}{2}-q_3^2-q_4^2)+2d_y(q_1 q_4+q_2 q_3)+2d_z(q_2 q_4-q_1 q_3)-s_x\\\\2d_x(q_2 q_3-q_1 q_4)+2d_y(\frac{1}{2}-q_2^2-q_4^2)+2d_z(q_1 q_2+q_3 q_4)-s_y\\\\2d_x(q_1 q_3+q_2 q_4)+2d_y(q_3 q_4-q_1 q_2)+2d_z(\frac{1}{2}-q_2^2-q_3^2)-s_z\end{bmatrix} \end{equation}
 
-
-\begin{equation} \label{4-13} J({\hat{Q}\_k},{}^{E}\hat{d})= \begin{bmatrix}
-   2{d\_y}{q\_4}-2{d\_z}{q\_3} & 2{d\_y}{q\_3}+2{d\_z}{q\_4} & -4{d\_x}{q\_3}+2{d\_y}{q\_2}-2{d\_z}{q\_1} & -4{d\_x}{q\_4}+2{d\_y}{q\_1}+2{d\_z}{q\_2}  \\\\
-   -2{d\_x}{q\_4}+2{d\_z}{q\_2} & 2{d\_x}{q\_3}-4{d\_y}{q\_1}+2{d\_z}{q\_1} & 2{d\_x}{q\_2}+2{d\_z}{q\_4} & -2{d\_x}{q\_1}-4{d\_y}{q\_4}+2{d\_z}{q\_3}  \\\\
-   2{d\_x}{q\_3}-2{d\_y}{q\_2} & 2{d\_x}{q\_4}-2{d\_y}{q\_1}-4{d\_z}{q\_2} & 2{d\_x}{q\_1}+2{d\_y}{q\_4}-4{d\_z}{q\_3} & 2{d\_x}{q\_2}+2{d\_y}{q\_3}  
+\begin{equation} \label{4-13} J({\hat{Q}_k},{}^{E}\hat{d})= \begin{bmatrix}
+2{d_y}{q_4}-2{d_z}{q_3} & 2{d_y}{q_3}+2{d_z}{q_4} & -4{d_x}{q_3}+2{d_y}{q_2}-2{d_z}{q_1} & -4{d_x}{q_4}+2{d_y}{q_1}+2{d_z}{q_2}\\\\-2{d_x}{q_4}+2{d_z}{q_2} & 2{d_x}{q_3}-4{d_y}{q_1}+2{d_z}{q_1} & 2{d_x}{q_2}+2{d_z}{q_4} & -2{d_x}{q_1}-4{d_y}{q_4}+2{d_z}{q_3}\\\\2{d_x}{q_3}-2{d_y}{q_2} & 2{d_x}{q_4}-2{d_y}{q_1}-4{d_z}{q_2} & 2{d_x}{q_1}+2{d_y}{q_4}-4{d_z}{q_3} & 2{d_x}{q_2}+2{d_y}{q_3}
 \end{bmatrix} \end{equation}
 
 
