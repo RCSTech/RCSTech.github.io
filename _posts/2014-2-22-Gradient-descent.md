@@ -114,27 +114,18 @@ tags:
 \begin{equation} \label{4-21} {J_b}(\hat{Q},{}^{E}\hat{b})=\begin{bmatrix}-2{b_z}{q_3} & 2{b_z}{q_4} & -4{b_x}{q_3}-2{b_z}{q_1} & -4{b_x}{q_4}+2{b_z}{q_2}\\\\-2{b_x}{q_4}+2{b_z}{q_2} & 2{b_x}{q_3}+2{b_z}{q_1} & 2{b_x}{q_2}+2{b_z}{q_4} & -2{b_x}{q_1}+2{b_z}{q_3}\\\\2{b_x}{q_3} & 2{b_x}{q_4}-4{b_z}{q_2} & 2{b_x}{q_1}-4{b_z}{q_3} & 2{b_x}{q_2}\end{bmatrix} \end{equation}
 
 
-　　如上文提到的，单独使用重力场或者地磁场来获取姿态的话，姿态解不是唯一的。所以，我们可以将重力场和地磁场的解组合到一起，如公式4-22和公式4-23所示。
+　　如上文提到的，单独使用重力场或者地磁场来获取姿态的话，姿态解不是唯一的。所以，我们可以将重力场和地磁场的解组合到一起，如公式 $\ref{4-22}$ 和公式 $\ref{4-23}$ 所示。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig35.png" style="width:300px" alt="图35">
-<span style="float:right;"><br><br>(公式4-22)</span>
-</div>
+\begin{equation} \label{4-22} {f_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m})=\begin{bmatrix}{f_g}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a})\\\\{f_b}(\hat{Q},{}^{E}\hat{b},{}^{S}\hat{m})\end{bmatrix} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig36.png" style="width:250px" alt="图36">
-<span style="float:right;"><br><br>(公式4-23)</span>
-</div>
-<br>
+\begin{equation} \label{4-23} {J_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b})=\begin{bmatrix}{J_g}(\hat{Q},{}^{E}\hat{g})\\\\{J_b}(\hat{Q},{}^{E}\hat{b})\end{bmatrix} \end{equation}
 
-　　根据公式4-10，我们可以得到姿态的梯度下降法递推公式，如公式4-24所示。其中![姿态估计值]({{site.img_path}}/2014-2-22 fig9.png)为t-1时刻的姿态估计值。u<sub>t</sub>为梯度下降的步长。至此，我们可以得到使用梯度下降法求解由重力场和地磁场获得姿态的算法。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig37.png" style="width:230px" alt="图37">
-<span style="float:right;"><br>(公式4-24)</span>
-</div>
+　　根据公式 $\ref{4-10}$ ，我们可以得到姿态的梯度下降法递推公式，如公式 $\ref{4-24}$ 所示。其中${\hat{Q}\_{est,t-1}}$为$t-1$时刻的姿态估计值。$u_t$为梯度下降的步长。至此，我们可以得到使用梯度下降法求解由重力场和地磁场获得姿态的算法。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig38.png" style="width:350px" alt="图38">
-<span style="float:right;">(公式4-25)</span>
-</div>
-<br>
+\begin{equation} \label{4-24} {Q_{\nabla ,t}}={\hat{Q}_{est,t-1}}-{u_t}\frac{\nabla f}{\left\| \nabla f \right\|} \end{equation}
+
+\begin{equation} \label{4-25} \nabla f={J_{g,b}}^{T}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b}){f_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m}) \end{equation}
 
 ##传感器数据融合
 <br>
