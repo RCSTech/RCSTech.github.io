@@ -80,11 +80,11 @@ tags:
 
 \begin{equation} \label{4-9} {}^{S}\hat{s}=\left[ 0\ {s}\_{x}\ {s}\_{y}\ {s}\_{z} \right] \end{equation}
 
-　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式 $\ref{4-10}$ 描述了梯度下降法如何用第$k$次迭代的结果来估计第$k+1$次的值<sup>[7]</sup>。其中，$u$为迭代的步长，初始状态${\hat{Q}\_{0}}$已知。$\nabla f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s})$为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式 $\ref{4-11}$ 所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式 $\ref{4-12}$ ，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式 $\ref{4-13}$ 计算得到。
+　　最优化算法有很多种，其中梯度下降法是一种简单高效的算法，公式 $\ref{4-10}$ 描述了梯度下降法如何用第$k$次迭代的结果来估计第$k+1$次的值<sup>[7]</sup>。其中，$u$为迭代的步长，初始状态${\hat{Q}\_{0}}$已知。$\bightriangledown f(\hat{Q},{}^{E}\hat{d},{}^{S}\hat{s})$为公式 $\ref{4-5}$ 定义的误差函数的解曲面的梯度，它可由误差函数和误差函数的Jacobian 矩阵计算得到，如公式 $\ref{4-11}$ 所示<sup>[16]</sup>。根据公式 $\ref{4-6}$ ，可得公式 $\ref{4-12}$ ，为了方便计算，转换成3维向量。误差函数的Jacobian 矩阵可由公式 $\ref{4-13}$ 计算得到。
 
-\begin{equation} \label{4-10} {Q}\_{k+1}={\hat{Q}\_k}-u\frac{\nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})\ }{\left\| \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \right\|\ },k=0,1,2...n \end{equation}
+\begin{equation} \label{4-10} {Q}\_{k+1}={\hat{Q}\_k}-u\frac{\bightriangledown f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})\ }{\left\| \bightriangledown f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \right\|\ },k=0,1,2...n \end{equation}
 
-\begin{equation} \label{4-11} \nabla f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})={J}^{T}({\hat{Q}\_k},{}^{E}\hat{d})f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
+\begin{equation} \label{4-11} \bightriangledown f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s})={J}^{T}({\hat{Q}\_k},{}^{E}\hat{d})f({\hat{Q}\_k},{}^{E}\hat{d},{}^{S}\hat{s}) \end{equation}
 
 \begin{equation} \label{4-12} f({\hat{Q}_k},{}^{E}\hat{d},{}^{S}\hat{s})=  \begin{bmatrix}
 2d_x(\frac{1}{2}-q_3^2-q_4^2)+2d_y(q_1 q_4+q_2 q_3)+2d_z(q_2 q_4-q_1 q_3)-s_x\\\\2d_x(q_2 q_3-q_1 q_4)+2d_y(\frac{1}{2}-q_2^2-q_4^2)+2d_z(q_1 q_2+q_3 q_4)-s_y\\\\2d_x(q_1 q_3+q_2 q_4)+2d_y(q_3 q_4-q_1 q_2)+2d_z(\frac{1}{2}-q_2^2-q_3^2)-s_z\end{bmatrix} \end{equation}
@@ -123,9 +123,9 @@ tags:
 
 　　根据公式 $\ref{4-10}$ ，我们可以得到姿态的梯度下降法递推公式，如公式 $\ref{4-24}$ 所示。其中${\hat{Q}\_{est,t-1}}$为$t-1$时刻的姿态估计值。$u_t$为梯度下降的步长。至此，我们可以得到使用梯度下降法求解由重力场和地磁场获得姿态的算法。
 
-\begin{equation} \label{4-24} {Q_{\nabla ,t}}={\hat{Q}_{est,t-1}}-{u_t}\frac{\nabla f}{\left\| \nabla f \right\|} \end{equation}
+\begin{equation} \label{4-24} Q_{\bightriangledown ,t}={\hat{Q}_{est,t-1}}-{u_t}\frac{\bightriangledown f}{\parallel \bightriangledown f \parallel} \end{equation}
 
-\begin{equation} \label{4-25} \nabla f={J_{g,b}}^{T}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b}){f_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m}) \end{equation}
+\begin{equation} \label{4-25} \bightriangledown f={J_{g,b}}^{T}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b}){f_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m}) \end{equation}
 
 ##传感器数据融合
 <br>
