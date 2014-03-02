@@ -123,9 +123,9 @@ tags:
 
 　　根据公式 $\ref{4-10}$ ，我们可以得到姿态的梯度下降法递推公式，如公式 $\ref{4-24}$ 所示。其中${\hat{Q}\_{est,t-1}}$为$t-1$时刻的姿态估计值。$u_t$为梯度下降的步长。至此，我们可以得到使用梯度下降法求解由重力场和地磁场获得姿态的算法。
 
-\begin{equation} \label{4-24} Q_{\bightriangledown ,t}={\hat{Q}_{est,t-1}}-{u_t}\frac{\bightriangledown f}{\parallel \bightriangledown f \parallel} \end{equation}
+\begin{equation} \label{4-24} Q\_{\bightriangledown ,t}={\hat{Q}\_{est,t-1}}-{u\_t}\frac{\bightriangledown f}{\parallel \bightriangledown f \parallel} \end{equation}
 
-\begin{equation} \label{4-25} \bightriangledown f={J_{g,b}}^{T}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b}){f_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m}) \end{equation}
+\begin{equation} \label{4-25} \bightriangledown f={J\_{g,b}}^{T}(\hat{Q},{}^{E}\hat{g},{}^{E}\hat{b}){f\_{g,b}}(\hat{Q},{}^{E}\hat{g},{}^{S}\hat{a},{}^{E}\hat{b},{}^{S}\hat{m}) \end{equation}
 
 ##传感器数据融合
 <br>
