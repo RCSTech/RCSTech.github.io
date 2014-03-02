@@ -102,24 +102,17 @@ tags:
 
 \begin{equation} \label{4-17} {J_g}(\hat{Q},{}^{E}\hat{g})=\begin{bmatrix}-2{q_3} & 2{q_4} & -2{q_1} & 2{q_2}\\\\2{q_2} & 2{q_1} & 2{q_4} & 2{q_3}\\\\0 & -4{q_2} & -4{q_3} & 0 \end{bmatrix} \end{equation}
 
-　　相似的，我们可以把这些公式代入地磁场。如公式4-18，4-19，4-20，4-21所示。需要注意的是，磁场的方向并不像重力场那么确定，会随着地理位置而改变，如北京和伦敦的地磁场是不一样的<sup>[17]</sup>。所以我们将磁场方向分解为水平方向和垂直方向，如公式4-19所示。
+　　相似的，我们可以把这些公式代入地磁场。如公式 $\ref{4-18}$ ， $\ref{4-19}$ ， $\ref{4-20}$ ， $\ref{4-21}$ 所示。需要注意的是，磁场的方向并不像重力场那么确定，会随着地理位置而改变，如北京和伦敦的地磁场是不一样的<sup>[17]</sup>。所以我们将磁场方向分解为水平方向和垂直方向，如公式 $\ref{4-19}$ 所示。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig31.png" style="width:200px" alt="图31">
-<span style="float:right;"><br>(公式4-18)</span>
-</div>
+\begin{equation} \label{4-18} {}^{E}\hat{b}=\left[ 0\ {b_x}\ 0\ {b_z} \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig32.png" style="width:220px" alt="图32">
-<span style="float:right;"><br>(公式4-19)</span>
-</div>
+\begin{equation} \label{4-19} {}^{S}\hat{m}=\left[ 0\ {m_x}\ {m_y}\ {m_z} \right] \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig33.png" style="width:400px" alt="图33">
-<span style="float:right;"><br><br><br>(公式4-20)</span>
-</div>
+\begin{equation} \label{4-20} {f_b}(\hat{Q},{}^{E}\hat{b},{}^{S}\hat{m})= \begin{bmatrix}2{b_x}(\frac{1}{2}-{q_3}^{2}-{q_4}^{2})+2{b_z}({q_2}{q_4}-{q_1}{q_3})-{m_x}\\\\2{b_x}({q_2}{q_3}-{q_1}{q_4})+2{b_z}({q_1}{q_2}+{q_3}{q_4})-{m_y}\\\\2{b_x}({q_1}{q_3}+{q_2}{q_4})+2{b_z}(\frac{1}{2}-{q_2}^{2}-{q_3}^{2})-{m_z}\end{bmatrix} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig34.png" style="width:430px" alt="图34">
-<span style="float:right;"><br><br><br>(公式4-21)</span>
-</div>
-<br>
+
+\begin{equation} \label{4-21} {J_b}(\hat{Q},{}^{E}\hat{b})=\begin{bmatrix}-2{b_z}{q_3} & 2{b_z}{q_4} & -4{b_x}{q_3}-2{b_z}{q_1} & -4{b_x}{q_4}+2{b_z}{q_2}\\\\-2{b_x}{q_4}+2{b_z}{q_2} & 2{b_x}{q_3}+2{b_z}{q_1} & 2{b_x}{q_2}+2{b_z}{q_4} & -2{b_x}{q_1}+2{b_z}{q_3}\\\\2{b_x}{q_3} & 2{b_x}{q_4}-4{b_z}{q_2} & 2{b_x}{q_1}-4{b_z}{q_3} & 2{b_x}{q_2}\end{bmatrix} \end{equation}
+
 
 　　如上文提到的，单独使用重力场或者地磁场来获取姿态的话，姿态解不是唯一的。所以，我们可以将重力场和地磁场的解组合到一起，如公式4-22和公式4-23所示。
 
