@@ -130,14 +130,11 @@ tags:
 ##传感器数据融合
 <br>
 
-　　上文中，已由公式4-4得到由陀螺仪求解姿态的算法，4-24得到由加速度计，磁力计求解姿态的算法。现在我们将这两个姿态解融合，如公式4-26所示，其中![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)由公式4-14定义，![姿态]({{site.img_path}}/2014-2-22 fig7.png)由公式4-4定义，![r]({{site.img_path}}/2014-2-22 fig40.png)和![1-r]({{site.img_path}}/2014-2-22 fig41.png)分别为他们对应的权重。
+　　上文中，已由公式 $\ref{4-4}$ 得到由陀螺仪求解姿态的算法， $\ref{4-24}$ 得到由加速度计，磁力计求解姿态的算法。现在我们将这两个姿态解融合，如公式 $\ref{4-26}$ 所示，其中${Q\_{\nabla ,t}}$由公式 $\ref{4-14}$ 定义，${Q\_{W ,t}}$由公式 $\ref{4-4}$ 定义，$r\_t$和$(1-r\_t)$分别为他们对应的权重。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig42.png" style="width:350px" alt="图42">
-<span style="float:right;">(公式4-26)</span>
-</div>
-<br>
+\begin{equation} \label{4-26} {Q\_{est,t}}={r\_t}{Q\_{\nabla ,t}}+(1-{r\_t}}){Q\_{w,t}},0\le {r\_t}\le 1 \end{equation}
 
-　　接下来问题的关键就是确定![r]({{site.img_path}}/2014-2-22 fig40.png)。由于公式4-4，可知![姿态]({{site.img_path}}/2014-2-22 fig7.png)的计算是一个不断积分的过程，所以![姿态]({{site.img_path}}/2014-2-22 fig7.png)是发散的。由公式4-24，可知![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)在不断的逼近极值，所以![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)是收敛的。为了得到一个稳定的姿态，我们应该让![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)收敛权重的和![姿态]({{site.img_path}}/2014-2-22 fig7.png)的发散权重相等<sup>[7]</sup>。![公式4-14定义]({{site.img_path}}/2014-2-22 fig39.png)的收敛率可由![udt]({{site.img_path}}/2014-2-22 fig43.png)来表示，用![beita]({{site.img_path}}/2014-2-22 fig44.png)来表示![姿态]({{site.img_path}}/2014-2-22 fig7.png)的发散率，也就是陀螺仪的测量误差。这样我们可以写出公式4-27，从而计算出出关于![r]({{site.img_path}}/2014-2-22 fig40.png)的公式4-28。
+　　接下来问题的关键就是确定$r\_t$。由于公式 $\ref{4-4}$ ，可知${Q\_{W ,t}}$的计算是一个不断积分的过程，所以${Q\_{W ,t}}$是发散的。由公式 $\ref{4-24}$ ，可知${Q\_{\nabla ,t}}$在不断的逼近极值，所以${Q\_{\nabla ,t}}$是收敛的。为了得到一个稳定的姿态，我们应该让${Q\_{\nabla ,t}}$收敛权重的和${Q\_{W ,t}}$的发散权重相等<sup>[7]</sup>。${Q\_{\nabla ,t}}$的收敛率可由$\frac{u\_t}{\Delta t}$来表示，用$\beta $来表示${Q\_{W ,t}}$的发散率，也就是陀螺仪的测量误差。这样我们可以写出公式 $\ref{4-27}$ ，从而计算出出关于$r\_t$的公式 $\ref{4-28}$ 。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig45.png" style="width:200px" alt="图45">
 <span style="float:right;"><br>(公式4-27)</span>
