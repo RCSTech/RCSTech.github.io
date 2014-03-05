@@ -142,7 +142,7 @@ tags:
 
 　　公式4-26可展开为：
 
-\begin{equation} \label{4-29} {Q\_{est,t}}=\frac{\beta }{\frac{u\_t}{\Delta t}+\beta }({\hat{Q}\_{est,t-1}}-{u\_t}\frac{\nabla f}{\left\| \nabla f \right\|})+(1-\frac{\beta }{\frac{u\_t}{\Delta t}+\beta })({\hat{Q}\_{est,t-1}}+{\dot{Q}\_{w,t}}\Delta t) \end{equation}
+\begin{equation} \label{4-29} {Q\_{est,t}}=\frac{\beta }{\frac{u\_t}{\Delta t}+\beta }({\hat{Q}\_{est,t-1}}-{u\_t}\frac{\nabla f}{\parallel \nabla f \parallel})+(1-\frac{\beta }{\frac{u\_t}{\Delta t}+\beta })({\hat{Q}\_{est,t-1}}+{\dot{Q}\_{W,t}}\Delta t) \end{equation}
 
 
 　　化简可得：
