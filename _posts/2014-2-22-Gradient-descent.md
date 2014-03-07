@@ -183,7 +183,7 @@ tags:
 
 \begin{equation} \label{5-3} {}^{E}\hat{h}=[0\ hx\ hy\ hz]={\hat{Q}\_{est,t-1}}\otimes {}^{S}{\hat{m}\_{t}}\otimes \hat{Q}\_{est,t-1}^{*} \end{equation}
 
-\begin{equation} \label{5-4} {}^{E}{\hat{b}\_{t}}=[0\ \sqrt{{h\_x}^{2}+{h\_y}^{2}}\ 0\ {h\_z}] \end{equation}
+\begin{equation} \label{5-4} {}^{E}{\hat{b}\_{t}}=[0\ \sqrt{h\_x}^{2}+{h\_y}^{2}}\ 0\ {h\_z}] \end{equation}
 
 　　这样，当外界的磁场干扰较为稳定时，获得的偏航角也较为稳定。
 
