@@ -147,39 +147,28 @@ tags:
 
 　　化简可得：
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig45.png" style="width:200px" alt="图48">
-<span style="float:right;"><br>(公式4-30)</span>
-</div>
+\begin{equation} \label{4-30} {Q\_{est,t}}={\hat{Q}\_{est,t-1}}+m({\dot{Q}\_{w,t}}-\beta \frac{\nabla f}{\parallel \nabla f \parallel})\Delta t \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig46.png" style="width:170px" alt="图49">
-<span style="float:right;"><br><br>(公式4-31)</span>
-</div>
-<br>
+\begin{equation} \label{4-31} m=\frac{u\_t}{u\_t}+\beta \Delta t} \end{equation}
 
-　　至此我们得到姿态航向参考系统的模型，如公式4-30所示，我们只需确定两个参数，步长u<sub>t</sub>和陀螺仪测量误差![beita]({{site.img_path}}/2014-2-22 fig44.png)，即可实现这个模型。
+　　至此我们得到姿态航向参考系统的模型，如公式 $\ref{4-30}$ 所示，我们只需确定两个参数，步长$u\_t$和陀螺仪测量误差$\beta$，即可实现这个模型。
 
 ##模型参数确定
 <br>
 
 　　在上文中，我们已经将姿态航向参考系统进行建模，还差两个待确定参数。在这里将确定这两个参数的具体数值，并对模型的性能进一步优化。
 
-　　为了方便计算，我们可做如下假设，假设采样时间足够短，且陀螺仪误差较小，则由公式4-31可认为![m=1]({{site.img_path}}/2014-2-22 fig50.png)。如此，便可消去步长u<sub>t</sub>这个参数。
+　　为了方便计算，我们可做如下假设，假设采样时间足够短，且陀螺仪误差较小，则由公式 $\ref{4-31}$ 可认为$m\approx 1$。如此，便可消去步长$u\_t$这个参数。
 
 　　即可得到
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig51.png" style="width:400px" alt="图51">
-<span style="float:right;"><br>(公式5-1)</span>
-</div>
-<br>
+\begin{equation} \label{5-1} {Q\_{est,t}}={\hat{Q}\_{est,t-1}}+({\dot{Q}\_{w,t}}-\beta \frac{\nabla f}{\parallel \nabla f \parallel})\Delta t \end{equation}
 
-　　现在公式已大幅简化，唯一不确定的就是![beita]({{site.img_path}}/2014-2-22 fig44.png)参数。
+　　现在公式已大幅简化，唯一不确定的就是$\beta$参数。
 
-　　 ![beita]({{site.img_path}}/2014-2-22 fig44.png)指的是陀螺仪的测量误差，可以根据数据手册<sup>[18]</sup>来获取，但本文打算使用实际测量的误差。根据公式4-2，可推导出公式5-2，其中，d为陀螺仪的静态飘移量，q为任意的单位四元数。因此，我们可以通过陀螺仪的数据手册来或直接对陀螺仪的数据采样分析计算得到![beita]({{site.img_path}}/2014-2-22 fig44.png)。
+　　$\beta$指的是陀螺仪的测量误差，可以根据数据手册<sup>[18]</sup>来获取，但本文打算使用实际测量的误差。根据公式 $\ref{4-2}$ ，可推导出公式 $\ref{5-2}$ ，其中，$d$为陀螺仪的静态飘移量，$q$为任意的单位四元数。因此，我们可以通过陀螺仪的数据手册来或直接对陀螺仪的数据采样分析计算得到$\beta$。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig52.png" style="width:350px" alt="图52">
-<span style="float:right;"><br>(公式5-2)</span>
-</div>
-<br>
+\begin{equation} \label{5-2} \beta =\parallel \frac{1}{2}q\otimes \left[ 0\ d\ d\ d \right] \parallel=\sqrt{\frac{3}{4}}d \end{equation}
 
 　　至此，我们可以最终确定我们所需要的姿态航向参考系统模型了。
 
@@ -190,17 +179,11 @@ tags:
 
 　　地磁场很容易被近场磁场干扰，如电机，金属家具，金属。造成的磁场干扰，没有外部的方向参考的话，无法被校正。竖直方向的磁场，可由重力场校正，水平方向的磁场，则可利用GPS<sup>[19]</sup>等进行校正。
 
-　　在本文中，没有使用GPS等全球定位技术，因此，对于航向角，无法提供可以校正的外部参考。所以，本文提出的姿态航向参考系统，以上电时的状态作为初始航向角，之后的航向角都以初始姿态的角度作为基准，如公式5-3，5-4所示。
+　　在本文中，没有使用GPS等全球定位技术，因此，对于航向角，无法提供可以校正的外部参考。所以，本文提出的姿态航向参考系统，以上电时的状态作为初始航向角，之后的航向角都以初始姿态的角度作为基准，如公式 $\ref{5-3}$ ， $\ref{5-4}$ 所示。
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig53.png" style="width:400px" alt="图53">
-<span style="float:right;"><br>(公式5-3)</span>
-</div>
-<br>
+\begin{equation} \label{5-3} {}^{E}\hat{h}=[0\ hx\ hy\ hz]={\hat{Q}\_{est,t-1}}\otimes {}^{S}{\hat{m}\_{t}}\otimes \hat{Q}\_{est,t-1}^{*} \end{equation}
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig54.png" style="width:230px" alt="图54">
-<span style="float:right;">(公式5-4)</span>
-</div>
-<br>
+\begin{equation} \label{5-4} {}^{E}{\hat{b}\_{t}}=[0\ \sqrt{{h\_x}^{2}+{h\_y}^{2}}\ 0\ {h\_z}] \end{equation}
 
 　　这样，当外界的磁场干扰较为稳定时，获得的偏航角也较为稳定。
 
@@ -215,12 +198,9 @@ tags:
 
 　　四元数的规范化，即让四元数的模长为1，上文的所有公式中，参与计算的四元数都是规范的四元数，所以在每一次迭代计算完成时，都应对四元数进行规范化，四元数的规范化公式如下：
 
-<div style="text-align:center"><img src="{{site.img_path}}/2014-2-22 fig55.png" style="width:300px" alt="图55">
-<span style="float:right;"><br>(公式5-5)</span>
-</div>
-<br>
+\begin{equation} \label{5-5} \hat{q}=\frac{\text{q}}{\parallel q \parallel}=\frac{q}{\sqrt{{q\_1}^{2}+{q\_2}^{2}+{q\_3}^{2}+{q\_4}^{2}}} \end{equation}
 
-　　四元数的规范化需要计算平方根的倒数，这是一笔不小的计算开销。根据文献[20]提供的一种快速计算平方根的倒数的方法，也就是业界中传奇的“0x5f3759df”算法，始于一个3D游戏《雷神之锤3》。代码如下：
+　　四元数的规范化需要计算平方根的倒数，这是一笔不小的计算开销。根据文献<sup>[20]</sup>提供的一种快速计算平方根的倒数的方法，也就是业界中传奇的“0x5f3759df”算法，始于一个3D游戏《雷神之锤3》。代码如下：
 
 {% highlight C %}
 float invSqrt(float x)
@@ -237,4 +217,4 @@ float invSqrt(float x)
 
 　　2、合并重复计算。
 
-　　在公式4-16，4-17，4-20，4-21中，有大量的重复计算，可采取以空间换时间的方法。
+　　在公式 $\ref{4-16}$ ， $\ref{4-17}$ ， $\ref{4-20}$ ， $\ref{4-21}$ 中，有大量的重复计算，可采取以空间换时间的方法。
