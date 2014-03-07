@@ -149,7 +149,7 @@ tags:
 
 \begin{equation} \label{4-30} {Q\_{est,t}}={\hat{Q}\_{est,t-1}}+m({\dot{Q}\_{w,t}}-\beta \frac{\nabla f}{\parallel \nabla f \parallel})\Delta t \end{equation}
 
-\begin{equation} \label{4-31} m=\frac{u\_t}{{u\_t}+\beta \Delta t} \end{equation}
+\begin{equation} \label{4-31} m=\frac{u\_t}{{u\_t}+\beta \Delta t}} \end{equation}
 
 　　至此我们得到姿态航向参考系统的模型，如公式 $\ref{4-30}$ 所示，我们只需确定两个参数，步长$u\_t$和陀螺仪测量误差$\beta$，即可实现这个模型。
 
