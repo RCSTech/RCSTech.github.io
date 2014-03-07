@@ -181,7 +181,7 @@ tags:
 
 　　在本文中，没有使用GPS等全球定位技术，因此，对于航向角，无法提供可以校正的外部参考。所以，本文提出的姿态航向参考系统，以上电时的状态作为初始航向角，之后的航向角都以初始姿态的角度作为基准，如公式 $\ref{5-3}$ ， $\ref{5-4}$ 所示。
 
-\begin{equation} \label{5-3} {}^{E}\hat{h}=[0\ hx\ hy\ hz]={\hat{Q}\_{est,t-1}}\otimes {}^{S}{\hat{m}\_{t}}\otimes \hat{Q}\_{est,t-1}^{*} \end{equation}
+\begin{equation} \label{5-3} {}^{E}\hat{h}=[0\ h\_x\ h\_y\ h\_z]={\hat{Q}\_{est,t-1}}\otimes {}^{S}{\hat{m}\_{t}}\otimes \hat{Q}\_{est,t-1}^{*} \end{equation}
 
 \begin{equation} \label{5-4} {}^{E}{\hat{b}\_t}=[0 \sqrt{h\_x{}^{2}+{h\_y}^{2}}\ 0\ {h\_z}] \end{equation}
 
