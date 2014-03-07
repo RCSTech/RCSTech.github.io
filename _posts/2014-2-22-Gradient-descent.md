@@ -198,7 +198,7 @@ tags:
 
 　　四元数的规范化，即让四元数的模长为1，上文的所有公式中，参与计算的四元数都是规范的四元数，所以在每一次迭代计算完成时，都应对四元数进行规范化，四元数的规范化公式如下：
 
-\begin{equation} \label{5-5} \hat{q}=\frac{\text{q}}{\parallel q \parallel}=\frac{q}{\sqrt{{q\_1}^{2}+{q\_2}^{2}+{q\_3}^{2}+{q\_4}^{2}}} \end{equation}
+\begin{equation} \label{5-5} \hat{q}=\frac{\text{q}}{\parallel q \parallel}=\frac{q}{\sqrt{q\_1{}^{2}+{q\_2}^{2}+{q\_3}^{2}+{q\_4}^2}} \end{equation}
 
 　　四元数的规范化需要计算平方根的倒数，这是一笔不小的计算开销。根据文献<sup>[20]</sup>提供的一种快速计算平方根的倒数的方法，也就是业界中传奇的“0x5f3759df”算法，始于一个3D游戏《雷神之锤3》。代码如下：
 
