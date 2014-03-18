@@ -31,7 +31,8 @@ else
 
 　　一般情况下，在if或else后面只跟了一条简单语句（一般是能编译成一条指令）时，需要特别注意条件执行的情况。因为设计条件执行特性的初衷是保证流水线的完整性，这种跳转地址只有几个字节的场景很容易被编译成条件执行。
 
-<embed src="http://player.youku.com/player.php/sid/XNjg1Mzk3MDEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.youku.com/player.php/sid/XNjg1Mzk3MDEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
+</embed>
 
 -------------------------------------------
 
