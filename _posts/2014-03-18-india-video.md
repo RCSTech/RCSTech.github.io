@@ -14,5 +14,6 @@ tags:
 
 <!--more-->
 
+<center>
 <embed src="http://player.youku.com/player.php/sid/XNjg1Mzk3MDEy/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash">
-
+</center>
