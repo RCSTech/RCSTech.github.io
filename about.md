@@ -28,7 +28,7 @@ sitemap:
 </tr>
 <tr>
     <td>2009.06</td>
-    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=3519">首次代表厦门大学参加亚太大学生机器人大赛(robocon)国内选拔活动</a></td>
+    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=3519">首次代表厦门大学参加亚太大学生机器人大赛(Robocon)国内选拔活动</a></td>
 </tr>
 <tr>
     <td>2010.03</td>
@@ -44,7 +44,7 @@ sitemap:
 </tr>
 <tr>
     <td>2010.06</td>
-    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4154">参加第九届robocon国内选拔活动</a></td>
+    <td><a href="http://210.34.16.106/Main/Article_Detial.asp?ArticleID=4154">参加第九届Robocon国内选拔活动</a></td>
 </tr>
 <tr>
     <td>2010.08</td>
@@ -72,7 +72,7 @@ sitemap:
 </tr>
 <tr>
     <td>2011.06</td>
-    <td><a href="http://news.xmu.edu.cn/s/13/t/542/38/87/info80007.htm">参加第十届robocon国内选拔赛，首次突破十六强，获得优秀奖并获大赛最佳风格奖</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/38/87/info80007.htm">参加第十届Robocon国内选拔赛，首次突破十六强，获得优秀奖并获大赛最佳风格奖</a></td>
 </tr>
 <tr>
     <td>2011.08</td>
@@ -84,7 +84,7 @@ sitemap:
 </tr>
 <tr>
     <td>2012.06</td>
-    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1262">参加在哈尔滨工程大学举办的2012robocon国内赛，获全国三等奖</a></td>
+    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1262">参加在哈尔滨工程大学举办的2012Robocon国内赛，获全国三等奖</a></td>
 </tr>
 <tr>
     <td>2012.09</td>
@@ -108,7 +108,7 @@ sitemap:
 </tr>
 <tr>
     <td>2013.06</td>
-    <td><a href="http://news.xmu.edu.cn/s/13/t/542/13/f3/info136179.htm">参加在国防科技大学举办的2013robocon国内赛，获全国二等奖并斩获大赛最佳组织奖</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/13/f3/info136179.htm">参加在国防科技大学举办的2013Robocon国内赛，获全国二等奖并斩获大赛最佳组织奖</a></td>
 </tr>
 <tr>
     <td>2013.07</td>
@@ -133,6 +133,10 @@ sitemap:
 <tr>
     <td>2014.02</td>
     <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1969">校长朱崇实莅临我院大学生创新实践基地指导工作</a></td>
+</tr>
+<tr>
+    <td>2014.06</td>
+    <td>参加在山东绉城举办的2014Robocon国内赛，获全国二等奖并斩获大赛最佳组织奖</td>
 </tr>
 </table>
 
