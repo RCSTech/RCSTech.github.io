@@ -70,11 +70,11 @@ tags:
 
 <span id="四、关于特征"></span>
 
-　　9.5、Convolutional Neural Networks卷积神经网络
+　　[9.5、Convolutional Neural Networks卷积神经网络](http://rcstech.org/deep-learning-7/#9.5)
 
-十、总结与展望
+[十、总结与展望](http://rcstech.org/deep-learning-7/#10)
 
-十一、参考文献和Deep Learning学习资源
+[十一、参考文献和Deep Learning学习资源](http://rcstech.org/deep-learning-7/#11)
 <br>
 <br>
 
