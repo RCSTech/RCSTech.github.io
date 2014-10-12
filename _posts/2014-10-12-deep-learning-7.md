@@ -225,8 +225,10 @@ tags:
 ####7）小结
 
 　　CNNs中这种层间联系和空域信息的紧密关系，使其适于图像处理和理解。而且，其在自动提取图像的显著特征方面还表现出了比较优的性能。在一些例子当中，Gabor滤波器已经被使用在一个初始化预处理的步骤中，以达到模拟人类视觉系统对视觉刺激的响应。在目前大部分的工作中，研究者将CNNs应用到了多种机器学习问题中，包括人脸识别，文档分析和语言检测等。为了达到寻找视频中帧与帧之间的相干性的目的，目前CNNs通过一个时间相干性去训练，但这个不是CNNs特有的。
+<br>
 
 ##十、总结与展望
+<br>
 
 ####1）Deep learning总结
 
@@ -255,169 +257,216 @@ tags:
 　　（5）模型方面是否有其他更为有效且有理论依据的深度模型学习算法？
 
 　　探索新的特征提取模型是值得深入研究的内容。此外有效的可并行训练算法也是值得研究的一个方向。当前基于最小批处理的随机梯度优化算法很难在多计算机中进行并行训练。通常办法是利用图形处理单元加速学习过程。然而单个机器GPU对大规模数据识别或相似任务数据集并不适用。在深度学习应用拓展方面，如何合理充分利用深度学习在增强传统学习算法的性能仍是目前各领域的研究重点。
+<br>
 
 ##十一、参考文献和Deep Learning学习资源
+<br>
 
 　　先是机器学习领域大牛的微博：@余凯_西二旗民工；@老师木；@梁斌penny；@张栋_机器学习；@邓侃；@大数据皮东；@djvu9……
 <br>
 
 （1）Deep Learning
 <br>
-http://deeplearning.net/
+[http://deeplearning.net/](http://deeplearning.net/)
+<br>
 <br>
 （2）Deep Learning Methods for Vision
 <br>
-http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/
+[http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/](http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/)
+<br>
 <br>
 （3）Neural Network for Recognition of Handwritten Digits[Project]
 <br>
-http://www.codeproject.com/Articles/16650/Neural-Network-for-Recognition-of-Handwritten-Digi
+[http://www.codeproject.com/Articles/16650/Neural-Network-for-Recognition-of-Handwritten-Digi](http://www.codeproject.com/Articles/16650/Neural-Network-for-Recognition-of-Handwritten-Digi)
+<br>
 <br>
 （4）Training a deep autoencoder or a classifier on MNIST digits
 <br>
-http://www.cs.toronto.edu/~hinton/MatlabForSciencePaper.html
+[http://www.cs.toronto.edu/~hinton/MatlabForSciencePaper.html](http://www.cs.toronto.edu/~hinton/MatlabForSciencePaper.html)
+<br>
 <br>
 （5）Ersatz：deep neural networks in the cloud
 <br>
-http://www.ersatz1.com/
+[http://www.ersatz1.com/](http://www.ersatz1.com/)
+<br>
 <br>
 （6）Deep Learning
 <br>
-http://www.cs.nyu.edu/~yann/research/deep/
+[http://www.cs.nyu.edu/~yann/research/deep/](http://www.cs.nyu.edu/~yann/research/deep/)
+<br>
 <br>
 （7）Invited talk "A Tutorial on Deep Learning" by Dr. Kai Yu (余凯)
 <br>
-http://vipl.ict.ac.cn/News/academic-report-tutorial-deep-learning-dr-kai-yu
+[http://vipl.ict.ac.cn/News/academic-report-tutorial-deep-learning-dr-kai-yu](http://vipl.ict.ac.cn/News/academic-report-tutorial-deep-learning-dr-kai-yu)
+<br>
 <br>
 （8）CNN - Convolutional neural network class
 <br>
-http://www.mathworks.cn/matlabcentral/fileexchange/24291
+[http://www.mathworks.cn/matlabcentral/fileexchange/24291](http://www.mathworks.cn/matlabcentral/fileexchange/24291)
+<br>
 <br>
 （9）Yann LeCun's Publications
 <br>
-http://yann.lecun.com/exdb/publis/index.html#lecun-98
+[http://yann.lecun.com/exdb/publis/index.html#lecun-98](http://yann.lecun.com/exdb/publis/index.html#lecun-98)
+<br>
 <br>
 （10） LeNet-5, convolutional neural networks
 <br>
-http://yann.lecun.com/exdb/lenet/index.html
+[http://yann.lecun.com/exdb/lenet/index.html](http://yann.lecun.com/exdb/lenet/index.html)
+<br>
 <br>
 （11） Deep Learning 大牛Geoffrey E. Hinton's HomePage
 <br>
-http://www.cs.toronto.edu/~hinton/
+[http://www.cs.toronto.edu/~hinton/](http://www.cs.toronto.edu/~hinton/)
+<br>
 <br>
 （12）Sparse coding simulation software[Project]
 <br>
-http://redwood.berkeley.edu/bruno/sparsenet/
+[http://redwood.berkeley.edu/bruno/sparsenet/](http://redwood.berkeley.edu/bruno/sparsenet/)
+<br>
 <br>
 （13）Andrew Ng's homepage
 <br>
-http://robotics.stanford.edu/~ang/
+[http://robotics.stanford.edu/~ang/](http://robotics.stanford.edu/~ang/)
+<br>
 <br>
 （14）stanford deep learning tutorial
 <br>
-http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial
+[http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial)
+<br>
 <br>
 （15）「深度神经网络」（deep neural network）具体是怎样工作的
 <br>
-http://www.zhihu.com/question/19833708?group_id=15019075#1657279
+[http://www.zhihu.com/question/19833708?group_id=15019075#1657279](http://deeplearning.stanford.edu/wiki/index.php/UFLDL_Tutorial)
+<br>
 <br>
 （16）A shallow understanding on deep learning
 <br>
-http://blog.sina.com.cn/s/blog_6ae183910101dw2z.html
+[http://blog.sina.com.cn/s/blog_6ae183910101dw2z.html](http://blog.sina.com.cn/s/blog_6ae183910101dw2z.html)
+<br>
 <br>
 （17）Bengio's Learning Deep Architectures for AI
 <br>
- http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf
+[ http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf]( http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf)
+<br>
 <br>
 （18）andrew ng's talk video:
 <br>
-http://techtalks.tv/talks/machine-learning-and-ai-via-brain-simulations/57862/
+[http://techtalks.tv/talks/machine-learning-and-ai-via-brain-simulations/57862/](http://techtalks.tv/talks/machine-learning-and-ai-via-brain-simulations/57862/)
+<br>
 <br>
 （19）cvpr 2012 tutorial：
 <br>
-http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/tutorial_p2_nnets_ranzato_short.pdf
+[http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/tutorial_p2_nnets_ranzato_short.pdf](http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/tutorial_p2_nnets_ranzato_short.pdf)
+<br>
 <br>
 （20）Andrew ng清华报告听后感
 <br>
-http://blog.sina.com.cn/s/blog_593af2a70101bqyo.html
+[http://blog.sina.com.cn/s/blog_593af2a70101bqyo.html](http://blog.sina.com.cn/s/blog_593af2a70101bqyo.html)
+<br>
 <br>
 （21）Kai Yu：CVPR12 Tutorial on Deep Learning Sparse Coding
 <br>
+<br>
 （22）Honglak Lee：Deep Learning Methods for Vision
+<br>
 <br>
 （23）Andrew Ng ：Machine Learning and AI via Brain simulations
 <br>
+<br>
 （24）Deep Learning 【2,3】
 <br>
-http://blog.sina.com.cn/s/blog_46d0a3930101gs5h.html
+[http://blog.sina.com.cn/s/blog_46d0a3930101gs5h.html](http://blog.sina.com.cn/s/blog_46d0a3930101gs5h.html)
+<br>
 <br>
 （25）deep learning这件小事……
 <br>
-http://blog.sina.com.cn/s/blog_67fcf49e0101etab.html
+[http://blog.sina.com.cn/s/blog_67fcf49e0101etab.html](http://blog.sina.com.cn/s/blog_67fcf49e0101etab.html)
+<br>
 <br>
 （26）Yoshua Bengio, U. Montreal：Learning Deep Architectures
 <br>
+<br>
 （27）Kai Yu：A Tutorial on Deep Learning
+<br>
 <br>
 （28）Marc'Aurelio Ranzato：NEURAL NETS FOR VISION
 <br>
+<br>
 （29）Unsupervised feature learning and deep learning
 <br>
-http://blog.csdn.net/abcjennifer/article/details/7804962
+[http://blog.csdn.net/abcjennifer/article/details/7804962](http://blog.csdn.net/abcjennifer/article/details/7804962)
+<br>
 <br>
 （30）机器学习前沿热点–Deep Learning
 <br>
-http://elevencitys.com/?p=1854
+[http://elevencitys.com/?p=1854](http://elevencitys.com/?p=1854)
+<br>
 <br>
 （31）机器学习——深度学习(Deep Learning)
 <br>
-http://blog.csdn.net/abcjennifer/article/details/7826917
+[http://blog.csdn.net/abcjennifer/article/details/7826917](http://blog.csdn.net/abcjennifer/article/details/7826917)
+<br>
 <br>
 （32）卷积神经网络
 <br>
-http://wenku.baidu.com/view/cd16fb8302d276a200292e22.html
+[http://wenku.baidu.com/view/cd16fb8302d276a200292e22.html](http://wenku.baidu.com/view/cd16fb8302d276a200292e22.html)
+<br>
 <br>
 （33）浅谈Deep Learning的基本思想和方法
 <br>
-http://blog.csdn.net/xianlingmao/article/details/8478562
+[http://blog.csdn.net/xianlingmao/article/details/8478562](http://blog.csdn.net/xianlingmao/article/details/8478562)
+<br>
 <br>
 （34）深度神经网络
 <br>
-http://blog.csdn.net/txdb/article/details/6766373
+[http://blog.csdn.net/txdb/article/details/6766373](http://blog.csdn.net/txdb/article/details/6766373)
+<br>
 <br>
 （35）Google的猫脸识别:人工智能的新突破
 <br>
-http://www.36kr.com/p/122132.html
+[http://www.36kr.com/p/122132.html](http://www.36kr.com/p/122132.html)
+<br>
 <br>
 （36）余凯，深度学习-机器学习的新浪潮，Technical News程序天下事
 <br>
-http://blog.csdn.net/datoubo/article/details/8577366
+[http://blog.csdn.net/datoubo/article/details/8577366](http://blog.csdn.net/datoubo/article/details/8577366)
+<br>
 <br>
 （37）Geoffrey Hinton：UCLTutorial on: Deep Belief Nets
 <br>
+<br>
 （38）Learning Deep Boltzmann Machines
 <br>
-http://web.mit.edu/~rsalakhu/www/DBM.html
+[http://web.mit.edu/~rsalakhu/www/DBM.html](http://web.mit.edu/~rsalakhu/www/DBM.html)
+<br>
 <br>
 （39）Efficient Sparse Coding Algorithm
 <br>
-http://blog.sina.com.cn/s/blog_62af19190100gux1.html
+[http://blog.sina.com.cn/s/blog_62af19190100gux1.html](http://blog.sina.com.cn/s/blog_62af19190100gux1.html)
+<br>
 <br>
 （40）Itamar Arel, Derek C. Rose, and Thomas P. Karnowski： Deep Machine Learning—A New Frontier in Artificial Intelligence Research
 <br>
+<br>
 （41）Francis Quintal Lauzon：An introduction to deep learning
+<br>
 <br>
 （42）Tutorial on Deep Learning and Applications
 <br>
+<br>
 （43）Boltzmann神经网络模型与学习算法
 <br>
-http://wenku.baidu.com/view/490dcf748e9951e79b892785.html
+[http://wenku.baidu.com/view/490dcf748e9951e79b892785.html](http://wenku.baidu.com/view/490dcf748e9951e79b892785.html)
+<br>
 <br>
 （44）Deep Learning 和 Knowledge Graph 引爆大数据革命
 <br>
-http://blog.sina.com.cn/s/blog_46d0a3930101fswl.html
+[http://blog.sina.com.cn/s/blog_46d0a3930101fswl.html](http://blog.sina.com.cn/s/blog_46d0a3930101fswl.html)
+<br>
 <br>
 （45）……
+<br>
 <br>
 ###参考
 
