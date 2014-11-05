@@ -25,7 +25,8 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" rel="stylesheet" type="text/css"/> 
+    <!--link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" rel="stylesheet" type="text/css"/--> 
+    <link href="/assets/themes/insulator/google-code-prettify//prettify.css" rel="stylesheet" type="text/css"/> 
 
     <!--link href="{{ ASSET_PATH }}/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" media="all"-->
     <!--link href="{{ ASSET_PATH }}/google-code-prettify/sunburst.css" rel="stylesheet" type="text/css" media="all"-->
@@ -66,7 +67,7 @@
 
  
     <script src="/assets/themes/insulator/google-code-prettify/run_prettify.js" defer="defer"></script>
-    
+
     <script type="text/javascript">
         $(function() {
             $('pre').addClass('prettyprint').attr('style', 'overflow:auto');
