@@ -205,7 +205,7 @@ tags:
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_2.png" style="width:600px">
 </div>
 <br>
-<td>
+
 　激光对管VS红外对管
 
 <table class="table table-bordered table-striped table-condensed table-hover">
@@ -272,13 +272,12 @@ tags:
 <br>
 　为防止电磁干扰：
 
-<div style="text-align:left"><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png" style="width:300px">
+<div>
+<ul style="list-style:none;margin:0px; ">
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png" /></a></li>
+<li style="float:right;"><a><img src="{{site.img_path}}/2015-03-30-design-of-transistor-outout-circuit.png" /></a></li>
+</ul>
 </div>
-<br>
-
-<div style="text-align:right"><img src="{{site.img_path}}/2015-03-30-design-of-transistor-outout-circuit .png" style="width:300px">
-</div>
-<br>
 
 参考：[http://wiki.dzsc.com/info/61.html#top](http://wiki.dzsc.com/info/61.html#top)
 
