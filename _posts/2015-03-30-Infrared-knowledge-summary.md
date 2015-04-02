@@ -193,6 +193,8 @@ tags:
 ###3.3、红外对管
 <br>
 
+<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png"></a></span></div>
+
 <div>
 <ul style="list-style:none;margin:0px; ">
 <li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png" /></a></li>
