@@ -57,15 +57,15 @@ tags:
 
 　属于二极管类，实验室用的是5mm的小功率发射管，正向电压1.1-1.5v左右，电流20mA左右。红外线发射管的发射强度因发射方向而异。当方向角度为零度时，其放射强度定义为100％，当方向角度越大时，其放射强度相对的减少，红外线发射管的辐射强度，依光轴上的距离而变，亦随受光元件的不同而变。一般红外发射管的发射角至少在15度至30度，在外面用热缩管包着可以适当减小发散角。其控制的距离与发射功率成正比。为了增加红外线的控制距离，红外发射管工作于脉冲状态，因为脉动光（调制光）的有效传送距离与脉冲的峰值电流成正比，只需尽量提高峰值Ip，就能增加红外光的发射距离。提高Ip 的方法，是减小脉冲占空比，即压缩脉冲的宽度T。一般其使用频在300KHz以下。
 
-<div style="text-align:left"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png" style="width:300px">
+<div>
+<ul style="list-style:none;margin:0px; ">
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png" /></a></li>
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png" /></a></li>
+</ul>
 </div>
 <br>
 
 <span id="1.2"></span>
-
-<div style="text-align:right"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png" style="width:300px">
-</div>
-<br>
 
 　红外接收分为接收头和接受管2种，一个是3引脚，一个是LED型2引脚，注意，接收头和接收管是2种不同的器件。
 
@@ -117,11 +117,11 @@ tags:
 　红外线接收管是将红外线光信号变成电信号的半导体器件，它的核心部件是一个特殊材料的PN结，和普通二极管相比，在结构上采取了大的改变，红外线接收管为了更多更大面积的接收入，电流则随之增大，红外接收管分两种，一种是二极管，一种是三极管。输出的是模拟信号。如果我们想得到随检测距离改变的电压值，或者因返回光强不同的电压值，就可以考虑用接收管，输出随着接收信号增强而电流增大，其负载电阻的电压就随之增大。不过，它的输出在边缘处有点非线性。
 　下图是红外测距原理图，因为用红外来测距不怎么好，就不再考虑这个了。
 
-<div style="text-align:left"><img src="{{site.img_path}}/2015-03-30-reception-diode.png" style="width:300px">
-</div>
-<br>
-
-<div style="text-align:right"><img src="{{site.img_path}}/2015-03-30-IR-distance_1.png" style="width:300px">
+<div>
+<ul style="list-style:none;margin:0px; ">
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-reception-diode.png" /></a></li>
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-distance_1.png" /></a></li>
+</ul>
 </div>
 <br>
 
@@ -193,15 +193,16 @@ tags:
 ###3.3、红外对管
 <br>
 
-<div style="text-align:left"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png" style="width:300px">
-</div>
-<br>
-
-<div style="text-align:right"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png" style="width:300px">
+<div>
+<ul style="list-style:none;margin:0px; ">
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png" /></a></li>
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png" /></a></li>
+</ul>
 </div>
 <br>
 
 　其内部结构十分简单，发射部分是电阻串联一个发射管，接受端也是光电二极管串联电阻。最值钱的就是外壳了，机械固定很方便。
+
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_2.png" style="width:600px">
 </div>
 <br>
@@ -275,9 +276,10 @@ tags:
 <div>
 <ul style="list-style:none;margin:0px; ">
 <li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png" /></a></li>
-<li style="float:right;"><a><img src="{{site.img_path}}/2015-03-30-design-of-transistor-outout-circuit.png" /></a></li>
+<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-design-of-transistor-output-circuit.png" /></a></li>
 </ul>
 </div>
+<br>
 
 参考：[http://wiki.dzsc.com/info/61.html#top](http://wiki.dzsc.com/info/61.html#top)
 
