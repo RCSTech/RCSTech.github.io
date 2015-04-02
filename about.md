@@ -142,6 +142,10 @@ sitemap:
     <td>2014.10</td>
     <td><a href="http://121.192.177.194:7088/pmee/index.php/Article/article/id/2178">参加2014中国机器人大赛暨RoboCup公开赛，RCS笃行队获篮球机器人项目组冠军</a></td>
 </tr>
+<tr>
+    <td>2014.12</td>
+    RCS-RoboMasters分队组建成立</a></td>
+</tr>
 </table>
 
 -------------------------------------------------------------
