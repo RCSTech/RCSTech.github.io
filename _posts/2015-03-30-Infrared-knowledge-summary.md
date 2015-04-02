@@ -57,7 +57,7 @@ tags:
 
 　属于二极管类，实验室用的是5mm的小功率发射管，正向电压1.1-1.5v左右，电流20mA左右。红外线发射管的发射强度因发射方向而异。当方向角度为零度时，其放射强度定义为100％，当方向角度越大时，其放射强度相对的减少，红外线发射管的辐射强度，依光轴上的距离而变，亦随受光元件的不同而变。一般红外发射管的发射角至少在15度至30度，在外面用热缩管包着可以适当减小发散角。其控制的距离与发射功率成正比。为了增加红外线的控制距离，红外发射管工作于脉冲状态，因为脉动光（调制光）的有效传送距离与脉冲的峰值电流成正比，只需尽量提高峰值Ip，就能增加红外光的发射距离。提高Ip 的方法，是减小脉冲占空比，即压缩脉冲的宽度T。一般其使用频在300KHz以下。
 
-<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png"></a></span></div>
+<div style="text-align:center;"><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png"></a></span><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png"></a></span></div>
 
 <span id="1.2"></span>
 
@@ -111,13 +111,7 @@ tags:
 　红外线接收管是将红外线光信号变成电信号的半导体器件，它的核心部件是一个特殊材料的PN结，和普通二极管相比，在结构上采取了大的改变，红外线接收管为了更多更大面积的接收入，电流则随之增大，红外接收管分两种，一种是二极管，一种是三极管。输出的是模拟信号。如果我们想得到随检测距离改变的电压值，或者因返回光强不同的电压值，就可以考虑用接收管，输出随着接收信号增强而电流增大，其负载电阻的电压就随之增大。不过，它的输出在边缘处有点非线性。
 　下图是红外测距原理图，因为用红外来测距不怎么好，就不再考虑这个了。
 
-<div>
-<ul style="list-style:none;margin:0px; ">
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-reception-diode.png" /></a></li>
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-distance_1.png" /></a></li>
-</ul>
-</div>
-<br>
+<div style="text-align:center;"><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-reception-diode.png"></a></span><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-IR-distance_1.png"></a></span></div>
 
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-IR-distance_2.png" style="width:600px">
 </div>
@@ -132,19 +126,19 @@ tags:
 ##二、应用
 <br>
 
-1、这是上届的版本，单片机STM8S003输出固定频率波形给发射管，发射管两端一个输入一定频率的电压，一个加38KHZ载波。使用滑动变阻器调节电流大小从而改变检测距离，但在使用时发现隔一段时间阻值变了，而且变阻器很难调节到需要的大小。
+　1、这是上届的版本，单片机STM8S003输出固定频率波形给发射管，发射管两端一个输入一定频率的电压，一个加38KHZ载波。使用滑动变阻器调节电流大小从而改变检测距离，但在使用时发现隔一段时间阻值变了，而且变阻器很难调节到需要的大小。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-IR-sensor_1.png" style="width:600px">
 </div>
 <br>
 
-2、这是改进的第一代，为了解决变阻器的问题，把硬件调节改为软件调节，用按键通过程序来改变单片机输出占空比，输出会更稳定些。指示灯的亮度可以反映发射管的亮度（因为红外不可见）。
+　2、这是改进的第一代，为了解决变阻器的问题，把硬件调节改为软件调节，用按键通过程序来改变单片机输出占空比，输出会更稳定些。指示灯的亮度可以反映发射管的亮度（因为红外不可见）。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-IR-sensor_2.png" style="width:600px">
 </div>
 <br>
 
-3、第二代，加了三极管驱动和防反接，三极管的开启频率是大于100HZ的，所以没问题，按键改变的是100HZ信号的占空比，其单片机程序原理和上一代也做了改变。PCB画成长条形，用最大的那种热缩管包着PCB板隔离外界。
+　3、第二代，加了三极管驱动和防反接，三极管的开启频率是大于100HZ的，所以没问题，按键改变的是100HZ信号的占空比，其单片机程序原理和上一代也做了改变。PCB画成长条形，用最大的那种热缩管包着PCB板隔离外界。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-IR-sensor_3.png" style="width:600px">
 </div>
@@ -187,7 +181,7 @@ tags:
 ###3.3、红外对管
 <br>
 
-<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png"></a></span></div>
+<div style="text-align:center;"><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png"></a></span><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png"></a></span></div>
 
 　其内部结构十分简单，发射部分是电阻串联一个发射管，接受端也是光电二极管串联电阻。最值钱的就是外壳了，机械固定很方便。
 
@@ -262,9 +256,9 @@ tags:
 
 　为防止电磁干扰：
 
-<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-design-of-transistor-output-circuit.png"></a></span></div>
-
+<div style="text-align:center;"><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png"></a></span><span><a target="_blank"><img src="{{site.img_path}}/2015-03-30-design-of-transistor-output-circuit.png"></a></span></div>
+<br>
 参考：[http://wiki.dzsc.com/info/61.html#top](http://wiki.dzsc.com/info/61.html#top)
 
-　总结：
+　总结:
 　光电传感器由三部分构成，它们分为：发送器，接收器和检测电路。发送器对准目标发射光束，发射的光束一般来源于半导体光源，发光二极管（LED）和激光二极管。光束不间断地发射，或者改变脉冲宽度。接收器有光电二极管或光电三极管组成。在接收器的前面，可装有光学元件如透镜和光圈等。在其后面是检测电路，它能滤出有效信号和应用该信号。
