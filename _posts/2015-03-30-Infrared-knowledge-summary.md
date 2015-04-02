@@ -57,13 +57,7 @@ tags:
 
 　属于二极管类，实验室用的是5mm的小功率发射管，正向电压1.1-1.5v左右，电流20mA左右。红外线发射管的发射强度因发射方向而异。当方向角度为零度时，其放射强度定义为100％，当方向角度越大时，其放射强度相对的减少，红外线发射管的辐射强度，依光轴上的距离而变，亦随受光元件的不同而变。一般红外发射管的发射角至少在15度至30度，在外面用热缩管包着可以适当减小发散角。其控制的距离与发射功率成正比。为了增加红外线的控制距离，红外发射管工作于脉冲状态，因为脉动光（调制光）的有效传送距离与脉冲的峰值电流成正比，只需尽量提高峰值Ip，就能增加红外光的发射距离。提高Ip 的方法，是减小脉冲占空比，即压缩脉冲的宽度T。一般其使用频在300KHz以下。
 
-<div>
-<ul style="list-style:none;margin:0px; ">
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png" /></a></li>
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png" /></a></li>
-</ul>
-</div>
-<br>
+<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led_1.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-IR-Emitter-Led-attention.png"></a></span></div>
 
 <span id="1.2"></span>
 
@@ -195,14 +189,6 @@ tags:
 
 <div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png"></a></span></div>
 
-<div>
-<ul style="list-style:none;margin:0px; ">
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_1.png" /></a></li>
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube‘s-datasheet.png" /></a></li>
-</ul>
-</div>
-<br>
-
 　其内部结构十分简单，发射部分是电阻串联一个发射管，接受端也是光电二极管串联电阻。最值钱的就是外壳了，机械固定很方便。
 
 <div style="text-align:center"><img src="{{site.img_path}}/2015-03-30-Infrared-on-the-tube_2.png" style="width:600px">
@@ -273,15 +259,10 @@ tags:
 
 ##四、知识补充
 <br>
+
 　为防止电磁干扰：
 
-<div>
-<ul style="list-style:none;margin:0px; ">
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png" /></a></li>
-<li style="float:left;"><a><img src="{{site.img_path}}/2015-03-30-design-of-transistor-output-circuit.png" /></a></li>
-</ul>
-</div>
-<br>
+<div style="text-align:center;"><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-design-of-SOR-output-circuit.png"></a></span><span><a target="_blank" href="XXXX"><img src="{{site.img_path}}/2015-03-30-design-of-transistor-output-circuit.png"></a></span></div>
 
 参考：[http://wiki.dzsc.com/info/61.html#top](http://wiki.dzsc.com/info/61.html#top)
 
