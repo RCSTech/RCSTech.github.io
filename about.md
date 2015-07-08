@@ -64,7 +64,7 @@ sitemap:
 </tr>
 <tr>
     <td>2011.04</td>
-    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/549">厦门大学朱崇实校长、赖虹凯副校长等领导莅临工作室参观指导，观看备赛情况</a></td>
+    <td><a href="http://pmee.xmu.edu.cn/index.php/Article/article/id/549">厦门大学朱崇实校长、赖虹凯副校长等领导莅临工作室参观指导，观看备赛情况</a></td>
 </tr>
 <tr>
     <td>2011.05</td>
@@ -84,11 +84,11 @@ sitemap:
 </tr>
 <tr>
     <td>2012.06</td>
-    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1262">参加在哈尔滨工程大学举办的2012Robocon国内赛，获全国三等奖</a></td>
+    <td><a href="http://pmee.xmu.edu.cn/index.php/Article/article/id/1262">参加在哈尔滨工程大学举办的2012Robocon国内赛，获全国三等奖</a></td>
 </tr>
 <tr>
     <td>2012.09</td>
-    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1282">台湾元智大学访问RCS机器人工作室</a></td>
+    <td><a href="http://pmee.xmu.edu.cn/index.php/Article/article/id/1282">台湾元智大学访问RCS机器人工作室</a></td>
 </tr>
 <tr>
     <td>2012.12</td>
@@ -132,7 +132,7 @@ sitemap:
 </tr>
 <tr>
     <td>2014.02</td>
-    <td><a href="http://pmee.xmu.edu.cn:7088/pmee/index.php/Article/article/id/1969">校长朱崇实莅临我院大学生创新实践基地指导工作</a></td>
+    <td><a href="http://pmee.xmu.edu.cn/index.php/Article/article/id/1969">校长朱崇实莅临我院大学生创新实践基地指导工作</a></td>
 </tr>
 <tr>
     <td>2014.06</td>
@@ -140,11 +140,19 @@ sitemap:
 </tr>
 <tr>
     <td>2014.10</td>
-    <td><a href="http://121.192.177.194:7088/pmee/index.php/Article/article/id/2178">参加2014中国机器人大赛暨RoboCup公开赛，RCS笃行队获篮球机器人项目组冠军</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/5a/fd/info154365.htm">参加2014中国机器人大赛暨RoboCup公开赛，RCS笃行队获篮球机器人项目组冠军</a></td>
 </tr>
 <tr>
     <td>2014.12</td>
     <td>RCS-RoboMasters分队组建成立</td>
+</tr>
+<tr>
+    <td>2015.6</td>
+    <td>厦门大学RCS机器人队参加RoboMasters2015全国大学生机器人大赛区域赛，RCS笃行队获华东赛区冠军</td>
+</tr>
+<tr>
+    <td>2015.6</td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/86/4d/info165453.htm">参加第十四届Robocon国内选拔赛，首次突破八强，获全国一等奖，并获指导教师奖</a></td>
 </tr>
 </table>
 
