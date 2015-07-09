@@ -152,7 +152,7 @@ sitemap:
 </tr>
 <tr>
     <td>2015.6</td>
-    <td><a href="http://news.xmu.edu.cn/s/13/t/542/86/4d/info165453.htm">参加第十四届Robocon国内选拔赛，首次突破八强，获全国一等奖，并获指导教师奖</a></td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/86/4d/info165453.htm">参加第十四届Robocon国内选拔赛，首次突破八强，获全国一等奖，且胡天林老师获指导教师奖</a></td>
 </tr>
 </table>
 
