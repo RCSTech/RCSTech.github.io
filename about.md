@@ -147,15 +147,15 @@ sitemap:
     <td>RCS-RoboMasters分队组建成立</td>
 </tr>
 <tr>
-    <td>2015.6</td>
+    <td>2015.06</td>
     <td>厦门大学RCS机器人队参加RoboMasters2015全国大学生机器人大赛区域赛，RCS笃行队获华东赛区冠军</td>
 </tr>
 <tr>
-    <td>2015.6</td>
+    <td>2015.06</td>
     <td><a href="http://news.xmu.edu.cn/s/13/t/542/86/4d/info165453.htm">参加第十四届Robocon国内选拔赛，首次突破八强，获全国一等奖，且胡天林老师获指导教师奖</a></td>
 </tr>
 <tr>
-    <td>2015.7</td>
+    <td>2015.07</td>
     <td>参加2015全国机器人大赛Robomasters获全国二等奖</td>
 </tr>
 </table>
