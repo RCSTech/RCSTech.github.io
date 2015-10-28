@@ -156,7 +156,7 @@ sitemap:
 </tr>
 <tr>
     <td>2015.07</td>
-    <td>参加2015全国机器人大赛Robomasters获全国二等奖</td>
+    <td>参加第十四届全国大学生机器人大赛RoboMasters，获全国二等奖，且李继芳老师和张琳老师获最佳指导教师奖</td>
 </tr>
 </table>
 
