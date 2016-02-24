@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "经验总结"
+title: "经验之谈part1"
 author: XJY
-mail: yy.zhang@rcstech.org
-star: 3.5
+mail: xuejingyamary@163.com
+star: 3
 layout: post
 description: "经验之谈part1"
 category: 经验总结
