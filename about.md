@@ -163,6 +163,11 @@ sitemap:
     <td><a href="http://news.xmu.edu.cn/s/13/t/542/94/99/info169113.htm">
     参加2015中国机器人大赛暨RoboCup公开赛获得篮球项目组冠军</a></td>
 </tr>
+<tr>
+    <td>2016.6</td>
+    <td><a href="http://news.xmu.edu.cn/s/13/t/542/94/99/info169113.htm">
+    参加第十五届Robocon国内选拔赛，获三等奖</a></td>
+</tr>
 </table>
 
 -------------------------------------------------------------
