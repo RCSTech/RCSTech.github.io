@@ -6,8 +6,8 @@ star: 3
 description: "Deep Learning学习笔记整理系列"
 category: 他山之石
 tags: 
-  - 深度学习
-  - 人工智能
+  	- 深度学习
+  	- 人工智能
 ---
 
 　　Artificial Intelligence，也就是人工智能，就像长生不老和星际漫游一样，是人类最美好的梦想之一。
@@ -30,6 +30,7 @@ tags:
 
 ##目录：
 <br>
+
 [一、概述](http://rcstech.org/deep-learning/#一、概述)
 
 [二、背景](http://rcstech.org/deep-learning/#二、背景)

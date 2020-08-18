@@ -4,13 +4,12 @@ title: "光电检测传感器简单优化尝试"
 author: hrz
 mail: rz.hao@rcstech.org
 star: 4
-layout: post
 description: "光电检测传感器简单优化尝试"
 category: 核心技术
 tags: 
-  - 电路
-  - 激光
-  - 对管
+    - 电路
+    - 激光
+    - 对管
 ---
 
 　这次参赛的自动车上，转盘位置需要用到光电检测器，目的是使转盘偏转定位达到足够精度。

@@ -6,8 +6,8 @@ star: 4
 category: "核心技术"
 mail: admin@yumumu.me
 tags: 
-  - 传感器
-  - 数学模型
+    - 传感器
+    - 数学模型
 ---
 {% include JB/setup %}
 
