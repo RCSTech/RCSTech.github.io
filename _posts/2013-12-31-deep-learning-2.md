@@ -30,7 +30,6 @@ tags:
 
 ##目录：
 <br>
-
 [一、概述](http://rcstech.org/deep-learning/#一、概述)
 
 [二、背景](http://rcstech.org/deep-learning/#二、背景)

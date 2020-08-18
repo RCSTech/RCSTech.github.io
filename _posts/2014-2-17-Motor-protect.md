@@ -4,11 +4,12 @@ title: "一种简单的电机过热保护方法及改进版的初步设计"
 author: Shinei
 mail: xq.min@rcstech.org
 star: 4
+layout: post
 description: "一种简单的电机过热保护方法及改进版的初步设计"
 category: 核心技术
 tags: 
-    - 电路
-    - 程序
+  - 电路
+  - 程序
 ---
 
 　　本文介绍一种通过温度开关设计的简单的电机过热报警装置。

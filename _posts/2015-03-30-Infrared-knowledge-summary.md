@@ -4,12 +4,13 @@ title: "红外知识总结"
 author: zyy
 mail: yy.zhang@rcstech.org
 star: 4
+layout: post
 description: "红外知识总结"
 category: 经验总结
 tags: 
-    - 电路
-    - 红外
-    - 对管
+  - 电路
+  - 红外
+  - 对管
 ---
 
 本文主要总结和分析了红外的一些基本原理和应用。
@@ -18,7 +19,6 @@ tags:
 
 ##目录：
 <br>
-
 [一、器件概述](#一、器件概述)
 
 　　[1.1、红外发射管](#1.1)
