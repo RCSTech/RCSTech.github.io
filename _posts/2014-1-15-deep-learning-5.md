@@ -14,7 +14,7 @@ tags:
 
 <!--more-->
 
-##声明：
+## 声明：
 
 * 该Deep Learning的学习系列是整理自网上很大牛和机器学习专家所无私奉献的资料的。具体引用的资料请看参考文献。具体的版本声明也参考原文献。
 
@@ -28,7 +28,7 @@ tags:
 
 * 转自网络<sup>[【1】](#【1】)</sup>
 
-##目录：
+## 目录：
 <br>
 [一、概述](http://rcstech.org/deep-learning/#一、概述)
 
@@ -78,7 +78,7 @@ tags:
 <br>
 <br>
 
-###9.2、AutoEncoder自动编码器
+### 9.2、AutoEncoder自动编码器
 <br>
 
 　　如果我们把输出必须和输入相等的限制放松，同时利用线性代数中基的概念，即O = a1*Φ1 + a2*Φ2+….+ an*Φn， Φi是基，ai是系数，我们可以得到这样一个优化问题：
@@ -149,6 +149,6 @@ tags:
 
 　　**下续**[9.3、Restricted Boltzmann Machine(RBM)限制波尔兹曼机](http://rcstech.org/deep-learning-6/#9.3)
 
-###参考
+### 参考
 
 <span id="【1】"></span>【1】 [http://blog.csdn.net/zouxy09/article/details/8775360](http://blog.csdn.net/zouxy09/article/details/8775360)

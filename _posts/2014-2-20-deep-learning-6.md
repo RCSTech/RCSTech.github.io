@@ -14,7 +14,7 @@ tags:
 
 <!--more-->
 
-##声明：
+## 声明：
 
 * 该Deep Learning的学习系列是整理自网上很大牛和机器学习专家所无私奉献的资料的。具体引用的资料请看参考文献。具体的版本声明也参考原文献。
 
@@ -28,7 +28,7 @@ tags:
 
 * 转自网络<sup>[【1】](#【1】)</sup>
 
-##目录：
+## 目录：
 <br>
 [一、概述](http://rcstech.org/deep-learning/#一、概述)
 
@@ -82,7 +82,7 @@ tags:
 
 **注：下面的两个Deep Learning方法说明需要完善，但为了保证文章的连续性和完整性，先贴一些上来，后面再修改好了。**
 
-###9.3、Restricted Boltzmann Machine (RBM)限制波尔兹曼机
+### 9.3、Restricted Boltzmann Machine (RBM)限制波尔兹曼机
 <br>
 
 　　假设有一个二部图，每一层的节点之间没有链接，一层是可视层，即输入数据层（v)，一层是隐藏层(h)，如果假设所有的节点都是随机二值变量节点（只能取0或者1值），同时假设全概率分布p(v,h)满足Boltzmann 分布，我们称这个模型是Restricted BoltzmannMachine (RBM)。
@@ -156,7 +156,7 @@ tags:
 </div>
 <br>
 
-###9.4、Deep Belief Networks深信度网络
+### 9.4、Deep Belief Networks深信度网络
 <br>
 
 　　DBNs是一个概率生成模型，与传统的判别模型的神经网络相对，生成模型是建立一个观察数据和标签之间的联合分布，对P(Observation|Label)和 P(Label|Observation)都做了评估，而判别模型仅仅而已评估了后者，也就是P(Label|Observation)。对于在深度神经网络应用传统的BP算法的时候，DBNs遇到了以下问题：
@@ -195,6 +195,6 @@ tags:
 
 　　*未完待续*
 
-###参考
+### 参考
 
 <span id="【1】"></span>【1】 [http://blog.csdn.net/zouxy09/article/details/8775360](http://blog.csdn.net/zouxy09/article/details/8775360)

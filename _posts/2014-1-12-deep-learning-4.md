@@ -14,7 +14,7 @@ tags:
 
 <!--more-->
 
-##声明：
+## 声明：
 
 * 该Deep Learning的学习系列是整理自网上很大牛和机器学习专家所无私奉献的资料的。具体引用的资料请看参考文献。具体的版本声明也参考原文献。
 
@@ -28,7 +28,7 @@ tags:
 
 * 转自网络<sup>[【1】](#【1】)</sup>
 
-##目录：
+## 目录：
 <br>
 [一、概述](http://rcstech.org/deep-learning/#一、概述)
 
@@ -78,10 +78,10 @@ tags:
 <br>
 <br>
 
-##九、Deep Learning的常用模型或者方法
+## 九、Deep Learning的常用模型或者方法
 <br>
 
-###9.1、AutoEncoder自动编码器
+### 9.1、AutoEncoder自动编码器
 <br>
 
 　　Deep Learning最简单的一种方法是利用人工神经网络的特点，人工神经网络（ANN）本身就是具有层次结构的系统，如果给定一个神经网络，我们假设其输出与输入是相同的，然后训练调整其参数，得到每一层中的权重。自然地，我们就得到了输入I的几种不同表示（每一层代表一种表示），这些表示就是特征。自动编码器就是一种尽可能复现输入信号的神经网络。为了实现这种复现，自动编码器就必须捕捉可以代表输入数据的最重要的因素，就像PCA那样，找到可以代表原信息的主要成分。
@@ -138,7 +138,7 @@ tags:
 
 　　AutoEncoder存在一些变体，这里简要介绍下两个：
 
-####Sparse AutoEncoder稀疏自动编码器：
+#### Sparse AutoEncoder稀疏自动编码器：
 
 　　当然，我们还可以继续加上一些约束条件得到新的Deep Learning方法，如：如果在AutoEncoder的基础上加上L1的Regularity限制（L1主要是约束每一层中的节点中大部分都要为0，只有少数不为0，这就是Sparse名字的来源），我们就可以得到Sparse AutoEncoder法。
 
@@ -148,7 +148,7 @@ tags:
 
 　　如上图，其实就是限制每次得到的表达code尽量稀疏。因为稀疏的表达往往比其他的表达要有效（人脑好像也是这样的，某个输入只是刺激某些神经元，其他的大部分的神经元是受到抑制的）。
 
-####Denoising AutoEncoders降噪自动编码器：
+#### Denoising AutoEncoders降噪自动编码器：
 
 　　降噪自动编码器DA是在自动编码器的基础上，训练数据加入噪声，所以自动编码器必须学习去去除这种噪声而获得真正的没有被噪声污染过的输入。因此，这就迫使编码器去学习输入信号的更加鲁棒的表达，这也是它的泛化能力比一般编码器强的原因。DA可以通过梯度下降算法去训练。
 
@@ -158,6 +158,6 @@ tags:
 
 　　**下续**[9.2、Sparse Coding稀疏编码](http://rcstech.org/deep-learning-5/#9.2)
 
-###参考
+### 参考
 
 <span id="【1】"></span>【1】 [http://blog.csdn.net/zouxy09/article/details/8775360](http://blog.csdn.net/zouxy09/article/details/8775360)

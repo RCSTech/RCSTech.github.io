@@ -33,7 +33,7 @@ else
 
 -------------------------------------------
 
-###References
+### References
 [ARM/Thumb2PortingHowto](https://wiki.edubuntu.org/ARM/Thumb2PortingHowto)  
 [ARM CPSR寄存器简介](http://www.cnblogs.com/shangdawei/archive/2012/09/13/2682871.html)  
 [维基百科：ARM架构](http://en.wikipedia.org/wiki/ARM_architecture)  
