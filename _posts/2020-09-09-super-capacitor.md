@@ -141,9 +141,10 @@ P_{CON} = I_{DS}^2 \ast R_{DS(ON)} \ast D = 1.75^2 \times 0.075 \times 0.875 \ap
 </script>
 </div>
 </center>
+
 <br>
 
- <script type="math/tex">P_{SW\_OPEN}</script> ，<script type="math/tex">P_{SW\_CLOSE}</script>的计算过程若是较真起来会相当复杂，这里先采用近似最坏假设计算：
+ <script type="math/tex">P_{SW\_OPEN}</script>和<script type="math/tex">P_{SW\_CLOSE}</script>的计算过程若是较真起来会相当复杂，这里先采用近似最坏假设计算：
  <br>
  
 <center>
