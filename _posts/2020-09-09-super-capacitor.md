@@ -130,7 +130,7 @@ P_D = P_{CON} + P_{SW\_OPEN} + P_{SW\_CLOSE} (2-1-1)
 </center>
 <br>
 
-其中 $P_{CON}$ 为导通损耗， $P_{SW _ OPEN}$ 为开通损耗， $P_{SW _ CLOSE}$ 为关断损耗。
+其中 $P_{CON}$ 为导通损耗，<script type="math/tex">P_{SW\_OPEN}</script>为开通损耗， <script type="math/tex">P_{SW\_CLOSE}</script>为关断损耗。
 <br>
  $P_{CON}$ 的计算通式为（取占空比的中间值的导通损耗为准）：
  <br>
@@ -143,7 +143,7 @@ P_{CON} = I_{DS}^2 \ast R_{DS(ON)} \ast D = 1.75^2 \times 0.075 \times 0.875 \ap
 </center>
 <br>
 
- $P_{SW _ OPEN}$ ， $P_{SW _ CLOSE}$ 的计算过程若是较真起来会相当复杂，这里先采用近似最坏假设计算：
+ <script type="math/tex">P_{SW\_OPEN}</script> ，<script type="math/tex">P_{SW\_CLOSE}</script>的计算过程若是较真起来会相当复杂，这里先采用近似最坏假设计算：
  <br>
  
 <center>
@@ -250,7 +250,7 @@ P_D = P_{Cu} + P_{Fe} = 0.3369 + 0.0361 = 0.3730W (2-1-11)
 </div>
 </center>
 <br>
-	综上，可知二极管的损耗是最大的，是由其不可忽略的导通压降带来的。但，这不意味着其它两个元件的损耗也是可以忽略的，我必须认识到，这里的频率只有1kHz，属于低频。根据MOS管计算损耗的公式可知，其损耗会随着开关频率的升高而升高，具体体现在开通损耗$P_{SW _ OPEN}$和关断损耗 $P_{SW _ CLOSE}$ ，虽然现在这两个值可以忽略不计，但我要往高频化方向发展时，这两个量会变得相当可观。根据电感计算损耗的公式，同样可知，其损耗也会随频率的升高而升高。庆幸的是，根据文献[1]，铁损在占空比D大于0.5的情况下损耗低于小于0.5的情况。
+	综上，可知二极管的损耗是最大的，是由其不可忽略的导通压降带来的。但，这不意味着其它两个元件的损耗也是可以忽略的，我必须认识到，这里的频率只有1kHz，属于低频。根据MOS管计算损耗的公式可知，其损耗会随着开关频率的升高而升高，具体体现在开通损耗<script type="math/tex">P_{SW\_OPEN}</script>和关断损耗 <script type="math/tex">P_{SW\_CLOSE}</script>，虽然现在这两个值可以忽略不计，但我要往高频化方向发展时，这两个量会变得相当可观。根据电感计算损耗的公式，同样可知，其损耗也会随频率的升高而升高。庆幸的是，根据文献[1]，铁损在占空比D大于0.5的情况下损耗低于小于0.5的情况。
 <br>
 <center class="half">
 <img src="{{site.img_path}}/2020-09-09 hysteresis_loss.png" style="width:250px" alt="磁滞损耗"><img src="{{site.img_path}}/2020-09-09 eddy_loss.png" style="width:250px" alt="涡流损耗">
@@ -359,7 +359,7 @@ L = \frac {V_{ON} \ast D}{r \ast I_L \ast f} 或 L \ast I_L = \frac {E \ast t}{r
 	最后，说明为何这个系数如此重要——因为它是基础量。实际情况中，L的取值由工况，开关频率，甚至是拓扑本身决定的。因此无法直接计算L。但是存在r值的一般设计经验，并已被广泛应用。
 	任何情况下，r值都在0.3~0.5之间，其通常最优值为0.4，但不绝对，我就选了0.2。原因：电感尺寸没办法继续缩小了，纹波率太大反而增大滤波电容体积。（注：内容繁多，这只是相当简单的介绍，攫取了其中能快速解决问题的知识。）
 	<br>
-按照式（2-2-5）选择电感值，这里 $D_{max} = \frac {U_o}{U_{i _ MIN}}$ 为最大占空比计算值，对于BUCK电路，存在固有的最大占空比 $D_{max}$ ，实际计算时选择两者中的较小值。
+按照式（2-2-5）选择电感值，这里<script type="math/tex">D_{max} = \frac {U_o}{U_{i\_MIN}}</script>为最大占空比计算值，对于BUCK电路，存在固有的最大占空比 $D_{max}$ ，实际计算时选择两者中的较小值。
 <br>
 <center>
 <div>
@@ -440,7 +440,7 @@ P_D = P_{Cu} + P_{Fe} = 0.28875 + 2.2245  =2.5133W  (2-2-11)
 <img src="{{site.img_path}}/2020-09-09 filter.png" style="width:250px" alt="电容滤波"><img src="{{site.img_path}}/2020-09-09 inductor_current.png" style="width:250px" alt="电感电流">
 </center>
 <br>
-	对于BUCK，BOOST和BUCK-BOOST，其输出电容的最大有效值电流恰好都对应同一电压，而且该电压就是一般电感设计步骤中采用的电压值。即，对应BUCK的 $U_{i \_ MAX}$ ，BOOST和BUCK-BOOST的 $U_{i \_ MIN}$ 。因此，可直接使用由一般电感设计步骤的计算值。
+	对于BUCK，BOOST和BUCK-BOOST，其输出电容的最大有效值电流恰好都对应同一电压，而且该电压就是一般电感设计步骤中采用的电压值。即，对应BUCK的 <script type="math/tex">U_{i\_MAX}</script>，BOOST和BUCK-BOOST的 <script type="math/tex">U_{i\_MIN}</script>。因此，可直接使用由一般电感设计步骤的计算值。
 	<br>
 	另外，由于电容的ESR值对开关电源来说是一个很重要的值，过大会造成严重的电压尖峰，电容发热，电容失效等问题。通常，普通铝电解电容的ESR会达到欧姆级别。这里，我均选用贴片固态铝电解电容的ESR值（50mΩ：大致包括导线）计算。
 	<br>
@@ -549,7 +549,7 @@ C_{o\_2} \ge \frac {2 \ast ∆I_o}{∆V_{DROP}  \ast f} = \frac {2 \times \frac 
 </center>
 <br>
 
-最后，基于最大超调量，采用另一个标准：负载从最大负载I_o突变至0，所有的电感能量倾泻到输出电容中，升压到 $V_X$ ，同样，根据能量守恒，由式（2-2-20）推导出式（2-2-21）。
+最后，基于最大超调量，采用另一个标准：负载从最大负载$I_o$突变至0，所有的电感能量倾泻到输出电容中，升压到 $V_X$ ，同样，根据能量守恒，由式（2-2-20）推导出式（2-2-21）。
 <br>
 
 <center>
@@ -627,7 +627,7 @@ P_{Co\_MIN} = I_{Co\_RMS\_MIN}^2 \ast ESR = 60.9682^2 \times 0.05 = 0.1859mW （
 	<br>
 输入电容参数计算：
 <br>
-输入电容一般要保证输入电压纹波峰峰值保持在输入电压的5%~10%以下，因此输入电容也会影响BUCK电路的工作稳定性。由于我们是使用锂电池，所以这个输入电压纹波值较小。不过还是给出一个值：要求输入电压纹波峰峰值为2%，同时也是防止电压纹波从输出端口传递到输入端口造成干扰。假设输入电压最高时，纹波最大。将式（2-2-27）（2-2-28）求得输入电压纹波峰峰值和最大输入电压下，对应输出电压的占空比 $D_{IDEAL _ Ui _ MAX}$ 代入式（2-2-29）。
+输入电容一般要保证输入电压纹波峰峰值保持在输入电压的5%~10%以下，因此输入电容也会影响BUCK电路的工作稳定性。由于我们是使用锂电池，所以这个输入电压纹波值较小。不过还是给出一个值：要求输入电压纹波峰峰值为2%，同时也是防止电压纹波从输出端口传递到输入端口造成干扰。假设输入电压最高时，纹波最大。将式（2-2-27）（2-2-28）求得输入电压纹波峰峰值和最大输入电压下，对应输出电压的占空比<script type="math/tex">D_{IDEAL\_Ui\_MAX}</script>代入式（2-2-29）。
 <br>
 
 <center>
@@ -688,7 +688,7 @@ I_{Ci\_RMS\_MIN}&= I_o \ast \sqrt {D_{IDEAL\_Ui\_MIN} \ast (1-D_{IDEAL\_Ui\_MIN}
 </center>
 <br>
 
-其中 $r_{Ui _ MIN}$ 与计算 $C_o$ 时的 $r_{D _ MAX}$ 是一样的， $r_{Ui _ MIN}$ 与 $r_{D _ MIN}$ 同理（上述两式对应两种 $U_o$ ）
+其中<script type="math/tex">r_{Ui\_MIN}</script>与计算 $C_o$ 时的<script type="math/tex">r_{D\_MAX}</script>是一样的，<script type="math/tex">r_{Ui\_MIN}</script>与<script type="math/tex">r_{D\_MIN}</script>同理（上述两式对应两种 $U_o$ ）
 <center>
 <div>
 <script type="math/tex">
