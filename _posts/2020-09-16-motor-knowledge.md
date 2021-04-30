@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "电机基础知识"
-author: TJM
+author: 田佳铭
 mail: tianjiaming0103@163.com
 star: 3
 layout: post

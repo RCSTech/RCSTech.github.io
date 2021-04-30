@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "超级电容设计"
-author: CLX
+author: 陈李萱
 mail: 1431247363@qq.com
 star: 4
 layout: post
