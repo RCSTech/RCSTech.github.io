@@ -64,14 +64,15 @@ $$
     \dot{\phi}\\ \dot{x}\\ \dot{y}
     \end{matrix}
     \right]\tag{1}
-\\
+$$
+$$
 \dot{q}&=
 \left[
     \begin{matrix}
     \dot{\phi}\\ \dot{x}\\ \dot{y}
     \end{matrix}
     \right]&=
-       \left[
+    \left[
     \begin{matrix}
     1&0&0\\
     0&\cos\phi&-\sin\phi\\
@@ -83,7 +84,7 @@ $$
     \omega_{bz}\\v_{bx}\\v_{by}
     \end{matrix}
     \right]
-    \end{aligned}
+    \end{aligned}\tag{1}
 $$
 
 轮子的姿态在机体坐标系中的位置和子态可以表示为：
